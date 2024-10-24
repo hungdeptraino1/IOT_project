@@ -1,0 +1,25 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Camera Trẻ Đẹp</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/socket.io/4.0.0/socket.io.min.js"></script>
+    <script src="{{ url_for('static', filename='script.js') }}" defer></script>
+</head>
+<body>
+    <div class="video-container">
+        <div class="video-title">Camera Trẻ Đẹp</div>
+        <img id="video-feed" src="{{ url_for('video_feed') }}" data-src="{{ url_for('video_feed') }}" alt="Video Feed">
+        <button id="toggle-camera" style="margin-top: 10px;">Tắt Camera</button>
+    </div>
+    <div id="chat" style="margin-top: 20px;">
+        <h2>Danh Sách Vật Thể Nhận Diện:</h2>
+        <ul id="object-list"></ul>
+    </div>
+    <div >
+        <h3>Tổng Số Vật Thể Đã Nhận Diện: <span id="object-count">0</span></h3>
+    </div>
+</body>
+</html>
