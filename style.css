@@ -1,0 +1,139 @@
+body {
+    margin: 0;
+
+    padding: 10px;
+    display: flex;
+    overflow: hidden;
+    height: 100vh;
+}
+.contain{
+    display:flex;
+}
+.video-container {
+/*320x320*/
+    width: 100%;
+    height: 50%;
+    position: relative; /* Để chứa chữ ở trên video */
+    border: 5px solid black; /* Màu sắc và độ dày của khung viền */
+    border-radius: 10px; /* Bo góc */
+    overflow: hidden; /* Ẩn phần thừa */
+    /*margin-bottom: 20px; /* Khoảng cách dưới video */
+}
+
+.video-title {
+    position: absolute; /* Đặt vị trí tuyệt đối */
+    top: 10px; /* Khoảng cách từ trên xuống */
+    right: 47.2%;
+    transform: translateX(-50%); /* Đẩy sang trái để căn giữa chính xác */
+    background-color: rgba(255, 105, 180, 0.7); /* Nền semi-transparent */
+    color: white; /* Màu chữ */
+    padding: 5px 10px; /* Khoảng cách xung quanh chữ */
+    border-radius: 5px; /* Bo góc cho nền chữ */
+}
+
+img {
+    display: block; /* Đảm bảo không có khoảng cách thừa */
+    width: 100%; /* Đặt chiều rộng 100% để khung bao phủ */
+    height: auto; /* Giữ tỷ lệ khung hình */
+}
+
+/* Định dạng ô chat */
+#chat {
+    font-family:'Calibri', sans-serif;
+    width: 100%;
+    height: 47.5%; /* Chiều cao tối đa cho ô chat */
+    overflow-y: auto; /* Kích hoạt cuộn dọc */
+    border: 5px solid black; /* Thêm viền để phân biệt */
+    padding: 10px; /* Khoảng cách bên trong */
+    background-color: #f9f9f9; /* Màu nền */
+    background-position: bottom;
+    border-radius: 10px; /* Bo góc cho ô chat */
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1); /* Đổ bóng nhẹ */
+    margin-left:10px;
+}
+
+h2 {
+    margin: 10px; /* Xóa khoảng cách mặc định */
+    font-size: 18px; /* Kích thước chữ tiêu đề */
+    color: #333; /* Màu chữ tiêu đề */
+}
+
+ul {
+    list-style-type: none; /* Loại bỏ dấu chấm đầu dòng */
+    padding: 0; /* Xóa khoảng cách bên trong */
+    margin: 0; /* Xóa khoảng cách bên ngoài */
+
+}
+
+li {
+    padding: 5px; /* Khoảng cách cho mỗi mục */
+    border-bottom: 1px solid #eee; /* Đường viền dưới mỗi mục */
+    color: #555; /* Màu chữ cho danh sách */
+}
+
+h3 {
+    margin-left: 10px;
+    margin-top: 10px; /* Khoảng cách trên tiêu đề số lượng */
+    font-size: 24px; /* Kích thước chữ cho số lượng */
+    font-family:'Calibri', sans-serif;
+    position: absolute;
+    left: 10px;
+    top: 500px;
+    width:60%
+    color: #333; /* Màu chữ */
+    display:inline-blcok;
+}
+
+/* Định dạng cho các nút */
+button {
+    position:absolute;
+    display:flex;
+    margin-left: 10px;
+    top: 55%; /* Khoảng cách trên nút */
+    padding: 10px 15px; /* Khoảng cách bên trong nút */
+    border: none; /* Xóa viền */
+    border-radius: 5px; /* Bo góc cho nút */
+    background-color: #ff69b4; /* Màu nền */
+    color: white; /* Màu chữ */
+    cursor: pointer; /* Con trỏ khi hover */
+    transition: background-color 0.3s; /* Hiệu ứng chuyển màu khi hover */
+}
+
+button:hover {
+    background-color: #ff1493; /* Màu nền khi hover */
+}
+
+.squares-container {
+    position: absolute;
+    display: flex;
+    top: 75%;
+    bottom: 5%;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
+}
+
+.square {
+    width: 160px;
+    height: 160px;
+    background-color: white;
+    border: 2px solid #000;
+    border-radius: 5px;
+    alight-content
+}
+.square img{
+    display:grid;
+    width: 100px;
+    height: auto;
+    margin: auto;
+    bottom:10px;
+}
+.square h4{
+    font-family: 'Calibri', sans-serif;
+    font-size: 16px;
+    margin-left:10px;
+}
+.h4 input{
+
+}
+
