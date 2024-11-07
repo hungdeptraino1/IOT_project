@@ -80,9 +80,9 @@ h3 {
     position: absolute;
     left: 10px;
     top: 500px;
-    width:60%
+    width:60%;
     color: #333; /* Màu chữ */
-    display:inline-blcok;
+    display:inline-block;
 }
 
 /* Định dạng cho các nút */
@@ -120,7 +120,7 @@ button:hover {
     /*background-color: white;*/
     border: 5px solid rgb(0, 87, 0);
     border-radius: 5px;
-    alight-content
+    /* alight-content:; */
 }
 .square img{
     display:grid;
@@ -133,8 +133,5 @@ button:hover {
     font-family: 'Calibri', sans-serif;
     font-size: 16px;
     margin-left:10px;
-}
-.h4 input{
-
 }
 
