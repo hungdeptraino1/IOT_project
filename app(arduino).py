@@ -7,6 +7,7 @@ from flask_socketio import SocketIO
 from flask_sqlalchemy import SQLAlchemy
 import time
 from typing import List
+import serial
 
 app = Flask(__name__)
 app.config['SQLALCHEMY_DATABASE_URI'] = 'sqlite:///detected_objects.db'
@@ -51,6 +52,15 @@ net.setPreferableTarget(cv2.dnn.DNN_TARGET_CPU)
 detected_objects = {}
 cap = None
 
+arduino_port = 'COM3'  #port của arduino
+baud_rate = 9600
+arduino = serial.Serial(arduino_port, baud_rate)
+
+animal_classes = {
+    'cat', 'dog', 'horse', 'sheep', 'cow', 
+    'elephant', 'bear', 'zebra', 'giraffe', 'bird'
+}
+
 def findObjects(outputs: List[np.ndarray], img: np.ndarray) -> List[str]:
     global detected_objects
     hT, wT, _ = img.shape
@@ -80,24 +90,28 @@ def findObjects(outputs: List[np.ndarray], img: np.ndarray) -> List[str]:
                     cv2.rectangle(img, (x, y), (x + w, y + h), (255, 0, 255), 2)
                     label = f'{classNames[classIds[i]].upper()} {int(confs[i] * 100)}%'
                     cv2.putText(img, label, (x, y - 10), cv2.FONT_HERSHEY_SIMPLEX, 0.6, (255, 0, 255), 2)
-
+            #Arduino
                     object_name = classNames[classIds[i]]
-                    current_detected[object_name] = current_detected.get(object_name, 0) + 1
+                    if object_name in animal_classes:
+                        arduino.write(b'1')
+                        continue
+                    else:
+                        current_detected[object_name] = current_detected.get(object_name, 0) + 1
 
-            # Cập nhật số lượng vật thể phát hiện
+
             for obj, count in current_detected.items():
                 if obj in detected_objects:
                     detected_objects[obj] += count
                 else:
                     detected_objects[obj] = count
 
-            # Gửi dữ liệu qua socket
+            #JS
             socketio.emit('update_objects', {
                 'objects': [{'name': obj, 'count': detected_objects[obj]} for obj in detected_objects],
                 'total_count': sum(detected_objects.values())
             })
 
-            # Lưu vào cơ sở dữ liệu
+            #database
             for obj, count in current_detected.items():
                 detected_object = DetectedObject.query.filter_by(name=obj).first()
                 if detected_object:

@@ -1,0 +1,17 @@
+2024-11-08 22:14:48,642 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5003
+ * Running on http://192.168.1.13:5003
+2024-11-08 22:14:48,642 - INFO - [33mPress CTRL+C to quit[0m
+2024-11-08 22:14:48,643 - INFO -  * Restarting with stat
+2024-11-08 22:14:50,181 - WARNING -  * Debugger is active!
+2024-11-08 22:14:50,183 - INFO -  * Debugger PIN: 111-161-771
+2024-11-08 22:14:53,841 - INFO - 192.168.1.13 - - [08/Nov/2024 22:14:53] "GET / HTTP/1.1" 200 -
+2024-11-08 22:14:53,898 - INFO - 192.168.1.13 - - [08/Nov/2024 22:14:53] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2024-11-08 22:14:53,917 - INFO - 192.168.1.13 - - [08/Nov/2024 22:14:53] "GET /static/script.js HTTP/1.1" 200 -
+2024-11-08 22:14:53,946 - INFO - 192.168.1.13 - - [08/Nov/2024 22:14:53] "GET /socket.io/?EIO=4&transport=polling&t=PCCLx5s HTTP/1.1" 200 -
+2024-11-08 22:14:53,973 - INFO - 192.168.1.13 - - [08/Nov/2024 22:14:53] "POST /socket.io/?EIO=4&transport=polling&t=PCCLx5-&sid=JA_2lxvVFKmZcweyAAAA HTTP/1.1" 200 -
+2024-11-08 22:14:53,974 - INFO - 192.168.1.13 - - [08/Nov/2024 22:14:53] "GET /socket.io/?EIO=4&transport=polling&t=PCCLx60&sid=JA_2lxvVFKmZcweyAAAA HTTP/1.1" 200 -
+2024-11-08 22:14:58,386 - INFO - 192.168.1.13 - - [08/Nov/2024 22:14:58] "GET /video_feed HTTP/1.1" 200 -
+2024-11-08 22:14:59,011 - INFO - 192.168.1.13 - - [08/Nov/2024 22:14:59] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+2024-11-08 22:15:45,644 - INFO - 192.168.1.13 - - [08/Nov/2024 22:15:45] "GET /socket.io/?EIO=4&transport=websocket&sid=JA_2lxvVFKmZcweyAAAA HTTP/1.1" 200 -
