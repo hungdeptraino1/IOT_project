@@ -11,7 +11,7 @@
 
 
             if(username === 'root' && password === 'root' || username === 'admin@gmail.com' && password === 'admin'){ // kiểm tra đúng thì chuyển file
-                window.location.href = '/index';
+                window.location.href = "{{ url_for('templates', filename='index.html') }}";
             }
             else{
                 document.getElementById('errorMessage').textContent = 'Wrong accout or password';
