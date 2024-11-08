@@ -7,6 +7,7 @@ from flask_socketio import SocketIO
 from flask_sqlalchemy import SQLAlchemy
 import time
 from typing import List
+import serial
 
 app = Flask(__name__)
 app.config['SQLALCHEMY_DATABASE_URI'] = 'sqlite:///detected_objects.db'
@@ -51,6 +52,15 @@ net.setPreferableTarget(cv2.dnn.DNN_TARGET_CPU)
 detected_objects = {}
 cap = None
 
+arduino_port = 'COM3'  # Update with your Arduino port
+baud_rate = 9600
+arduino = serial.Serial(arduino_port, baud_rate)
+
+animal_classes = {
+    'cat', 'dog', 'horse', 'sheep', 'cow', 
+    'elephant', 'bear', 'zebra', 'giraffe', 'bird'
+}
+
 def findObjects(outputs: List[np.ndarray], img: np.ndarray) -> List[str]:
     global detected_objects
     hT, wT, _ = img.shape
@@ -82,22 +92,28 @@ def findObjects(outputs: List[np.ndarray], img: np.ndarray) -> List[str]:
                     cv2.putText(img, label, (x, y - 10), cv2.FONT_HERSHEY_SIMPLEX, 0.6, (255, 0, 255), 2)
 
                     object_name = classNames[classIds[i]]
-                    current_detected[object_name] = current_detected.get(object_name, 0) + 1
+                    if object_name in animal_classes:
+                        # Send command to Arduino to activate servo3
+                        arduino.write(b'1')  # Send byte to trigger servo3 movement
+                        continue
+                    else:
+                        # Non-animal objects go to the conveyor belt
+                        current_detected[object_name] = current_detected.get(object_name, 0) + 1
 
-            # Cập nhật số lượng vật thể phát hiện
+            # Update detected object counts and emit results
             for obj, count in current_detected.items():
                 if obj in detected_objects:
                     detected_objects[obj] += count
                 else:
                     detected_objects[obj] = count
 
-            # Gửi dữ liệu qua socket
+            # Send data via socket
             socketio.emit('update_objects', {
                 'objects': [{'name': obj, 'count': detected_objects[obj]} for obj in detected_objects],
                 'total_count': sum(detected_objects.values())
             })
 
-            # Lưu vào cơ sở dữ liệu
+            # Save to database
             for obj, count in current_detected.items():
                 detected_object = DetectedObject.query.filter_by(name=obj).first()
                 if detected_object:
@@ -140,7 +156,6 @@ def gen_frames():
             continue 
 
         if frame_count % process_per_frame == 0:
-            # input vào YOLO
             blob = cv2.dnn.blobFromImage(img, 1 / 255, (whT, whT), [0, 0, 0], 1, crop=False)
             net.setInput(blob)
             layernames = net.getLayerNames()
