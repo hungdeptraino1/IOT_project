@@ -10,27 +10,30 @@
 </head>
 
 <body>
-    <div> <button id="toggle-camera" >Tắt Camera</button> </div>
+    <div> <button id="toggle-camera">Tắt Camera</button> </div>
 
     <div class="video-container">
-
         <img id="video-feed" src="{{ url_for('video_feed') }}" data-src="{{ url_for('video_feed') }}" alt="Video Feed">
     </div>
     <div class="video-title">Camera Trẻ Đẹp</div>
     <div> <h3>Tổng Số Vật Thể Đã Nhận Diện: <span id="object-count">0</span></h3></div>
 
-    <div id="chat"><h2>Danh Sách Vật Thể Nhận Diện:</h2>
+    <div id="chat">
+        <h2>Danh Sách Vật Thể Nhận Diện:</h2>
         <ul id="object-list"></ul>
     </div>
     <div class="squares-container">
-        <div class="square" >
-            <img src="https://uxwing.com/wp-content/themes/uxwing/download/food-and-drinks/bottled-water-icon.png" alt=" con cho hu`ng ngu">
+        <div class="square">
+            <img src="https://uxwing.com/wp-content/themes/uxwing/download/food-and-drinks/bottled-water-icon.png" alt="Inorganic">
+            <span class="count" data-type="Inorganic">0</span>
         </div>
         <div class="square">
-            <img src="https://uxwing.com/wp-content/themes/uxwing/download/food-and-drinks/food-restaurant-icon.png" alt="">
+            <img src="https://uxwing.com/wp-content/themes/uxwing/download/food-and-drinks/food-restaurant-icon.png" alt="Organic">
+            <span class="count" data-type="Organic">0</span>
         </div>
         <div class="square">
-            <img src="https://uxwing.com/wp-content/themes/uxwing/download/animals-and-birds/dog-icon.png" alt ='animel'>
+            <img src="https://uxwing.com/wp-content/themes/uxwing/download/animals-and-birds/dog-icon.png" alt="Animal">
+            <span class="count" data-type="Animal">0</span>
         </div>
     </div>
 </body>

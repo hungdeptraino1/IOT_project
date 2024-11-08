@@ -1,699 +1,675 @@
-2024-11-08 22:40:58,479 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+2024-11-09 01:02:44,047 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
  * Running on all addresses (0.0.0.0)
  * Running on http://127.0.0.1:5003
  * Running on http://192.168.1.13:5003
-2024-11-08 22:40:58,480 - INFO - [33mPress CTRL+C to quit[0m
-2024-11-08 22:40:58,480 - INFO -  * Restarting with stat
-2024-11-08 22:40:59,575 - WARNING -  * Debugger is active!
-2024-11-08 22:40:59,576 - INFO -  * Debugger PIN: 111-161-771
-2024-11-08 22:41:02,092 - INFO - 192.168.1.13 - - [08/Nov/2024 22:41:02] "GET / HTTP/1.1" 200 -
-2024-11-08 22:41:02,134 - INFO - 192.168.1.13 - - [08/Nov/2024 22:41:02] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
-2024-11-08 22:41:02,137 - INFO - 192.168.1.13 - - [08/Nov/2024 22:41:02] "[33mGET /static/scripts.js HTTP/1.1[0m" 404 -
-2024-11-08 22:41:04,413 - INFO - 192.168.1.13 - - [08/Nov/2024 22:41:04] "GET /video_feed HTTP/1.1" 200 -
-2024-11-08 22:41:08,439 - INFO - 192.168.1.13 - - [08/Nov/2024 22:41:08] "GET / HTTP/1.1" 200 -
-2024-11-08 22:41:08,456 - INFO - 192.168.1.13 - - [08/Nov/2024 22:41:08] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
-2024-11-08 22:41:08,457 - INFO - 192.168.1.13 - - [08/Nov/2024 22:41:08] "[33mGET /static/scripts.js HTTP/1.1[0m" 404 -
-2024-11-08 22:41:09,115 - INFO - 192.168.1.13 - - [08/Nov/2024 22:41:09] "GET /video_feed HTTP/1.1" 200 -
-2024-11-08 22:41:15,834 - INFO - 192.168.1.13 - - [08/Nov/2024 22:41:15] "GET / HTTP/1.1" 200 -
-2024-11-08 22:41:15,850 - INFO - 192.168.1.13 - - [08/Nov/2024 22:41:15] "[33mGET /static/scripts.js HTTP/1.1[0m" 404 -
-2024-11-08 22:41:15,850 - INFO - 192.168.1.13 - - [08/Nov/2024 22:41:15] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
-2024-11-08 22:41:16,556 - INFO - 192.168.1.13 - - [08/Nov/2024 22:41:16] "GET /video_feed HTTP/1.1" 200 -
-2024-11-08 22:41:22,031 - INFO - 192.168.1.13 - - [08/Nov/2024 22:41:22] "GET / HTTP/1.1" 200 -
-2024-11-08 22:41:22,048 - INFO - 192.168.1.13 - - [08/Nov/2024 22:41:22] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
-2024-11-08 22:41:22,050 - INFO - 192.168.1.13 - - [08/Nov/2024 22:41:22] "[33mGET /static/scripts.js HTTP/1.1[0m" 404 -
-2024-11-08 22:41:22,697 - INFO - 192.168.1.13 - - [08/Nov/2024 22:41:22] "GET /video_feed HTTP/1.1" 200 -
-2024-11-08 22:41:29,840 - INFO - 192.168.1.13 - - [08/Nov/2024 22:41:29] "GET / HTTP/1.1" 200 -
-2024-11-08 22:41:29,856 - INFO - 192.168.1.13 - - [08/Nov/2024 22:41:29] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
-2024-11-08 22:41:29,857 - INFO - 192.168.1.13 - - [08/Nov/2024 22:41:29] "[33mGET /static/scripts.js HTTP/1.1[0m" 404 -
-2024-11-08 22:41:30,457 - INFO - 192.168.1.13 - - [08/Nov/2024 22:41:30] "GET /video_feed HTTP/1.1" 200 -
-2024-11-08 22:43:26,025 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+2024-11-09 01:02:44,047 - INFO - [33mPress CTRL+C to quit[0m
+2024-11-09 01:02:44,047 - INFO -  * Restarting with stat
+2024-11-09 01:02:45,078 - WARNING -  * Debugger is active!
+2024-11-09 01:02:45,079 - INFO -  * Debugger PIN: 111-161-771
+2024-11-09 01:02:49,813 - INFO - 192.168.1.13 - - [09/Nov/2024 01:02:49] "GET / HTTP/1.1" 200 -
+2024-11-09 01:02:49,877 - INFO - 192.168.1.13 - - [09/Nov/2024 01:02:49] "GET /static/loginStyle.css HTTP/1.1" 200 -
+2024-11-09 01:02:49,877 - INFO - 192.168.1.13 - - [09/Nov/2024 01:02:49] "GET /static/loginScripts.js HTTP/1.1" 200 -
+2024-11-09 01:02:49,987 - INFO - 192.168.1.13 - - [09/Nov/2024 01:02:49] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+2024-11-09 01:02:54,712 - INFO - 192.168.1.13 - - [09/Nov/2024 01:02:54] "GET /index HTTP/1.1" 200 -
+2024-11-09 01:02:54,734 - INFO - 192.168.1.13 - - [09/Nov/2024 01:02:54] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2024-11-09 01:02:54,742 - INFO - 192.168.1.13 - - [09/Nov/2024 01:02:54] "[36mGET /static/script.js HTTP/1.1[0m" 304 -
+2024-11-09 01:02:54,759 - INFO - 192.168.1.13 - - [09/Nov/2024 01:02:54] "GET /socket.io/?EIO=4&transport=polling&t=PCCyOEX HTTP/1.1" 200 -
+2024-11-09 01:02:54,770 - INFO - 192.168.1.13 - - [09/Nov/2024 01:02:54] "POST /socket.io/?EIO=4&transport=polling&t=PCCyOEh&sid=MXqOR1DGkHpdtMXSAAAA HTTP/1.1" 200 -
+2024-11-09 01:02:54,771 - INFO - 192.168.1.13 - - [09/Nov/2024 01:02:54] "GET /socket.io/?EIO=4&transport=polling&t=PCCyOEj&sid=MXqOR1DGkHpdtMXSAAAA HTTP/1.1" 200 -
+2024-11-09 01:02:59,058 - INFO - 192.168.1.13 - - [09/Nov/2024 01:02:59] "GET /video_feed HTTP/1.1" 200 -
+2024-11-09 01:03:32,858 - INFO - 192.168.1.13 - - [09/Nov/2024 01:03:32] "GET /socket.io/?EIO=4&transport=websocket&sid=MXqOR1DGkHpdtMXSAAAA HTTP/1.1" 200 -
+2024-11-09 01:18:32,628 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
  * Running on all addresses (0.0.0.0)
  * Running on http://127.0.0.1:5003
  * Running on http://192.168.1.13:5003
-2024-11-08 22:43:26,026 - INFO - [33mPress CTRL+C to quit[0m
-2024-11-08 22:43:26,026 - INFO -  * Restarting with stat
-2024-11-08 22:43:27,104 - WARNING -  * Debugger is active!
-2024-11-08 22:43:27,106 - INFO -  * Debugger PIN: 111-161-771
-2024-11-08 22:43:27,215 - INFO - 192.168.1.13 - - [08/Nov/2024 22:43:27] "GET / HTTP/1.1" 200 -
-2024-11-08 22:43:27,256 - INFO - 192.168.1.13 - - [08/Nov/2024 22:43:27] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
-2024-11-08 22:43:27,262 - INFO - 192.168.1.13 - - [08/Nov/2024 22:43:27] "[33mGET /static/scripts.js HTTP/1.1[0m" 404 -
-2024-11-08 22:43:29,063 - INFO - 192.168.1.13 - - [08/Nov/2024 22:43:29] "GET /video_feed HTTP/1.1" 200 -
-2024-11-08 22:43:45,897 - INFO - 192.168.1.13 - - [08/Nov/2024 22:43:45] "GET / HTTP/1.1" 200 -
-2024-11-08 22:43:45,914 - INFO - 192.168.1.13 - - [08/Nov/2024 22:43:45] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
-2024-11-08 22:43:45,916 - INFO - 192.168.1.13 - - [08/Nov/2024 22:43:45] "[33mGET /static/scripts.js HTTP/1.1[0m" 404 -
-2024-11-08 22:43:46,519 - INFO - 192.168.1.13 - - [08/Nov/2024 22:43:46] "GET /video_feed HTTP/1.1" 200 -
-2024-11-08 22:43:49,503 - INFO - 192.168.1.13 - - [08/Nov/2024 22:43:49] "GET / HTTP/1.1" 200 -
-2024-11-08 22:43:49,520 - INFO - 192.168.1.13 - - [08/Nov/2024 22:43:49] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
-2024-11-08 22:43:49,521 - INFO - 192.168.1.13 - - [08/Nov/2024 22:43:49] "[33mGET /static/scripts.js HTTP/1.1[0m" 404 -
-2024-11-08 22:43:50,114 - INFO - 192.168.1.13 - - [08/Nov/2024 22:43:50] "GET /video_feed HTTP/1.1" 200 -
-2024-11-08 22:44:04,361 - INFO - 192.168.1.13 - - [08/Nov/2024 22:44:04] "GET / HTTP/1.1" 200 -
-2024-11-08 22:44:04,379 - INFO - 192.168.1.13 - - [08/Nov/2024 22:44:04] "[33mGET /static/scripts.js HTTP/1.1[0m" 404 -
-2024-11-08 22:44:04,380 - INFO - 192.168.1.13 - - [08/Nov/2024 22:44:04] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
-2024-11-08 22:44:04,983 - INFO - 192.168.1.13 - - [08/Nov/2024 22:44:04] "GET /video_feed HTTP/1.1" 200 -
-2024-11-08 22:44:05,490 - INFO - 192.168.1.13 - - [08/Nov/2024 22:44:05] "GET / HTTP/1.1" 200 -
-2024-11-08 22:44:05,505 - INFO - 192.168.1.13 - - [08/Nov/2024 22:44:05] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
-2024-11-08 22:44:05,506 - INFO - 192.168.1.13 - - [08/Nov/2024 22:44:05] "[33mGET /static/scripts.js HTTP/1.1[0m" 404 -
-2024-11-08 22:44:06,118 - INFO - 192.168.1.13 - - [08/Nov/2024 22:44:06] "GET /video_feed HTTP/1.1" 200 -
-2024-11-08 22:45:52,991 - INFO -  * Detected change in 'c:\\Users\\NGAIVINH\\Desktop\\Project\\IOT_Python\\app.py', reloading
-2024-11-08 22:45:53,148 - INFO -  * Restarting with stat
-2024-11-08 22:45:56,173 - ERROR - Exception on / [GET]
+2024-11-09 01:18:32,628 - INFO - [33mPress CTRL+C to quit[0m
+2024-11-09 01:18:32,628 - INFO -  * Restarting with stat
+2024-11-09 01:18:33,622 - WARNING -  * Debugger is active!
+2024-11-09 01:18:33,624 - INFO -  * Debugger PIN: 111-161-771
+2024-11-09 01:18:45,720 - INFO - 192.168.1.13 - - [09/Nov/2024 01:18:45] "GET / HTTP/1.1" 200 -
+2024-11-09 01:18:45,784 - INFO - 192.168.1.13 - - [09/Nov/2024 01:18:45] "[36mGET /static/loginStyle.css HTTP/1.1[0m" 304 -
+2024-11-09 01:18:45,786 - INFO - 192.168.1.13 - - [09/Nov/2024 01:18:45] "[36mGET /static/loginScripts.js HTTP/1.1[0m" 304 -
+2024-11-09 01:18:53,027 - INFO - 192.168.1.13 - - [09/Nov/2024 01:18:53] "[35m[1mGET /index HTTP/1.1[0m" 0 -
+2024-11-09 01:18:53,058 - ERROR - Error on request:
 Traceback (most recent call last):
-  File "C:\Users\NGAIVINH\Desktop\Project\IOT_Python\.venv\Lib\site-packages\flask\app.py", line 1473, in wsgi_app
-    response = self.full_dispatch_request()
-               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-  File "C:\Users\NGAIVINH\Desktop\Project\IOT_Python\.venv\Lib\site-packages\flask\app.py", line 882, in full_dispatch_request
-    rv = self.handle_user_exception(e)
-         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-  File "C:\Users\NGAIVINH\Desktop\Project\IOT_Python\.venv\Lib\site-packages\flask\app.py", line 880, in full_dispatch_request
-    rv = self.dispatch_request()
-         ^^^^^^^^^^^^^^^^^^^^^^^
-  File "C:\Users\NGAIVINH\Desktop\Project\IOT_Python\.venv\Lib\site-packages\flask\app.py", line 865, in dispatch_request
-    return self.ensure_sync(self.view_functions[rule.endpoint])(**view_args)  # type: ignore[no-any-return]
-           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-  File "c:\Users\NGAIVINH\Desktop\Project\IOT_Python\app.py", line 190, in index
-    return render_template('index.html')
-           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-  File "C:\Users\NGAIVINH\Desktop\Project\IOT_Python\.venv\Lib\site-packages\flask\templating.py", line 150, in render_template
-    return _render(app, template, context)
-           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-  File "C:\Users\NGAIVINH\Desktop\Project\IOT_Python\.venv\Lib\site-packages\flask\templating.py", line 131, in _render
-    rv = template.render(context)
-         ^^^^^^^^^^^^^^^^^^^^^^^^
-  File "C:\Users\NGAIVINH\Desktop\Project\IOT_Python\.venv\Lib\site-packages\jinja2\environment.py", line 1304, in render
-    self.environment.handle_exception()
-  File "C:\Users\NGAIVINH\Desktop\Project\IOT_Python\.venv\Lib\site-packages\jinja2\environment.py", line 939, in handle_exception
-    raise rewrite_traceback_stack(source=source)
-  File "c:\Users\NGAIVINH\Desktop\Project\IOT_Python\templates\index.html", line 15, in top-level template code
-    <img id="video-feed" src="{{ url_for('video_feed') }}" data-src="{{ url_for('video_feed') }}" alt="Video Feed">
-    ^^^^^^^^^^^^^^^^^^^^^^^^^
-  File "C:\Users\NGAIVINH\Desktop\Project\IOT_Python\.venv\Lib\site-packages\flask\app.py", line 1084, in url_for
-    return self.handle_url_build_error(error, endpoint, values)
-           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-  File "C:\Users\NGAIVINH\Desktop\Project\IOT_Python\.venv\Lib\site-packages\flask\app.py", line 1073, in url_for
-    rv = url_adapter.build(  # type: ignore[union-attr]
-         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-  File "C:\Users\NGAIVINH\Desktop\Project\IOT_Python\.venv\Lib\site-packages\werkzeug\routing\map.py", line 924, in build
-    raise BuildError(endpoint, values, method, self)
-werkzeug.routing.exceptions.BuildError: Could not build url for endpoint 'video_feed'. Did you mean 'index' instead?
-2024-11-08 22:45:56,194 - INFO - 192.168.1.13 - - [08/Nov/2024 22:45:56] "[35m[1mGET / HTTP/1.1[0m" 500 -
-2024-11-08 22:46:21,087 - WARNING -  * Debugger is active!
-2024-11-08 22:46:21,089 - INFO -  * Debugger PIN: 111-161-771
-2024-11-08 23:11:34,044 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+  File "C:\Users\NGAIVINH\Desktop\Project\IOT_Python\.venv\Lib\site-packages\werkzeug\serving.py", line 370, in run_wsgi
+    execute(self.server.app)
+  File "C:\Users\NGAIVINH\Desktop\Project\IOT_Python\.venv\Lib\site-packages\werkzeug\serving.py", line 334, in execute
+    write(data)
+  File "C:\Users\NGAIVINH\Desktop\Project\IOT_Python\.venv\Lib\site-packages\werkzeug\serving.py", line 271, in write
+    self.send_response(code, msg)
+  File "C:\Users\NGAIVINH\AppData\Local\Programs\Python\Python312\Lib\http\server.py", line 502, in send_response
+    self.send_response_only(code, message)
+  File "C:\Users\NGAIVINH\AppData\Local\Programs\Python\Python312\Lib\http\server.py", line 517, in send_response_only
+    (self.protocol_version, code, message)).encode(
+                                            ^^^^^^^
+UnicodeEncodeError: 'latin-1' codec can't encode character '\u1ebb' in position 173: ordinal not in range(256)
+2024-11-09 01:19:35,636 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
  * Running on all addresses (0.0.0.0)
  * Running on http://127.0.0.1:5003
  * Running on http://192.168.1.13:5003
-2024-11-08 23:11:34,044 - INFO - [33mPress CTRL+C to quit[0m
-2024-11-08 23:11:34,044 - INFO -  * Restarting with stat
-2024-11-08 23:11:35,525 - WARNING -  * Debugger is active!
-2024-11-08 23:11:35,526 - INFO -  * Debugger PIN: 111-161-771
-2024-11-08 23:11:54,721 - INFO - 192.168.1.13 - - [08/Nov/2024 23:11:54] "GET / HTTP/1.1" 200 -
-2024-11-08 23:11:54,802 - INFO - 192.168.1.13 - - [08/Nov/2024 23:11:54] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
-2024-11-08 23:11:54,807 - INFO - 192.168.1.13 - - [08/Nov/2024 23:11:54] "[33mGET /static/scripts.js HTTP/1.1[0m" 404 -
-2024-11-08 23:11:55,736 - INFO - 192.168.1.13 - - [08/Nov/2024 23:11:55] "GET / HTTP/1.1" 200 -
-2024-11-08 23:11:55,755 - INFO - 192.168.1.13 - - [08/Nov/2024 23:11:55] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
-2024-11-08 23:11:55,773 - INFO - 192.168.1.13 - - [08/Nov/2024 23:11:55] "[33mGET /static/scripts.js HTTP/1.1[0m" 404 -
-2024-11-08 23:11:57,888 - INFO - 192.168.1.13 - - [08/Nov/2024 23:11:57] "GET /video_feed HTTP/1.1" 200 -
-2024-11-08 23:11:57,934 - INFO - 192.168.1.13 - - [08/Nov/2024 23:11:57] "GET /video_feed HTTP/1.1" 200 -
-2024-11-08 23:12:23,732 - INFO - 192.168.1.13 - - [08/Nov/2024 23:12:23] "GET / HTTP/1.1" 200 -
-2024-11-08 23:12:23,769 - INFO - 192.168.1.13 - - [08/Nov/2024 23:12:23] "[33mGET /static/scripts.js HTTP/1.1[0m" 404 -
-2024-11-08 23:12:23,769 - INFO - 192.168.1.13 - - [08/Nov/2024 23:12:23] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
-2024-11-08 23:12:24,375 - INFO - 192.168.1.13 - - [08/Nov/2024 23:12:24] "GET /video_feed HTTP/1.1" 200 -
-2024-11-08 23:14:02,036 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+2024-11-09 01:19:35,636 - INFO - [33mPress CTRL+C to quit[0m
+2024-11-09 01:19:35,636 - INFO -  * Restarting with stat
+2024-11-09 01:19:36,652 - WARNING -  * Debugger is active!
+2024-11-09 01:19:36,655 - INFO -  * Debugger PIN: 111-161-771
+2024-11-09 01:19:37,677 - INFO - 192.168.1.13 - - [09/Nov/2024 01:19:37] "[35m[1mGET /index HTTP/1.1[0m" 0 -
+2024-11-09 01:19:37,700 - ERROR - Error on request:
+Traceback (most recent call last):
+  File "C:\Users\NGAIVINH\Desktop\Project\IOT_Python\.venv\Lib\site-packages\werkzeug\serving.py", line 370, in run_wsgi
+    execute(self.server.app)
+  File "C:\Users\NGAIVINH\Desktop\Project\IOT_Python\.venv\Lib\site-packages\werkzeug\serving.py", line 334, in execute
+    write(data)
+  File "C:\Users\NGAIVINH\Desktop\Project\IOT_Python\.venv\Lib\site-packages\werkzeug\serving.py", line 271, in write
+    self.send_response(code, msg)
+  File "C:\Users\NGAIVINH\AppData\Local\Programs\Python\Python312\Lib\http\server.py", line 502, in send_response
+    self.send_response_only(code, message)
+  File "C:\Users\NGAIVINH\AppData\Local\Programs\Python\Python312\Lib\http\server.py", line 517, in send_response_only
+    (self.protocol_version, code, message)).encode(
+                                            ^^^^^^^
+UnicodeEncodeError: 'latin-1' codec can't encode character '\u1ebb' in position 173: ordinal not in range(256)
+2024-11-09 01:19:47,071 - INFO - 192.168.1.13 - - [09/Nov/2024 01:19:47] "[35m[1mGET /index HTTP/1.1[0m" 0 -
+2024-11-09 01:19:47,083 - ERROR - Error on request:
+Traceback (most recent call last):
+  File "C:\Users\NGAIVINH\Desktop\Project\IOT_Python\.venv\Lib\site-packages\werkzeug\serving.py", line 370, in run_wsgi
+    execute(self.server.app)
+  File "C:\Users\NGAIVINH\Desktop\Project\IOT_Python\.venv\Lib\site-packages\werkzeug\serving.py", line 334, in execute
+    write(data)
+  File "C:\Users\NGAIVINH\Desktop\Project\IOT_Python\.venv\Lib\site-packages\werkzeug\serving.py", line 271, in write
+    self.send_response(code, msg)
+  File "C:\Users\NGAIVINH\AppData\Local\Programs\Python\Python312\Lib\http\server.py", line 502, in send_response
+    self.send_response_only(code, message)
+  File "C:\Users\NGAIVINH\AppData\Local\Programs\Python\Python312\Lib\http\server.py", line 517, in send_response_only
+    (self.protocol_version, code, message)).encode(
+                                            ^^^^^^^
+UnicodeEncodeError: 'latin-1' codec can't encode character '\u1ebb' in position 173: ordinal not in range(256)
+2024-11-09 01:19:48,559 - INFO - 192.168.1.13 - - [09/Nov/2024 01:19:48] "[35m[1mGET /index HTTP/1.1[0m" 0 -
+2024-11-09 01:19:48,581 - ERROR - Error on request:
+Traceback (most recent call last):
+  File "C:\Users\NGAIVINH\Desktop\Project\IOT_Python\.venv\Lib\site-packages\werkzeug\serving.py", line 370, in run_wsgi
+    execute(self.server.app)
+  File "C:\Users\NGAIVINH\Desktop\Project\IOT_Python\.venv\Lib\site-packages\werkzeug\serving.py", line 334, in execute
+    write(data)
+  File "C:\Users\NGAIVINH\Desktop\Project\IOT_Python\.venv\Lib\site-packages\werkzeug\serving.py", line 271, in write
+    self.send_response(code, msg)
+  File "C:\Users\NGAIVINH\AppData\Local\Programs\Python\Python312\Lib\http\server.py", line 502, in send_response
+    self.send_response_only(code, message)
+  File "C:\Users\NGAIVINH\AppData\Local\Programs\Python\Python312\Lib\http\server.py", line 517, in send_response_only
+    (self.protocol_version, code, message)).encode(
+                                            ^^^^^^^
+UnicodeEncodeError: 'latin-1' codec can't encode character '\u1ebb' in position 173: ordinal not in range(256)
+2024-11-09 01:19:48,724 - INFO - 192.168.1.13 - - [09/Nov/2024 01:19:48] "[35m[1mGET /index HTTP/1.1[0m" 0 -
+2024-11-09 01:19:48,737 - ERROR - Error on request:
+Traceback (most recent call last):
+  File "C:\Users\NGAIVINH\Desktop\Project\IOT_Python\.venv\Lib\site-packages\werkzeug\serving.py", line 370, in run_wsgi
+    execute(self.server.app)
+  File "C:\Users\NGAIVINH\Desktop\Project\IOT_Python\.venv\Lib\site-packages\werkzeug\serving.py", line 334, in execute
+    write(data)
+  File "C:\Users\NGAIVINH\Desktop\Project\IOT_Python\.venv\Lib\site-packages\werkzeug\serving.py", line 271, in write
+    self.send_response(code, msg)
+  File "C:\Users\NGAIVINH\AppData\Local\Programs\Python\Python312\Lib\http\server.py", line 502, in send_response
+    self.send_response_only(code, message)
+  File "C:\Users\NGAIVINH\AppData\Local\Programs\Python\Python312\Lib\http\server.py", line 517, in send_response_only
+    (self.protocol_version, code, message)).encode(
+                                            ^^^^^^^
+UnicodeEncodeError: 'latin-1' codec can't encode character '\u1ebb' in position 173: ordinal not in range(256)
+2024-11-09 01:19:48,862 - INFO - 192.168.1.13 - - [09/Nov/2024 01:19:48] "[35m[1mGET /index HTTP/1.1[0m" 0 -
+2024-11-09 01:19:48,880 - ERROR - Error on request:
+Traceback (most recent call last):
+  File "C:\Users\NGAIVINH\Desktop\Project\IOT_Python\.venv\Lib\site-packages\werkzeug\serving.py", line 370, in run_wsgi
+    execute(self.server.app)
+  File "C:\Users\NGAIVINH\Desktop\Project\IOT_Python\.venv\Lib\site-packages\werkzeug\serving.py", line 334, in execute
+    write(data)
+  File "C:\Users\NGAIVINH\Desktop\Project\IOT_Python\.venv\Lib\site-packages\werkzeug\serving.py", line 271, in write
+    self.send_response(code, msg)
+  File "C:\Users\NGAIVINH\AppData\Local\Programs\Python\Python312\Lib\http\server.py", line 502, in send_response
+    self.send_response_only(code, message)
+  File "C:\Users\NGAIVINH\AppData\Local\Programs\Python\Python312\Lib\http\server.py", line 517, in send_response_only
+    (self.protocol_version, code, message)).encode(
+                                            ^^^^^^^
+UnicodeEncodeError: 'latin-1' codec can't encode character '\u1ebb' in position 173: ordinal not in range(256)
+2024-11-09 01:19:57,368 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
  * Running on all addresses (0.0.0.0)
  * Running on http://127.0.0.1:5003
  * Running on http://192.168.1.13:5003
-2024-11-08 23:14:02,036 - INFO - [33mPress CTRL+C to quit[0m
-2024-11-08 23:14:02,036 - INFO -  * Restarting with stat
-2024-11-08 23:14:03,079 - WARNING -  * Debugger is active!
-2024-11-08 23:14:03,081 - INFO -  * Debugger PIN: 111-161-771
-2024-11-08 23:14:39,917 - INFO - 192.168.1.13 - - [08/Nov/2024 23:14:39] "GET / HTTP/1.1" 200 -
-2024-11-08 23:14:40,012 - INFO - 192.168.1.13 - - [08/Nov/2024 23:14:40] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
-2024-11-08 23:14:40,021 - INFO - 192.168.1.13 - - [08/Nov/2024 23:14:40] "[33mGET /static/scripts.js HTTP/1.1[0m" 404 -
-2024-11-08 23:14:42,370 - INFO - 192.168.1.13 - - [08/Nov/2024 23:14:42] "GET /video_feed HTTP/1.1" 200 -
-2024-11-08 23:14:48,262 - INFO - 192.168.1.13 - - [08/Nov/2024 23:14:48] "GET / HTTP/1.1" 200 -
-2024-11-08 23:14:48,279 - INFO - 192.168.1.13 - - [08/Nov/2024 23:14:48] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
-2024-11-08 23:14:48,281 - INFO - 192.168.1.13 - - [08/Nov/2024 23:14:48] "[33mGET /static/scripts.js HTTP/1.1[0m" 404 -
-2024-11-08 23:14:48,893 - INFO - 192.168.1.13 - - [08/Nov/2024 23:14:48] "GET /video_feed HTTP/1.1" 200 -
-2024-11-08 23:15:46,543 - INFO - 192.168.1.13 - - [08/Nov/2024 23:15:46] "GET / HTTP/1.1" 200 -
-2024-11-08 23:15:46,571 - INFO - 192.168.1.13 - - [08/Nov/2024 23:15:46] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
-2024-11-08 23:15:46,572 - INFO - 192.168.1.13 - - [08/Nov/2024 23:15:46] "[33mGET /static/scripts.js HTTP/1.1[0m" 404 -
-2024-11-08 23:15:47,170 - INFO - 192.168.1.13 - - [08/Nov/2024 23:15:47] "GET /video_feed HTTP/1.1" 200 -
-2024-11-08 23:24:58,312 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+2024-11-09 01:19:57,368 - INFO - [33mPress CTRL+C to quit[0m
+2024-11-09 01:19:57,368 - INFO -  * Restarting with stat
+2024-11-09 01:19:58,441 - WARNING -  * Debugger is active!
+2024-11-09 01:19:58,443 - INFO -  * Debugger PIN: 111-161-771
+2024-11-09 01:19:58,466 - INFO - 192.168.1.13 - - [09/Nov/2024 01:19:58] "[35m[1mGET /index HTTP/1.1[0m" 0 -
+2024-11-09 01:19:58,482 - ERROR - Error on request:
+Traceback (most recent call last):
+  File "C:\Users\NGAIVINH\Desktop\Project\IOT_Python\.venv\Lib\site-packages\werkzeug\serving.py", line 370, in run_wsgi
+    execute(self.server.app)
+  File "C:\Users\NGAIVINH\Desktop\Project\IOT_Python\.venv\Lib\site-packages\werkzeug\serving.py", line 334, in execute
+    write(data)
+  File "C:\Users\NGAIVINH\Desktop\Project\IOT_Python\.venv\Lib\site-packages\werkzeug\serving.py", line 271, in write
+    self.send_response(code, msg)
+  File "C:\Users\NGAIVINH\AppData\Local\Programs\Python\Python312\Lib\http\server.py", line 502, in send_response
+    self.send_response_only(code, message)
+  File "C:\Users\NGAIVINH\AppData\Local\Programs\Python\Python312\Lib\http\server.py", line 517, in send_response_only
+    (self.protocol_version, code, message)).encode(
+                                            ^^^^^^^
+UnicodeEncodeError: 'latin-1' codec can't encode character '\u1ebb' in position 173: ordinal not in range(256)
+2024-11-09 01:20:22,329 - INFO - 127.0.0.1 - - [09/Nov/2024 01:20:22] "GET / HTTP/1.1" 200 -
+2024-11-09 01:20:22,384 - INFO - 127.0.0.1 - - [09/Nov/2024 01:20:22] "GET /static/loginStyle.css HTTP/1.1" 200 -
+2024-11-09 01:20:22,387 - INFO - 127.0.0.1 - - [09/Nov/2024 01:20:22] "GET /static/loginScripts.js HTTP/1.1" 200 -
+2024-11-09 01:20:22,704 - INFO - 127.0.0.1 - - [09/Nov/2024 01:20:22] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+2024-11-09 01:20:28,873 - INFO - 127.0.0.1 - - [09/Nov/2024 01:20:28] "[35m[1mGET /index HTTP/1.1[0m" 0 -
+2024-11-09 01:20:28,889 - ERROR - Error on request:
+Traceback (most recent call last):
+  File "C:\Users\NGAIVINH\Desktop\Project\IOT_Python\.venv\Lib\site-packages\werkzeug\serving.py", line 370, in run_wsgi
+    execute(self.server.app)
+  File "C:\Users\NGAIVINH\Desktop\Project\IOT_Python\.venv\Lib\site-packages\werkzeug\serving.py", line 334, in execute
+    write(data)
+  File "C:\Users\NGAIVINH\Desktop\Project\IOT_Python\.venv\Lib\site-packages\werkzeug\serving.py", line 271, in write
+    self.send_response(code, msg)
+  File "C:\Users\NGAIVINH\AppData\Local\Programs\Python\Python312\Lib\http\server.py", line 502, in send_response
+    self.send_response_only(code, message)
+  File "C:\Users\NGAIVINH\AppData\Local\Programs\Python\Python312\Lib\http\server.py", line 517, in send_response_only
+    (self.protocol_version, code, message)).encode(
+                                            ^^^^^^^
+UnicodeEncodeError: 'latin-1' codec can't encode character '\u1ebb' in position 173: ordinal not in range(256)
+2024-11-09 01:20:32,917 - INFO - 127.0.0.1 - - [09/Nov/2024 01:20:32] "[35m[1mGET /index HTTP/1.1[0m" 0 -
+2024-11-09 01:20:32,930 - ERROR - Error on request:
+Traceback (most recent call last):
+  File "C:\Users\NGAIVINH\Desktop\Project\IOT_Python\.venv\Lib\site-packages\werkzeug\serving.py", line 370, in run_wsgi
+    execute(self.server.app)
+  File "C:\Users\NGAIVINH\Desktop\Project\IOT_Python\.venv\Lib\site-packages\werkzeug\serving.py", line 334, in execute
+    write(data)
+  File "C:\Users\NGAIVINH\Desktop\Project\IOT_Python\.venv\Lib\site-packages\werkzeug\serving.py", line 271, in write
+    self.send_response(code, msg)
+  File "C:\Users\NGAIVINH\AppData\Local\Programs\Python\Python312\Lib\http\server.py", line 502, in send_response
+    self.send_response_only(code, message)
+  File "C:\Users\NGAIVINH\AppData\Local\Programs\Python\Python312\Lib\http\server.py", line 517, in send_response_only
+    (self.protocol_version, code, message)).encode(
+                                            ^^^^^^^
+UnicodeEncodeError: 'latin-1' codec can't encode character '\u1ebb' in position 173: ordinal not in range(256)
+2024-11-09 01:20:33,978 - INFO - 127.0.0.1 - - [09/Nov/2024 01:20:33] "[35m[1mGET /index HTTP/1.1[0m" 0 -
+2024-11-09 01:20:33,988 - ERROR - Error on request:
+Traceback (most recent call last):
+  File "C:\Users\NGAIVINH\Desktop\Project\IOT_Python\.venv\Lib\site-packages\werkzeug\serving.py", line 370, in run_wsgi
+    execute(self.server.app)
+  File "C:\Users\NGAIVINH\Desktop\Project\IOT_Python\.venv\Lib\site-packages\werkzeug\serving.py", line 334, in execute
+    write(data)
+  File "C:\Users\NGAIVINH\Desktop\Project\IOT_Python\.venv\Lib\site-packages\werkzeug\serving.py", line 271, in write
+    self.send_response(code, msg)
+  File "C:\Users\NGAIVINH\AppData\Local\Programs\Python\Python312\Lib\http\server.py", line 502, in send_response
+    self.send_response_only(code, message)
+  File "C:\Users\NGAIVINH\AppData\Local\Programs\Python\Python312\Lib\http\server.py", line 517, in send_response_only
+    (self.protocol_version, code, message)).encode(
+                                            ^^^^^^^
+UnicodeEncodeError: 'latin-1' codec can't encode character '\u1ebb' in position 173: ordinal not in range(256)
+2024-11-09 01:20:34,123 - INFO - 127.0.0.1 - - [09/Nov/2024 01:20:34] "[35m[1mGET /index HTTP/1.1[0m" 0 -
+2024-11-09 01:20:34,145 - ERROR - Error on request:
+Traceback (most recent call last):
+  File "C:\Users\NGAIVINH\Desktop\Project\IOT_Python\.venv\Lib\site-packages\werkzeug\serving.py", line 370, in run_wsgi
+    execute(self.server.app)
+  File "C:\Users\NGAIVINH\Desktop\Project\IOT_Python\.venv\Lib\site-packages\werkzeug\serving.py", line 334, in execute
+    write(data)
+  File "C:\Users\NGAIVINH\Desktop\Project\IOT_Python\.venv\Lib\site-packages\werkzeug\serving.py", line 271, in write
+    self.send_response(code, msg)
+  File "C:\Users\NGAIVINH\AppData\Local\Programs\Python\Python312\Lib\http\server.py", line 502, in send_response
+    self.send_response_only(code, message)
+  File "C:\Users\NGAIVINH\AppData\Local\Programs\Python\Python312\Lib\http\server.py", line 517, in send_response_only
+    (self.protocol_version, code, message)).encode(
+                                            ^^^^^^^
+UnicodeEncodeError: 'latin-1' codec can't encode character '\u1ebb' in position 173: ordinal not in range(256)
+2024-11-09 01:22:21,808 - INFO - 127.0.0.1 - - [09/Nov/2024 01:22:21] "[35m[1mGET /index HTTP/1.1[0m" 0 -
+2024-11-09 01:22:21,822 - ERROR - Error on request:
+Traceback (most recent call last):
+  File "C:\Users\NGAIVINH\Desktop\Project\IOT_Python\.venv\Lib\site-packages\werkzeug\serving.py", line 370, in run_wsgi
+    execute(self.server.app)
+  File "C:\Users\NGAIVINH\Desktop\Project\IOT_Python\.venv\Lib\site-packages\werkzeug\serving.py", line 334, in execute
+    write(data)
+  File "C:\Users\NGAIVINH\Desktop\Project\IOT_Python\.venv\Lib\site-packages\werkzeug\serving.py", line 271, in write
+    self.send_response(code, msg)
+  File "C:\Users\NGAIVINH\AppData\Local\Programs\Python\Python312\Lib\http\server.py", line 502, in send_response
+    self.send_response_only(code, message)
+  File "C:\Users\NGAIVINH\AppData\Local\Programs\Python\Python312\Lib\http\server.py", line 517, in send_response_only
+    (self.protocol_version, code, message)).encode(
+                                            ^^^^^^^
+UnicodeEncodeError: 'latin-1' codec can't encode character '\u1ebb' in position 173: ordinal not in range(256)
+2024-11-09 01:22:22,179 - INFO - 127.0.0.1 - - [09/Nov/2024 01:22:22] "[35m[1mGET /index HTTP/1.1[0m" 0 -
+2024-11-09 01:22:22,200 - ERROR - Error on request:
+Traceback (most recent call last):
+  File "C:\Users\NGAIVINH\Desktop\Project\IOT_Python\.venv\Lib\site-packages\werkzeug\serving.py", line 370, in run_wsgi
+    execute(self.server.app)
+  File "C:\Users\NGAIVINH\Desktop\Project\IOT_Python\.venv\Lib\site-packages\werkzeug\serving.py", line 334, in execute
+    write(data)
+  File "C:\Users\NGAIVINH\Desktop\Project\IOT_Python\.venv\Lib\site-packages\werkzeug\serving.py", line 271, in write
+    self.send_response(code, msg)
+  File "C:\Users\NGAIVINH\AppData\Local\Programs\Python\Python312\Lib\http\server.py", line 502, in send_response
+    self.send_response_only(code, message)
+  File "C:\Users\NGAIVINH\AppData\Local\Programs\Python\Python312\Lib\http\server.py", line 517, in send_response_only
+    (self.protocol_version, code, message)).encode(
+                                            ^^^^^^^
+UnicodeEncodeError: 'latin-1' codec can't encode character '\u1ebb' in position 173: ordinal not in range(256)
+2024-11-09 01:22:22,338 - INFO - 127.0.0.1 - - [09/Nov/2024 01:22:22] "[35m[1mGET /index HTTP/1.1[0m" 0 -
+2024-11-09 01:22:22,358 - ERROR - Error on request:
+Traceback (most recent call last):
+  File "C:\Users\NGAIVINH\Desktop\Project\IOT_Python\.venv\Lib\site-packages\werkzeug\serving.py", line 370, in run_wsgi
+    execute(self.server.app)
+  File "C:\Users\NGAIVINH\Desktop\Project\IOT_Python\.venv\Lib\site-packages\werkzeug\serving.py", line 334, in execute
+    write(data)
+  File "C:\Users\NGAIVINH\Desktop\Project\IOT_Python\.venv\Lib\site-packages\werkzeug\serving.py", line 271, in write
+    self.send_response(code, msg)
+  File "C:\Users\NGAIVINH\AppData\Local\Programs\Python\Python312\Lib\http\server.py", line 502, in send_response
+    self.send_response_only(code, message)
+  File "C:\Users\NGAIVINH\AppData\Local\Programs\Python\Python312\Lib\http\server.py", line 517, in send_response_only
+    (self.protocol_version, code, message)).encode(
+                                            ^^^^^^^
+UnicodeEncodeError: 'latin-1' codec can't encode character '\u1ebb' in position 173: ordinal not in range(256)
+2024-11-09 01:22:22,500 - INFO - 127.0.0.1 - - [09/Nov/2024 01:22:22] "[35m[1mGET /index HTTP/1.1[0m" 0 -
+2024-11-09 01:22:22,517 - ERROR - Error on request:
+Traceback (most recent call last):
+  File "C:\Users\NGAIVINH\Desktop\Project\IOT_Python\.venv\Lib\site-packages\werkzeug\serving.py", line 370, in run_wsgi
+    execute(self.server.app)
+  File "C:\Users\NGAIVINH\Desktop\Project\IOT_Python\.venv\Lib\site-packages\werkzeug\serving.py", line 334, in execute
+    write(data)
+  File "C:\Users\NGAIVINH\Desktop\Project\IOT_Python\.venv\Lib\site-packages\werkzeug\serving.py", line 271, in write
+    self.send_response(code, msg)
+  File "C:\Users\NGAIVINH\AppData\Local\Programs\Python\Python312\Lib\http\server.py", line 502, in send_response
+    self.send_response_only(code, message)
+  File "C:\Users\NGAIVINH\AppData\Local\Programs\Python\Python312\Lib\http\server.py", line 517, in send_response_only
+    (self.protocol_version, code, message)).encode(
+                                            ^^^^^^^
+UnicodeEncodeError: 'latin-1' codec can't encode character '\u1ebb' in position 173: ordinal not in range(256)
+2024-11-09 01:23:15,691 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
  * Running on all addresses (0.0.0.0)
  * Running on http://127.0.0.1:5003
  * Running on http://192.168.1.13:5003
-2024-11-08 23:24:58,312 - INFO - [33mPress CTRL+C to quit[0m
-2024-11-08 23:24:58,312 - INFO -  * Restarting with stat
-2024-11-08 23:24:59,852 - WARNING -  * Debugger is active!
-2024-11-08 23:24:59,853 - INFO -  * Debugger PIN: 111-161-771
-2024-11-08 23:25:00,951 - INFO - 192.168.1.13 - - [08/Nov/2024 23:25:00] "[35m[1mGET / HTTP/1.1[0m" 500 -
-2024-11-08 23:25:01,022 - INFO - 192.168.1.13 - - [08/Nov/2024 23:25:01] "GET /?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1" 200 -
-2024-11-08 23:25:01,031 - INFO - 192.168.1.13 - - [08/Nov/2024 23:25:01] "GET /?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1" 200 -
-2024-11-08 23:25:01,156 - INFO - 192.168.1.13 - - [08/Nov/2024 23:25:01] "GET /?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
-2024-11-08 23:26:07,580 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+2024-11-09 01:23:15,691 - INFO - [33mPress CTRL+C to quit[0m
+2024-11-09 01:23:15,691 - INFO -  * Restarting with stat
+2024-11-09 01:23:16,790 - WARNING -  * Debugger is active!
+2024-11-09 01:23:16,793 - INFO -  * Debugger PIN: 111-161-771
+2024-11-09 01:23:16,807 - INFO - 127.0.0.1 - - [09/Nov/2024 01:23:16] "GET /index HTTP/1.1" 200 -
+2024-11-09 01:23:16,855 - INFO - 127.0.0.1 - - [09/Nov/2024 01:23:16] "GET /static/style.css HTTP/1.1" 200 -
+2024-11-09 01:23:16,888 - INFO - 127.0.0.1 - - [09/Nov/2024 01:23:16] "GET /static/script.js HTTP/1.1" 200 -
+2024-11-09 01:23:16,922 - INFO - 127.0.0.1 - - [09/Nov/2024 01:23:16] "GET /socket.io/?EIO=4&transport=polling&t=PCD12cV HTTP/1.1" 200 -
+2024-11-09 01:23:16,930 - INFO - 127.0.0.1 - - [09/Nov/2024 01:23:16] "POST /socket.io/?EIO=4&transport=polling&t=PCD12c-&sid=uUzYGCSyl0_XuxuzAAAA HTTP/1.1" 200 -
+2024-11-09 01:23:16,932 - INFO - 127.0.0.1 - - [09/Nov/2024 01:23:16] "GET /socket.io/?EIO=4&transport=polling&t=PCD12c_&sid=uUzYGCSyl0_XuxuzAAAA HTTP/1.1" 200 -
+2024-11-09 01:23:18,755 - INFO - 127.0.0.1 - - [09/Nov/2024 01:23:18] "GET /socket.io/?EIO=4&transport=websocket&sid=uUzYGCSyl0_XuxuzAAAA HTTP/1.1" 200 -
+2024-11-09 01:23:18,759 - INFO - 127.0.0.1 - - [09/Nov/2024 01:23:18] "GET /index HTTP/1.1" 200 -
+2024-11-09 01:23:18,777 - INFO - 127.0.0.1 - - [09/Nov/2024 01:23:18] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2024-11-09 01:23:18,777 - INFO - 127.0.0.1 - - [09/Nov/2024 01:23:18] "[36mGET /static/script.js HTTP/1.1[0m" 304 -
+2024-11-09 01:23:18,785 - INFO - 127.0.0.1 - - [09/Nov/2024 01:23:18] "GET /socket.io/?EIO=4&transport=polling&t=PCD133z HTTP/1.1" 200 -
+2024-11-09 01:23:18,792 - INFO - 127.0.0.1 - - [09/Nov/2024 01:23:18] "POST /socket.io/?EIO=4&transport=polling&t=PCD1343&sid=yvDhwr6ZrtHgheXzAAAC HTTP/1.1" 200 -
+2024-11-09 01:23:18,793 - INFO - 127.0.0.1 - - [09/Nov/2024 01:23:18] "GET /socket.io/?EIO=4&transport=polling&t=PCD1343.0&sid=yvDhwr6ZrtHgheXzAAAC HTTP/1.1" 200 -
+2024-11-09 01:23:18,812 - INFO - 127.0.0.1 - - [09/Nov/2024 01:23:18] "GET /video_feed HTTP/1.1" 200 -
+2024-11-09 01:23:19,346 - INFO - 127.0.0.1 - - [09/Nov/2024 01:23:19] "GET /video_feed HTTP/1.1" 200 -
+2024-11-09 01:23:19,920 - INFO - 127.0.0.1 - - [09/Nov/2024 01:23:19] "GET /index/data HTTP/1.1" 200 -
+2024-11-09 01:23:40,500 - INFO - 127.0.0.1 - - [09/Nov/2024 01:23:40] "GET /socket.io/?EIO=4&transport=websocket&sid=yvDhwr6ZrtHgheXzAAAC HTTP/1.1" 200 -
+2024-11-09 01:23:40,509 - INFO - 127.0.0.1 - - [09/Nov/2024 01:23:40] "GET /index HTTP/1.1" 200 -
+2024-11-09 01:23:40,527 - INFO - 127.0.0.1 - - [09/Nov/2024 01:23:40] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2024-11-09 01:23:40,527 - INFO - 127.0.0.1 - - [09/Nov/2024 01:23:40] "[36mGET /static/script.js HTTP/1.1[0m" 304 -
+2024-11-09 01:23:40,534 - INFO - 127.0.0.1 - - [09/Nov/2024 01:23:40] "GET /socket.io/?EIO=4&transport=polling&t=PCD18No HTTP/1.1" 200 -
+2024-11-09 01:23:40,544 - INFO - 127.0.0.1 - - [09/Nov/2024 01:23:40] "POST /socket.io/?EIO=4&transport=polling&t=PCD18Nu&sid=hQOr0Rkr5VqI9FW4AAAE HTTP/1.1" 200 -
+2024-11-09 01:23:40,546 - INFO - 127.0.0.1 - - [09/Nov/2024 01:23:40] "GET /socket.io/?EIO=4&transport=polling&t=PCD18Nv&sid=hQOr0Rkr5VqI9FW4AAAE HTTP/1.1" 200 -
+2024-11-09 01:23:41,181 - INFO - 127.0.0.1 - - [09/Nov/2024 01:23:41] "GET /video_feed HTTP/1.1" 200 -
+2024-11-09 01:23:41,792 - INFO - 127.0.0.1 - - [09/Nov/2024 01:23:41] "GET /index/data HTTP/1.1" 200 -
+2024-11-09 01:23:44,171 - INFO - 127.0.0.1 - - [09/Nov/2024 01:23:44] "GET /socket.io/?EIO=4&transport=websocket&sid=hQOr0Rkr5VqI9FW4AAAE HTTP/1.1" 200 -
+2024-11-09 01:23:44,174 - INFO - 127.0.0.1 - - [09/Nov/2024 01:23:44] "GET /index HTTP/1.1" 200 -
+2024-11-09 01:23:44,193 - INFO - 127.0.0.1 - - [09/Nov/2024 01:23:44] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2024-11-09 01:23:44,195 - INFO - 127.0.0.1 - - [09/Nov/2024 01:23:44] "[36mGET /static/script.js HTTP/1.1[0m" 304 -
+2024-11-09 01:23:44,202 - INFO - 127.0.0.1 - - [09/Nov/2024 01:23:44] "GET /socket.io/?EIO=4&transport=polling&t=PCD19H5 HTTP/1.1" 200 -
+2024-11-09 01:23:44,209 - INFO - 127.0.0.1 - - [09/Nov/2024 01:23:44] "GET /socket.io/?EIO=4&transport=polling&t=PCD19HB&sid=rhW2nkfEkfWRakewAAAG HTTP/1.1" 200 -
+2024-11-09 01:23:44,210 - INFO - 127.0.0.1 - - [09/Nov/2024 01:23:44] "POST /socket.io/?EIO=4&transport=polling&t=PCD19HA&sid=rhW2nkfEkfWRakewAAAG HTTP/1.1" 200 -
+2024-11-09 01:23:44,804 - INFO - 127.0.0.1 - - [09/Nov/2024 01:23:44] "GET /video_feed HTTP/1.1" 200 -
+2024-11-09 01:23:45,418 - INFO - 127.0.0.1 - - [09/Nov/2024 01:23:45] "GET /index/data HTTP/1.1" 200 -
+2024-11-09 01:23:47,126 - INFO - 127.0.0.1 - - [09/Nov/2024 01:23:47] "GET /socket.io/?EIO=4&transport=websocket&sid=rhW2nkfEkfWRakewAAAG HTTP/1.1" 200 -
+2024-11-09 01:23:47,135 - INFO - 127.0.0.1 - - [09/Nov/2024 01:23:47] "GET /index HTTP/1.1" 200 -
+2024-11-09 01:23:47,156 - INFO - 127.0.0.1 - - [09/Nov/2024 01:23:47] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2024-11-09 01:23:47,157 - INFO - 127.0.0.1 - - [09/Nov/2024 01:23:47] "[36mGET /static/script.js HTTP/1.1[0m" 304 -
+2024-11-09 01:23:47,165 - INFO - 127.0.0.1 - - [09/Nov/2024 01:23:47] "GET /socket.io/?EIO=4&transport=polling&t=PCD19_N HTTP/1.1" 200 -
+2024-11-09 01:23:47,172 - INFO - 127.0.0.1 - - [09/Nov/2024 01:23:47] "POST /socket.io/?EIO=4&transport=polling&t=PCD19_U&sid=U5gos3mMLcb_EkMAAAAI HTTP/1.1" 200 -
+2024-11-09 01:23:47,173 - INFO - 127.0.0.1 - - [09/Nov/2024 01:23:47] "GET /socket.io/?EIO=4&transport=polling&t=PCD19_U.0&sid=U5gos3mMLcb_EkMAAAAI HTTP/1.1" 200 -
+2024-11-09 01:23:47,745 - INFO - 127.0.0.1 - - [09/Nov/2024 01:23:47] "GET /video_feed HTTP/1.1" 200 -
+2024-11-09 01:23:48,368 - INFO - 127.0.0.1 - - [09/Nov/2024 01:23:48] "GET /index/data HTTP/1.1" 200 -
+2024-11-09 01:23:52,181 - INFO - 127.0.0.1 - - [09/Nov/2024 01:23:52] "GET /socket.io/?EIO=4&transport=websocket&sid=U5gos3mMLcb_EkMAAAAI HTTP/1.1" 200 -
+2024-11-09 01:24:21,931 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
  * Running on all addresses (0.0.0.0)
  * Running on http://127.0.0.1:5003
  * Running on http://192.168.1.13:5003
-2024-11-08 23:26:07,580 - INFO - [33mPress CTRL+C to quit[0m
-2024-11-08 23:26:07,580 - INFO -  * Restarting with stat
-2024-11-08 23:26:09,058 - WARNING -  * Debugger is active!
-2024-11-08 23:26:09,062 - INFO -  * Debugger PIN: 111-161-771
-2024-11-08 23:26:10,642 - INFO - 192.168.1.13 - - [08/Nov/2024 23:26:10] "[35m[1mGET / HTTP/1.1[0m" 500 -
-2024-11-08 23:26:10,700 - INFO - 192.168.1.13 - - [08/Nov/2024 23:26:10] "[36mGET /?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 304 -
-2024-11-08 23:26:10,700 - INFO - 192.168.1.13 - - [08/Nov/2024 23:26:10] "[36mGET /?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 304 -
-2024-11-08 23:26:10,747 - INFO - 192.168.1.13 - - [08/Nov/2024 23:26:10] "[36mGET /?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
-2024-11-08 23:27:19,383 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+2024-11-09 01:24:21,931 - INFO - [33mPress CTRL+C to quit[0m
+2024-11-09 01:24:21,931 - INFO -  * Restarting with stat
+2024-11-09 01:24:22,972 - WARNING -  * Debugger is active!
+2024-11-09 01:24:22,974 - INFO -  * Debugger PIN: 111-161-771
+2024-11-09 01:25:04,723 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
  * Running on all addresses (0.0.0.0)
  * Running on http://127.0.0.1:5003
  * Running on http://192.168.1.13:5003
-2024-11-08 23:27:19,383 - INFO - [33mPress CTRL+C to quit[0m
-2024-11-08 23:27:19,383 - INFO -  * Restarting with stat
-2024-11-08 23:27:20,935 - WARNING -  * Debugger is active!
-2024-11-08 23:27:20,937 - INFO -  * Debugger PIN: 111-161-771
-2024-11-08 23:27:20,956 - INFO - 192.168.1.13 - - [08/Nov/2024 23:27:20] "GET / HTTP/1.1" 200 -
-2024-11-08 23:27:20,993 - INFO - 192.168.1.13 - - [08/Nov/2024 23:27:20] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
-2024-11-08 23:27:20,998 - INFO - 192.168.1.13 - - [08/Nov/2024 23:27:20] "[33mGET /static/scripts.js HTTP/1.1[0m" 404 -
-2024-11-08 23:27:23,001 - ERROR - L\u1ed7i nh\u1eadn d\u1ea1ng v\u1eadt th\u1ec3: 'category' is an invalid keyword argument for DetectedObject
-2024-11-08 23:27:23,213 - INFO - 192.168.1.13 - - [08/Nov/2024 23:27:23] "GET /video_feed HTTP/1.1" 200 -
-2024-11-08 23:27:23,562 - ERROR - L\u1ed7i nh\u1eadn d\u1ea1ng v\u1eadt th\u1ec3: 'category' is an invalid keyword argument for DetectedObject
-2024-11-08 23:27:24,117 - ERROR - L\u1ed7i nh\u1eadn d\u1ea1ng v\u1eadt th\u1ec3: 'category' is an invalid keyword argument for DetectedObject
-2024-11-08 23:27:24,657 - ERROR - L\u1ed7i nh\u1eadn d\u1ea1ng v\u1eadt th\u1ec3: 'category' is an invalid keyword argument for DetectedObject
-2024-11-08 23:27:25,216 - ERROR - L\u1ed7i nh\u1eadn d\u1ea1ng v\u1eadt th\u1ec3: 'category' is an invalid keyword argument for DetectedObject
-2024-11-08 23:27:25,769 - ERROR - L\u1ed7i nh\u1eadn d\u1ea1ng v\u1eadt th\u1ec3: 'category' is an invalid keyword argument for DetectedObject
-2024-11-08 23:27:26,363 - ERROR - L\u1ed7i nh\u1eadn d\u1ea1ng v\u1eadt th\u1ec3: 'category' is an invalid keyword argument for DetectedObject
-2024-11-08 23:27:26,947 - ERROR - L\u1ed7i nh\u1eadn d\u1ea1ng v\u1eadt th\u1ec3: 'category' is an invalid keyword argument for DetectedObject
-2024-11-08 23:27:27,575 - ERROR - L\u1ed7i nh\u1eadn d\u1ea1ng v\u1eadt th\u1ec3: 'category' is an invalid keyword argument for DetectedObject
-2024-11-08 23:27:28,172 - ERROR - L\u1ed7i nh\u1eadn d\u1ea1ng v\u1eadt th\u1ec3: 'category' is an invalid keyword argument for DetectedObject
-2024-11-08 23:27:28,647 - INFO - 192.168.1.13 - - [08/Nov/2024 23:27:28] "GET / HTTP/1.1" 200 -
-2024-11-08 23:27:28,669 - INFO - 192.168.1.13 - - [08/Nov/2024 23:27:28] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
-2024-11-08 23:27:28,670 - INFO - 192.168.1.13 - - [08/Nov/2024 23:27:28] "[33mGET /static/scripts.js HTTP/1.1[0m" 404 -
-2024-11-08 23:27:28,786 - ERROR - L\u1ed7i nh\u1eadn d\u1ea1ng v\u1eadt th\u1ec3: 'category' is an invalid keyword argument for DetectedObject
-2024-11-08 23:27:29,072 - ERROR - L\u1ed7i nh\u1eadn d\u1ea1ng v\u1eadt th\u1ec3: 'category' is an invalid keyword argument for DetectedObject
-2024-11-08 23:27:29,287 - INFO - 192.168.1.13 - - [08/Nov/2024 23:27:29] "GET /video_feed HTTP/1.1" 200 -
-2024-11-08 23:27:29,684 - ERROR - L\u1ed7i nh\u1eadn d\u1ea1ng v\u1eadt th\u1ec3: 'category' is an invalid keyword argument for DetectedObject
-2024-11-08 23:27:30,306 - ERROR - L\u1ed7i nh\u1eadn d\u1ea1ng v\u1eadt th\u1ec3: 'category' is an invalid keyword argument for DetectedObject
-2024-11-08 23:27:30,903 - ERROR - L\u1ed7i nh\u1eadn d\u1ea1ng v\u1eadt th\u1ec3: 'category' is an invalid keyword argument for DetectedObject
-2024-11-08 23:27:31,525 - ERROR - L\u1ed7i nh\u1eadn d\u1ea1ng v\u1eadt th\u1ec3: 'category' is an invalid keyword argument for DetectedObject
-2024-11-08 23:27:32,157 - ERROR - L\u1ed7i nh\u1eadn d\u1ea1ng v\u1eadt th\u1ec3: 'category' is an invalid keyword argument for DetectedObject
-2024-11-08 23:27:32,749 - ERROR - L\u1ed7i nh\u1eadn d\u1ea1ng v\u1eadt th\u1ec3: 'category' is an invalid keyword argument for DetectedObject
-2024-11-08 23:27:33,351 - ERROR - L\u1ed7i nh\u1eadn d\u1ea1ng v\u1eadt th\u1ec3: 'category' is an invalid keyword argument for DetectedObject
-2024-11-08 23:27:33,962 - ERROR - L\u1ed7i nh\u1eadn d\u1ea1ng v\u1eadt th\u1ec3: 'category' is an invalid keyword argument for DetectedObject
-2024-11-08 23:27:34,550 - ERROR - L\u1ed7i nh\u1eadn d\u1ea1ng v\u1eadt th\u1ec3: 'category' is an invalid keyword argument for DetectedObject
-2024-11-08 23:27:35,157 - ERROR - L\u1ed7i nh\u1eadn d\u1ea1ng v\u1eadt th\u1ec3: 'category' is an invalid keyword argument for DetectedObject
-2024-11-08 23:27:35,765 - ERROR - L\u1ed7i nh\u1eadn d\u1ea1ng v\u1eadt th\u1ec3: 'category' is an invalid keyword argument for DetectedObject
-2024-11-08 23:27:36,368 - ERROR - L\u1ed7i nh\u1eadn d\u1ea1ng v\u1eadt th\u1ec3: 'category' is an invalid keyword argument for DetectedObject
-2024-11-08 23:27:36,983 - ERROR - L\u1ed7i nh\u1eadn d\u1ea1ng v\u1eadt th\u1ec3: 'category' is an invalid keyword argument for DetectedObject
-2024-11-08 23:27:44,081 - ERROR - L\u1ed7i nh\u1eadn d\u1ea1ng v\u1eadt th\u1ec3: 'category' is an invalid keyword argument for DetectedObject
-2024-11-08 23:27:44,640 - ERROR - L\u1ed7i nh\u1eadn d\u1ea1ng v\u1eadt th\u1ec3: 'category' is an invalid keyword argument for DetectedObject
-2024-11-08 23:27:45,192 - ERROR - L\u1ed7i nh\u1eadn d\u1ea1ng v\u1eadt th\u1ec3: 'category' is an invalid keyword argument for DetectedObject
-2024-11-08 23:27:45,742 - ERROR - L\u1ed7i nh\u1eadn d\u1ea1ng v\u1eadt th\u1ec3: 'category' is an invalid keyword argument for DetectedObject
-2024-11-08 23:27:46,294 - ERROR - L\u1ed7i nh\u1eadn d\u1ea1ng v\u1eadt th\u1ec3: 'category' is an invalid keyword argument for DetectedObject
-2024-11-08 23:27:46,834 - ERROR - L\u1ed7i nh\u1eadn d\u1ea1ng v\u1eadt th\u1ec3: 'category' is an invalid keyword argument for DetectedObject
-2024-11-08 23:27:47,398 - ERROR - L\u1ed7i nh\u1eadn d\u1ea1ng v\u1eadt th\u1ec3: 'category' is an invalid keyword argument for DetectedObject
-2024-11-08 23:27:47,938 - ERROR - L\u1ed7i nh\u1eadn d\u1ea1ng v\u1eadt th\u1ec3: 'category' is an invalid keyword argument for DetectedObject
-2024-11-08 23:27:48,506 - ERROR - L\u1ed7i nh\u1eadn d\u1ea1ng v\u1eadt th\u1ec3: 'category' is an invalid keyword argument for DetectedObject
-2024-11-08 23:27:52,377 - ERROR - L\u1ed7i nh\u1eadn d\u1ea1ng v\u1eadt th\u1ec3: 'category' is an invalid keyword argument for DetectedObject
-2024-11-08 23:27:52,931 - ERROR - L\u1ed7i nh\u1eadn d\u1ea1ng v\u1eadt th\u1ec3: 'category' is an invalid keyword argument for DetectedObject
-2024-11-08 23:27:53,467 - ERROR - L\u1ed7i nh\u1eadn d\u1ea1ng v\u1eadt th\u1ec3: 'category' is an invalid keyword argument for DetectedObject
-2024-11-08 23:27:56,766 - ERROR - L\u1ed7i nh\u1eadn d\u1ea1ng v\u1eadt th\u1ec3: 'category' is an invalid keyword argument for DetectedObject
-2024-11-08 23:27:57,305 - ERROR - L\u1ed7i nh\u1eadn d\u1ea1ng v\u1eadt th\u1ec3: 'category' is an invalid keyword argument for DetectedObject
-2024-11-08 23:28:01,740 - ERROR - L\u1ed7i nh\u1eadn d\u1ea1ng v\u1eadt th\u1ec3: 'category' is an invalid keyword argument for DetectedObject
-2024-11-08 23:28:03,931 - ERROR - L\u1ed7i nh\u1eadn d\u1ea1ng v\u1eadt th\u1ec3: 'category' is an invalid keyword argument for DetectedObject
-2024-11-08 23:28:06,208 - ERROR - L\u1ed7i nh\u1eadn d\u1ea1ng v\u1eadt th\u1ec3: 'category' is an invalid keyword argument for DetectedObject
-2024-11-08 23:28:09,529 - ERROR - L\u1ed7i nh\u1eadn d\u1ea1ng v\u1eadt th\u1ec3: 'category' is an invalid keyword argument for DetectedObject
-2024-11-08 23:28:12,272 - ERROR - L\u1ed7i nh\u1eadn d\u1ea1ng v\u1eadt th\u1ec3: 'category' is an invalid keyword argument for DetectedObject
-2024-11-08 23:28:12,824 - ERROR - L\u1ed7i nh\u1eadn d\u1ea1ng v\u1eadt th\u1ec3: 'category' is an invalid keyword argument for DetectedObject
-2024-11-08 23:28:16,675 - ERROR - L\u1ed7i nh\u1eadn d\u1ea1ng v\u1eadt th\u1ec3: 'category' is an invalid keyword argument for DetectedObject
-2024-11-08 23:28:19,972 - ERROR - L\u1ed7i nh\u1eadn d\u1ea1ng v\u1eadt th\u1ec3: 'category' is an invalid keyword argument for DetectedObject
-2024-11-08 23:28:22,783 - ERROR - L\u1ed7i nh\u1eadn d\u1ea1ng v\u1eadt th\u1ec3: 'category' is an invalid keyword argument for DetectedObject
-2024-11-08 23:28:23,335 - ERROR - L\u1ed7i nh\u1eadn d\u1ea1ng v\u1eadt th\u1ec3: 'category' is an invalid keyword argument for DetectedObject
-2024-11-08 23:28:23,883 - ERROR - L\u1ed7i nh\u1eadn d\u1ea1ng v\u1eadt th\u1ec3: 'category' is an invalid keyword argument for DetectedObject
-2024-11-08 23:28:24,432 - ERROR - L\u1ed7i nh\u1eadn d\u1ea1ng v\u1eadt th\u1ec3: 'category' is an invalid keyword argument for DetectedObject
-2024-11-08 23:28:24,982 - ERROR - L\u1ed7i nh\u1eadn d\u1ea1ng v\u1eadt th\u1ec3: 'category' is an invalid keyword argument for DetectedObject
-2024-11-08 23:28:25,532 - ERROR - L\u1ed7i nh\u1eadn d\u1ea1ng v\u1eadt th\u1ec3: 'category' is an invalid keyword argument for DetectedObject
-2024-11-08 23:28:26,078 - ERROR - L\u1ed7i nh\u1eadn d\u1ea1ng v\u1eadt th\u1ec3: 'category' is an invalid keyword argument for DetectedObject
-2024-11-08 23:28:26,629 - ERROR - L\u1ed7i nh\u1eadn d\u1ea1ng v\u1eadt th\u1ec3: 'category' is an invalid keyword argument for DetectedObject
-2024-11-08 23:28:27,198 - ERROR - L\u1ed7i nh\u1eadn d\u1ea1ng v\u1eadt th\u1ec3: 'category' is an invalid keyword argument for DetectedObject
-2024-11-08 23:28:27,830 - ERROR - L\u1ed7i nh\u1eadn d\u1ea1ng v\u1eadt th\u1ec3: 'category' is an invalid keyword argument for DetectedObject
-2024-11-08 23:28:28,447 - ERROR - L\u1ed7i nh\u1eadn d\u1ea1ng v\u1eadt th\u1ec3: 'category' is an invalid keyword argument for DetectedObject
-2024-11-08 23:28:29,032 - ERROR - L\u1ed7i nh\u1eadn d\u1ea1ng v\u1eadt th\u1ec3: 'category' is an invalid keyword argument for DetectedObject
-2024-11-08 23:28:29,643 - ERROR - L\u1ed7i nh\u1eadn d\u1ea1ng v\u1eadt th\u1ec3: 'category' is an invalid keyword argument for DetectedObject
-2024-11-08 23:28:30,224 - ERROR - L\u1ed7i nh\u1eadn d\u1ea1ng v\u1eadt th\u1ec3: 'category' is an invalid keyword argument for DetectedObject
-2024-11-08 23:28:30,820 - ERROR - L\u1ed7i nh\u1eadn d\u1ea1ng v\u1eadt th\u1ec3: 'category' is an invalid keyword argument for DetectedObject
-2024-11-08 23:28:31,420 - ERROR - L\u1ed7i nh\u1eadn d\u1ea1ng v\u1eadt th\u1ec3: 'category' is an invalid keyword argument for DetectedObject
-2024-11-08 23:28:32,632 - ERROR - L\u1ed7i nh\u1eadn d\u1ea1ng v\u1eadt th\u1ec3: 'category' is an invalid keyword argument for DetectedObject
-2024-11-08 23:28:38,960 - ERROR - L\u1ed7i nh\u1eadn d\u1ea1ng v\u1eadt th\u1ec3: 'category' is an invalid keyword argument for DetectedObject
-2024-11-08 23:28:40,070 - ERROR - L\u1ed7i nh\u1eadn d\u1ea1ng v\u1eadt th\u1ec3: 'category' is an invalid keyword argument for DetectedObject
-2024-11-08 23:28:41,164 - ERROR - L\u1ed7i nh\u1eadn d\u1ea1ng v\u1eadt th\u1ec3: 'category' is an invalid keyword argument for DetectedObject
-2024-11-08 23:28:42,817 - ERROR - L\u1ed7i nh\u1eadn d\u1ea1ng v\u1eadt th\u1ec3: 'category' is an invalid keyword argument for DetectedObject
-2024-11-08 23:28:43,354 - ERROR - L\u1ed7i nh\u1eadn d\u1ea1ng v\u1eadt th\u1ec3: 'category' is an invalid keyword argument for DetectedObject
-2024-11-08 23:28:43,915 - ERROR - L\u1ed7i nh\u1eadn d\u1ea1ng v\u1eadt th\u1ec3: 'category' is an invalid keyword argument for DetectedObject
-2024-11-08 23:28:44,472 - ERROR - L\u1ed7i nh\u1eadn d\u1ea1ng v\u1eadt th\u1ec3: 'category' is an invalid keyword argument for DetectedObject
-2024-11-08 23:28:45,019 - ERROR - L\u1ed7i nh\u1eadn d\u1ea1ng v\u1eadt th\u1ec3: 'category' is an invalid keyword argument for DetectedObject
-2024-11-08 23:28:48,309 - ERROR - L\u1ed7i nh\u1eadn d\u1ea1ng v\u1eadt th\u1ec3: 'category' is an invalid keyword argument for DetectedObject
-2024-11-08 23:28:51,100 - ERROR - L\u1ed7i nh\u1eadn d\u1ea1ng v\u1eadt th\u1ec3: 'category' is an invalid keyword argument for DetectedObject
-2024-11-08 23:28:52,186 - ERROR - L\u1ed7i nh\u1eadn d\u1ea1ng v\u1eadt th\u1ec3: 'category' is an invalid keyword argument for DetectedObject
-2024-11-08 23:28:57,172 - INFO -  * Detected change in 'c:\\Users\\NGAIVINH\\Desktop\\Project\\IOT_Python\\app.py', reloading
-2024-11-08 23:28:57,330 - INFO -  * Restarting with stat
-2024-11-08 23:28:58,388 - WARNING -  * Debugger is active!
-2024-11-08 23:28:58,388 - INFO -  * Debugger PIN: 111-161-771
-2024-11-08 23:29:02,434 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+2024-11-09 01:25:04,723 - INFO - [33mPress CTRL+C to quit[0m
+2024-11-09 01:25:04,723 - INFO -  * Restarting with stat
+2024-11-09 01:25:05,814 - WARNING -  * Debugger is active!
+2024-11-09 01:25:05,816 - INFO -  * Debugger PIN: 111-161-771
+2024-11-09 01:25:08,657 - INFO - 192.168.1.13 - - [09/Nov/2024 01:25:08] "GET / HTTP/1.1" 200 -
+2024-11-09 01:25:08,721 - INFO - 192.168.1.13 - - [09/Nov/2024 01:25:08] "[36mGET /static/loginScripts.js HTTP/1.1[0m" 304 -
+2024-11-09 01:25:08,722 - INFO - 192.168.1.13 - - [09/Nov/2024 01:25:08] "[36mGET /static/loginStyle.css HTTP/1.1[0m" 304 -
+2024-11-09 01:25:17,316 - INFO - 192.168.1.13 - - [09/Nov/2024 01:25:17] "GET /index HTTP/1.1" 200 -
+2024-11-09 01:25:17,341 - INFO - 192.168.1.13 - - [09/Nov/2024 01:25:17] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2024-11-09 01:25:17,349 - INFO - 192.168.1.13 - - [09/Nov/2024 01:25:17] "GET /static/script.js HTTP/1.1" 200 -
+2024-11-09 01:25:17,374 - INFO - 192.168.1.13 - - [09/Nov/2024 01:25:17] "GET /socket.io/?EIO=4&transport=polling&t=PCD1W0n HTTP/1.1" 200 -
+2024-11-09 01:25:17,386 - INFO - 192.168.1.13 - - [09/Nov/2024 01:25:17] "POST /socket.io/?EIO=4&transport=polling&t=PCD1W14&sid=Ehm0bF8mfIoHOd_SAAAA HTTP/1.1" 200 -
+2024-11-09 01:25:17,387 - INFO - 192.168.1.13 - - [09/Nov/2024 01:25:17] "GET /socket.io/?EIO=4&transport=polling&t=PCD1W16&sid=Ehm0bF8mfIoHOd_SAAAA HTTP/1.1" 200 -
+2024-11-09 01:25:19,485 - INFO - 192.168.1.13 - - [09/Nov/2024 01:25:19] "GET /video_feed HTTP/1.1" 200 -
+2024-11-09 01:25:20,097 - INFO - 192.168.1.13 - - [09/Nov/2024 01:25:20] "GET /index/data HTTP/1.1" 200 -
+2024-11-09 01:25:27,307 - INFO - 192.168.1.13 - - [09/Nov/2024 01:25:27] "GET /socket.io/?EIO=4&transport=websocket&sid=Ehm0bF8mfIoHOd_SAAAA HTTP/1.1" 200 -
+2024-11-09 01:25:27,318 - INFO - 192.168.1.13 - - [09/Nov/2024 01:25:27] "GET /index HTTP/1.1" 200 -
+2024-11-09 01:25:27,336 - INFO - 192.168.1.13 - - [09/Nov/2024 01:25:27] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2024-11-09 01:25:27,337 - INFO - 192.168.1.13 - - [09/Nov/2024 01:25:27] "[36mGET /static/script.js HTTP/1.1[0m" 304 -
+2024-11-09 01:25:27,344 - INFO - 192.168.1.13 - - [09/Nov/2024 01:25:27] "GET /socket.io/?EIO=4&transport=polling&t=PCD1YSi HTTP/1.1" 200 -
+2024-11-09 01:25:27,354 - INFO - 192.168.1.13 - - [09/Nov/2024 01:25:27] "POST /socket.io/?EIO=4&transport=polling&t=PCD1YSo&sid=_93kovjESZOnLgSfAAAC HTTP/1.1" 200 -
+2024-11-09 01:25:27,354 - INFO - 192.168.1.13 - - [09/Nov/2024 01:25:27] "GET /socket.io/?EIO=4&transport=polling&t=PCD1YSp&sid=_93kovjESZOnLgSfAAAC HTTP/1.1" 200 -
+2024-11-09 01:25:27,949 - INFO - 192.168.1.13 - - [09/Nov/2024 01:25:27] "GET /video_feed HTTP/1.1" 200 -
+2024-11-09 01:25:28,556 - INFO - 192.168.1.13 - - [09/Nov/2024 01:25:28] "GET /index/data HTTP/1.1" 200 -
+2024-11-09 01:29:47,726 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
  * Running on all addresses (0.0.0.0)
  * Running on http://127.0.0.1:5003
  * Running on http://192.168.1.13:5003
-2024-11-08 23:29:02,434 - INFO - [33mPress CTRL+C to quit[0m
-2024-11-08 23:29:02,434 - INFO -  * Restarting with stat
-2024-11-08 23:29:03,444 - WARNING -  * Debugger is active!
-2024-11-08 23:29:03,460 - INFO -  * Debugger PIN: 111-161-771
-2024-11-08 23:29:06,437 - INFO - 192.168.1.13 - - [08/Nov/2024 23:29:06] "GET / HTTP/1.1" 200 -
-2024-11-08 23:29:06,493 - INFO - 192.168.1.13 - - [08/Nov/2024 23:29:06] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
-2024-11-08 23:29:06,501 - INFO - 192.168.1.13 - - [08/Nov/2024 23:29:06] "[33mGET /static/scripts.js HTTP/1.1[0m" 404 -
-2024-11-08 23:29:08,325 - INFO - 192.168.1.13 - - [08/Nov/2024 23:29:08] "GET /video_feed HTTP/1.1" 200 -
-2024-11-08 23:29:11,488 - INFO - 192.168.1.13 - - [08/Nov/2024 23:29:11] "GET / HTTP/1.1" 200 -
-2024-11-08 23:29:11,498 - INFO - 192.168.1.13 - - [08/Nov/2024 23:29:11] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
-2024-11-08 23:29:11,507 - INFO - 192.168.1.13 - - [08/Nov/2024 23:29:11] "[33mGET /static/scripts.js HTTP/1.1[0m" 404 -
-2024-11-08 23:29:12,097 - INFO - 192.168.1.13 - - [08/Nov/2024 23:29:12] "GET /video_feed HTTP/1.1" 200 -
-2024-11-08 23:29:58,157 - INFO -  * Detected change in 'c:\\Users\\NGAIVINH\\Desktop\\Project\\IOT_Python\\app.py', reloading
-2024-11-08 23:29:58,310 - INFO -  * Restarting with stat
-2024-11-08 23:30:02,675 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+2024-11-09 01:29:47,726 - INFO - [33mPress CTRL+C to quit[0m
+2024-11-09 01:29:47,726 - INFO -  * Restarting with stat
+2024-11-09 01:29:48,771 - WARNING -  * Debugger is active!
+2024-11-09 01:29:48,772 - INFO -  * Debugger PIN: 111-161-771
+2024-11-09 01:29:48,785 - INFO - 192.168.1.13 - - [09/Nov/2024 01:29:48] "GET /socket.io/?EIO=4&transport=polling&t=PCD2Xa0 HTTP/1.1" 200 -
+2024-11-09 01:29:48,790 - INFO - 192.168.1.13 - - [09/Nov/2024 01:29:48] "POST /socket.io/?EIO=4&transport=polling&t=PCD2YHq&sid=-x7y3iWC9KJFVJc5AAAA HTTP/1.1" 200 -
+2024-11-09 01:29:48,795 - INFO - 192.168.1.13 - - [09/Nov/2024 01:29:48] "GET /socket.io/?EIO=4&transport=polling&t=PCD2YHs&sid=-x7y3iWC9KJFVJc5AAAA HTTP/1.1" 200 -
+2024-11-09 01:29:51,922 - INFO - 192.168.1.13 - - [09/Nov/2024 01:29:51] "GET /socket.io/?EIO=4&transport=websocket&sid=-x7y3iWC9KJFVJc5AAAA HTTP/1.1" 200 -
+2024-11-09 01:29:51,940 - INFO - 192.168.1.13 - - [09/Nov/2024 01:29:51] "GET /index HTTP/1.1" 200 -
+2024-11-09 01:29:52,012 - INFO - 192.168.1.13 - - [09/Nov/2024 01:29:52] "[36mGET /static/script.js HTTP/1.1[0m" 304 -
+2024-11-09 01:29:52,015 - INFO - 192.168.1.13 - - [09/Nov/2024 01:29:52] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2024-11-09 01:29:52,029 - INFO - 192.168.1.13 - - [09/Nov/2024 01:29:52] "GET /socket.io/?EIO=4&transport=polling&t=PCD2Z4N HTTP/1.1" 200 -
+2024-11-09 01:29:52,040 - INFO - 192.168.1.13 - - [09/Nov/2024 01:29:52] "POST /socket.io/?EIO=4&transport=polling&t=PCD2Z4V&sid=W61My_9gxVq-dpD1AAAC HTTP/1.1" 200 -
+2024-11-09 01:29:52,041 - INFO - 192.168.1.13 - - [09/Nov/2024 01:29:52] "GET /socket.io/?EIO=4&transport=polling&t=PCD2Z4W&sid=W61My_9gxVq-dpD1AAAC HTTP/1.1" 200 -
+2024-11-09 01:29:54,230 - INFO - 192.168.1.13 - - [09/Nov/2024 01:29:54] "GET /video_feed HTTP/1.1" 200 -
+2024-11-09 01:29:54,806 - INFO - 192.168.1.13 - - [09/Nov/2024 01:29:54] "GET /index/data HTTP/1.1" 200 -
+2024-11-09 01:30:00,660 - INFO - 192.168.1.13 - - [09/Nov/2024 01:30:00] "GET /socket.io/?EIO=4&transport=websocket&sid=W61My_9gxVq-dpD1AAAC HTTP/1.1" 200 -
+2024-11-09 01:30:00,671 - INFO - 192.168.1.13 - - [09/Nov/2024 01:30:00] "GET /index HTTP/1.1" 200 -
+2024-11-09 01:30:00,689 - INFO - 192.168.1.13 - - [09/Nov/2024 01:30:00] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2024-11-09 01:30:00,691 - INFO - 192.168.1.13 - - [09/Nov/2024 01:30:00] "[36mGET /static/script.js HTTP/1.1[0m" 304 -
+2024-11-09 01:30:00,698 - INFO - 192.168.1.13 - - [09/Nov/2024 01:30:00] "GET /socket.io/?EIO=4&transport=polling&t=PCD2bBr HTTP/1.1" 200 -
+2024-11-09 01:30:00,708 - INFO - 192.168.1.13 - - [09/Nov/2024 01:30:00] "POST /socket.io/?EIO=4&transport=polling&t=PCD2bBz&sid=1YynPuwTNieifmO0AAAE HTTP/1.1" 200 -
+2024-11-09 01:30:00,709 - INFO - 192.168.1.13 - - [09/Nov/2024 01:30:00] "GET /socket.io/?EIO=4&transport=polling&t=PCD2bB-&sid=1YynPuwTNieifmO0AAAE HTTP/1.1" 200 -
+2024-11-09 01:30:01,372 - INFO - 192.168.1.13 - - [09/Nov/2024 01:30:01] "GET /video_feed HTTP/1.1" 200 -
+2024-11-09 01:30:01,991 - INFO - 192.168.1.13 - - [09/Nov/2024 01:30:01] "GET /index/data HTTP/1.1" 200 -
+2024-11-09 01:30:03,099 - INFO - 192.168.1.13 - - [09/Nov/2024 01:30:03] "GET /socket.io/?EIO=4&transport=websocket&sid=1YynPuwTNieifmO0AAAE HTTP/1.1" 200 -
+2024-11-09 01:30:03,108 - INFO - 192.168.1.13 - - [09/Nov/2024 01:30:03] "GET /index HTTP/1.1" 200 -
+2024-11-09 01:30:03,127 - INFO - 192.168.1.13 - - [09/Nov/2024 01:30:03] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2024-11-09 01:30:03,129 - INFO - 192.168.1.13 - - [09/Nov/2024 01:30:03] "[36mGET /static/script.js HTTP/1.1[0m" 304 -
+2024-11-09 01:30:03,134 - INFO - 192.168.1.13 - - [09/Nov/2024 01:30:03] "GET /socket.io/?EIO=4&transport=polling&t=PCD2bnx HTTP/1.1" 200 -
+2024-11-09 01:30:03,141 - INFO - 192.168.1.13 - - [09/Nov/2024 01:30:03] "POST /socket.io/?EIO=4&transport=polling&t=PCD2bo0&sid=ARw7ZhkdG9JsxuPyAAAG HTTP/1.1" 200 -
+2024-11-09 01:30:03,143 - INFO - 192.168.1.13 - - [09/Nov/2024 01:30:03] "GET /socket.io/?EIO=4&transport=polling&t=PCD2bo0.0&sid=ARw7ZhkdG9JsxuPyAAAG HTTP/1.1" 200 -
+2024-11-09 01:30:03,727 - INFO - 192.168.1.13 - - [09/Nov/2024 01:30:03] "GET /video_feed HTTP/1.1" 200 -
+2024-11-09 01:30:04,336 - INFO - 192.168.1.13 - - [09/Nov/2024 01:30:04] "GET /index/data HTTP/1.1" 200 -
+2024-11-09 01:30:05,179 - INFO - 192.168.1.13 - - [09/Nov/2024 01:30:05] "GET /socket.io/?EIO=4&transport=websocket&sid=ARw7ZhkdG9JsxuPyAAAG HTTP/1.1" 200 -
+2024-11-09 01:30:05,191 - INFO - 192.168.1.13 - - [09/Nov/2024 01:30:05] "GET /index HTTP/1.1" 200 -
+2024-11-09 01:30:05,212 - INFO - 192.168.1.13 - - [09/Nov/2024 01:30:05] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2024-11-09 01:30:05,217 - INFO - 192.168.1.13 - - [09/Nov/2024 01:30:05] "[36mGET /static/script.js HTTP/1.1[0m" 304 -
+2024-11-09 01:30:05,223 - INFO - 192.168.1.13 - - [09/Nov/2024 01:30:05] "GET /socket.io/?EIO=4&transport=polling&t=PCD2cIY HTTP/1.1" 200 -
+2024-11-09 01:30:05,236 - INFO - 192.168.1.13 - - [09/Nov/2024 01:30:05] "POST /socket.io/?EIO=4&transport=polling&t=PCD2cIg&sid=RD3TOhzH1q6URYiAAAAI HTTP/1.1" 200 -
+2024-11-09 01:30:05,238 - INFO - 192.168.1.13 - - [09/Nov/2024 01:30:05] "GET /socket.io/?EIO=4&transport=polling&t=PCD2cIg.0&sid=RD3TOhzH1q6URYiAAAAI HTTP/1.1" 200 -
+2024-11-09 01:30:05,812 - INFO - 192.168.1.13 - - [09/Nov/2024 01:30:05] "GET /video_feed HTTP/1.1" 200 -
+2024-11-09 01:30:06,410 - INFO - 192.168.1.13 - - [09/Nov/2024 01:30:06] "GET /index/data HTTP/1.1" 200 -
+2024-11-09 01:30:10,410 - INFO - 192.168.1.13 - - [09/Nov/2024 01:30:10] "GET /socket.io/?EIO=4&transport=websocket&sid=RD3TOhzH1q6URYiAAAAI HTTP/1.1" 200 -
+2024-11-09 01:30:10,420 - INFO - 192.168.1.13 - - [09/Nov/2024 01:30:10] "GET /index HTTP/1.1" 200 -
+2024-11-09 01:30:10,437 - INFO - 192.168.1.13 - - [09/Nov/2024 01:30:10] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2024-11-09 01:30:10,440 - INFO - 192.168.1.13 - - [09/Nov/2024 01:30:10] "[36mGET /static/script.js HTTP/1.1[0m" 304 -
+2024-11-09 01:30:10,446 - INFO - 192.168.1.13 - - [09/Nov/2024 01:30:10] "GET /socket.io/?EIO=4&transport=polling&t=PCD2daA HTTP/1.1" 200 -
+2024-11-09 01:30:10,455 - INFO - 192.168.1.13 - - [09/Nov/2024 01:30:10] "POST /socket.io/?EIO=4&transport=polling&t=PCD2daF&sid=9O7uHSzDE0DKUr06AAAK HTTP/1.1" 200 -
+2024-11-09 01:30:10,456 - INFO - 192.168.1.13 - - [09/Nov/2024 01:30:10] "GET /socket.io/?EIO=4&transport=polling&t=PCD2daG&sid=9O7uHSzDE0DKUr06AAAK HTTP/1.1" 200 -
+2024-11-09 01:30:11,037 - INFO - 192.168.1.13 - - [09/Nov/2024 01:30:11] "GET /video_feed HTTP/1.1" 200 -
+2024-11-09 01:30:11,634 - INFO - 192.168.1.13 - - [09/Nov/2024 01:30:11] "GET /index/data HTTP/1.1" 200 -
+2024-11-09 01:32:22,289 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
  * Running on all addresses (0.0.0.0)
  * Running on http://127.0.0.1:5003
  * Running on http://192.168.1.13:5003
-2024-11-08 23:30:02,675 - INFO - [33mPress CTRL+C to quit[0m
-2024-11-08 23:30:02,675 - INFO -  * Restarting with stat
-2024-11-08 23:30:03,662 - WARNING -  * Debugger is active!
-2024-11-08 23:30:03,664 - INFO -  * Debugger PIN: 111-161-771
-2024-11-08 23:30:06,635 - INFO - 192.168.1.13 - - [08/Nov/2024 23:30:06] "GET / HTTP/1.1" 200 -
-2024-11-08 23:30:06,689 - INFO - 192.168.1.13 - - [08/Nov/2024 23:30:06] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
-2024-11-08 23:30:06,697 - INFO - 192.168.1.13 - - [08/Nov/2024 23:30:06] "[33mGET /static/scripts.js HTTP/1.1[0m" 404 -
-2024-11-08 23:30:08,483 - INFO - 192.168.1.13 - - [08/Nov/2024 23:30:08] "GET /video_feed HTTP/1.1" 200 -
-2024-11-08 23:30:17,370 - INFO - 192.168.1.13 - - [08/Nov/2024 23:30:17] "GET / HTTP/1.1" 200 -
-2024-11-08 23:30:17,391 - INFO - 192.168.1.13 - - [08/Nov/2024 23:30:17] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
-2024-11-08 23:30:17,396 - INFO - 192.168.1.13 - - [08/Nov/2024 23:30:17] "[33mGET /static/scripts.js HTTP/1.1[0m" 404 -
-2024-11-08 23:30:18,011 - INFO - 192.168.1.13 - - [08/Nov/2024 23:30:18] "GET /video_feed HTTP/1.1" 200 -
-2024-11-08 23:30:20,335 - INFO - 192.168.1.13 - - [08/Nov/2024 23:30:20] "GET / HTTP/1.1" 200 -
-2024-11-08 23:30:20,346 - INFO - 192.168.1.13 - - [08/Nov/2024 23:30:20] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
-2024-11-08 23:30:20,347 - INFO - 192.168.1.13 - - [08/Nov/2024 23:30:20] "[33mGET /static/scripts.js HTTP/1.1[0m" 404 -
-2024-11-08 23:30:20,938 - INFO - 192.168.1.13 - - [08/Nov/2024 23:30:20] "GET /video_feed HTTP/1.1" 200 -
-2024-11-08 23:32:00,352 - INFO - 192.168.1.13 - - [08/Nov/2024 23:32:00] "GET / HTTP/1.1" 200 -
-2024-11-08 23:32:00,372 - INFO - 192.168.1.13 - - [08/Nov/2024 23:32:00] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
-2024-11-08 23:32:00,377 - INFO - 192.168.1.13 - - [08/Nov/2024 23:32:00] "[33mGET /static/scripts.js HTTP/1.1[0m" 404 -
-2024-11-08 23:32:00,973 - INFO - 192.168.1.13 - - [08/Nov/2024 23:32:00] "GET /video_feed HTTP/1.1" 200 -
-2024-11-08 23:37:52,775 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+2024-11-09 01:32:22,289 - INFO - [33mPress CTRL+C to quit[0m
+2024-11-09 01:32:22,289 - INFO -  * Restarting with stat
+2024-11-09 01:32:23,370 - WARNING -  * Debugger is active!
+2024-11-09 01:32:23,371 - INFO -  * Debugger PIN: 111-161-771
+2024-11-09 01:32:23,385 - INFO - 192.168.1.13 - - [09/Nov/2024 01:32:23] "GET /socket.io/?EIO=4&transport=polling&t=PCD37fV HTTP/1.1" 200 -
+2024-11-09 01:32:23,391 - INFO - 192.168.1.13 - - [09/Nov/2024 01:32:23] "POST /socket.io/?EIO=4&transport=polling&t=PCD381S&sid=Nze8IfSEaKZDhmsrAAAA HTTP/1.1" 200 -
+2024-11-09 01:32:23,394 - INFO - 192.168.1.13 - - [09/Nov/2024 01:32:23] "GET /socket.io/?EIO=4&transport=polling&t=PCD381T&sid=Nze8IfSEaKZDhmsrAAAA HTTP/1.1" 200 -
+2024-11-09 01:32:25,163 - INFO - 192.168.1.13 - - [09/Nov/2024 01:32:25] "GET /socket.io/?EIO=4&transport=websocket&sid=Nze8IfSEaKZDhmsrAAAA HTTP/1.1" 200 -
+2024-11-09 01:32:25,179 - INFO - 192.168.1.13 - - [09/Nov/2024 01:32:25] "GET /index HTTP/1.1" 200 -
+2024-11-09 01:32:25,226 - INFO - 192.168.1.13 - - [09/Nov/2024 01:32:25] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2024-11-09 01:32:25,232 - INFO - 192.168.1.13 - - [09/Nov/2024 01:32:25] "[36mGET /static/script.js HTTP/1.1[0m" 304 -
+2024-11-09 01:32:25,238 - INFO - 192.168.1.13 - - [09/Nov/2024 01:32:25] "GET /socket.io/?EIO=4&transport=polling&t=PCD38UI HTTP/1.1" 200 -
+2024-11-09 01:32:25,247 - INFO - 192.168.1.13 - - [09/Nov/2024 01:32:25] "POST /socket.io/?EIO=4&transport=polling&t=PCD38UR&sid=M3AlkkeZTjmpti7cAAAC HTTP/1.1" 200 -
+2024-11-09 01:32:25,248 - INFO - 192.168.1.13 - - [09/Nov/2024 01:32:25] "GET /socket.io/?EIO=4&transport=polling&t=PCD38UR.0&sid=M3AlkkeZTjmpti7cAAAC HTTP/1.1" 200 -
+2024-11-09 01:32:27,007 - INFO - 192.168.1.13 - - [09/Nov/2024 01:32:27] "GET /video_feed HTTP/1.1" 200 -
+2024-11-09 01:32:27,568 - INFO - 192.168.1.13 - - [09/Nov/2024 01:32:27] "GET /index/data HTTP/1.1" 200 -
+2024-11-09 01:32:30,146 - INFO - 192.168.1.13 - - [09/Nov/2024 01:32:30] "GET /socket.io/?EIO=4&transport=websocket&sid=M3AlkkeZTjmpti7cAAAC HTTP/1.1" 200 -
+2024-11-09 01:32:30,155 - INFO - 192.168.1.13 - - [09/Nov/2024 01:32:30] "GET /index HTTP/1.1" 200 -
+2024-11-09 01:32:30,167 - INFO - 192.168.1.13 - - [09/Nov/2024 01:32:30] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2024-11-09 01:32:30,168 - INFO - 192.168.1.13 - - [09/Nov/2024 01:32:30] "[36mGET /static/script.js HTTP/1.1[0m" 304 -
+2024-11-09 01:32:30,176 - INFO - 192.168.1.13 - - [09/Nov/2024 01:32:30] "GET /socket.io/?EIO=4&transport=polling&t=PCD39hS HTTP/1.1" 200 -
+2024-11-09 01:32:30,182 - INFO - 192.168.1.13 - - [09/Nov/2024 01:32:30] "POST /socket.io/?EIO=4&transport=polling&t=PCD39hY&sid=z4ZtBvTwJzCdVR87AAAE HTTP/1.1" 200 -
+2024-11-09 01:32:30,185 - INFO - 192.168.1.13 - - [09/Nov/2024 01:32:30] "GET /socket.io/?EIO=4&transport=polling&t=PCD39hY.0&sid=z4ZtBvTwJzCdVR87AAAE HTTP/1.1" 200 -
+2024-11-09 01:32:30,782 - INFO - 192.168.1.13 - - [09/Nov/2024 01:32:30] "GET /video_feed HTTP/1.1" 200 -
+2024-11-09 01:32:31,387 - INFO - 192.168.1.13 - - [09/Nov/2024 01:32:31] "GET /index/data HTTP/1.1" 200 -
+2024-11-09 01:32:33,941 - INFO - 192.168.1.13 - - [09/Nov/2024 01:32:33] "GET /socket.io/?EIO=4&transport=websocket&sid=z4ZtBvTwJzCdVR87AAAE HTTP/1.1" 200 -
+2024-11-09 01:32:33,950 - INFO - 192.168.1.13 - - [09/Nov/2024 01:32:33] "GET /index HTTP/1.1" 200 -
+2024-11-09 01:32:33,967 - INFO - 192.168.1.13 - - [09/Nov/2024 01:32:33] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2024-11-09 01:32:33,968 - INFO - 192.168.1.13 - - [09/Nov/2024 01:32:33] "[36mGET /static/script.js HTTP/1.1[0m" 304 -
+2024-11-09 01:32:33,975 - INFO - 192.168.1.13 - - [09/Nov/2024 01:32:33] "GET /socket.io/?EIO=4&transport=polling&t=PCD3Acp HTTP/1.1" 200 -
+2024-11-09 01:32:33,985 - INFO - 192.168.1.13 - - [09/Nov/2024 01:32:33] "POST /socket.io/?EIO=4&transport=polling&t=PCD3Acu&sid=qCoIo7nDALl-c_3AAAAG HTTP/1.1" 200 -
+2024-11-09 01:32:33,986 - INFO - 192.168.1.13 - - [09/Nov/2024 01:32:33] "GET /socket.io/?EIO=4&transport=polling&t=PCD3Acv&sid=qCoIo7nDALl-c_3AAAAG HTTP/1.1" 200 -
+2024-11-09 01:32:34,559 - INFO - 192.168.1.13 - - [09/Nov/2024 01:32:34] "GET /video_feed HTTP/1.1" 200 -
+2024-11-09 01:32:35,167 - INFO - 192.168.1.13 - - [09/Nov/2024 01:32:35] "GET /index/data HTTP/1.1" 200 -
+2024-11-09 01:33:24,306 - INFO - 192.168.1.13 - - [09/Nov/2024 01:33:24] "GET /socket.io/?EIO=4&transport=websocket&sid=qCoIo7nDALl-c_3AAAAG HTTP/1.1" 200 -
+2024-11-09 01:33:24,322 - INFO - 192.168.1.13 - - [09/Nov/2024 01:33:24] "GET /index HTTP/1.1" 200 -
+2024-11-09 01:33:24,341 - INFO - 192.168.1.13 - - [09/Nov/2024 01:33:24] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2024-11-09 01:33:24,343 - INFO - 192.168.1.13 - - [09/Nov/2024 01:33:24] "[36mGET /static/script.js HTTP/1.1[0m" 304 -
+2024-11-09 01:33:24,349 - INFO - 192.168.1.13 - - [09/Nov/2024 01:33:24] "GET /socket.io/?EIO=4&transport=polling&t=PCD3Mvw HTTP/1.1" 200 -
+2024-11-09 01:33:24,357 - INFO - 192.168.1.13 - - [09/Nov/2024 01:33:24] "POST /socket.io/?EIO=4&transport=polling&t=PCD3Mw1&sid=WsNjyjk_foCvzRVhAAAI HTTP/1.1" 200 -
+2024-11-09 01:33:24,359 - INFO - 192.168.1.13 - - [09/Nov/2024 01:33:24] "GET /socket.io/?EIO=4&transport=polling&t=PCD3Mw2&sid=WsNjyjk_foCvzRVhAAAI HTTP/1.1" 200 -
+2024-11-09 01:33:24,908 - INFO - 192.168.1.13 - - [09/Nov/2024 01:33:24] "GET /video_feed HTTP/1.1" 200 -
+2024-11-09 01:33:25,471 - INFO - 192.168.1.13 - - [09/Nov/2024 01:33:25] "GET /index/data HTTP/1.1" 200 -
+2024-11-09 01:33:28,058 - INFO - 192.168.1.13 - - [09/Nov/2024 01:33:28] "GET /socket.io/?EIO=4&transport=websocket&sid=WsNjyjk_foCvzRVhAAAI HTTP/1.1" 200 -
+2024-11-09 01:33:39,194 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
  * Running on all addresses (0.0.0.0)
  * Running on http://127.0.0.1:5003
  * Running on http://192.168.1.13:5003
-2024-11-08 23:37:52,775 - INFO - [33mPress CTRL+C to quit[0m
-2024-11-08 23:37:52,775 - INFO -  * Restarting with stat
-2024-11-08 23:37:53,770 - WARNING -  * Debugger is active!
-2024-11-08 23:37:53,772 - INFO -  * Debugger PIN: 111-161-771
-2024-11-08 23:37:53,790 - INFO - 192.168.1.13 - - [08/Nov/2024 23:37:53] "GET / HTTP/1.1" 200 -
-2024-11-08 23:37:53,838 - INFO - 192.168.1.13 - - [08/Nov/2024 23:37:53] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
-2024-11-08 23:37:53,849 - INFO - 192.168.1.13 - - [08/Nov/2024 23:37:53] "[33mGET /static/scripts.js HTTP/1.1[0m" 404 -
-2024-11-08 23:37:55,834 - INFO - 192.168.1.13 - - [08/Nov/2024 23:37:55] "GET /video_feed HTTP/1.1" 200 -
-2024-11-08 23:38:01,550 - INFO - 192.168.1.13 - - [08/Nov/2024 23:38:01] "[35m[1mGET / HTTP/1.1[0m" 500 -
-2024-11-08 23:38:01,570 - INFO - 192.168.1.13 - - [08/Nov/2024 23:38:01] "[36mGET /?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 304 -
-2024-11-08 23:38:01,571 - INFO - 192.168.1.13 - - [08/Nov/2024 23:38:01] "[36mGET /?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 304 -
-2024-11-08 23:38:01,629 - INFO - 192.168.1.13 - - [08/Nov/2024 23:38:01] "[36mGET /?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
-2024-11-08 23:38:03,082 - INFO - 192.168.1.13 - - [08/Nov/2024 23:38:03] "[35m[1mGET / HTTP/1.1[0m" 500 -
-2024-11-08 23:38:03,099 - INFO - 192.168.1.13 - - [08/Nov/2024 23:38:03] "[36mGET /?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 304 -
-2024-11-08 23:38:03,102 - INFO - 192.168.1.13 - - [08/Nov/2024 23:38:03] "[36mGET /?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 304 -
-2024-11-08 23:38:03,141 - INFO - 192.168.1.13 - - [08/Nov/2024 23:38:03] "[36mGET /?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
-2024-11-08 23:39:28,177 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+2024-11-09 01:33:39,195 - INFO - [33mPress CTRL+C to quit[0m
+2024-11-09 01:33:39,195 - INFO -  * Restarting with stat
+2024-11-09 01:33:40,284 - WARNING -  * Debugger is active!
+2024-11-09 01:33:40,286 - INFO -  * Debugger PIN: 111-161-771
+2024-11-09 01:33:48,121 - INFO - 192.168.1.13 - - [09/Nov/2024 01:33:48] "GET / HTTP/1.1" 200 -
+2024-11-09 01:33:48,176 - INFO - 192.168.1.13 - - [09/Nov/2024 01:33:48] "[36mGET /static/loginStyle.css HTTP/1.1[0m" 304 -
+2024-11-09 01:33:48,177 - INFO - 192.168.1.13 - - [09/Nov/2024 01:33:48] "[36mGET /static/loginScripts.js HTTP/1.1[0m" 304 -
+2024-11-09 01:33:52,725 - INFO - 192.168.1.13 - - [09/Nov/2024 01:33:52] "GET /index HTTP/1.1" 200 -
+2024-11-09 01:33:52,750 - INFO - 192.168.1.13 - - [09/Nov/2024 01:33:52] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2024-11-09 01:33:52,755 - INFO - 192.168.1.13 - - [09/Nov/2024 01:33:52] "[36mGET /static/script.js HTTP/1.1[0m" 304 -
+2024-11-09 01:33:52,775 - INFO - 192.168.1.13 - - [09/Nov/2024 01:33:52] "GET /socket.io/?EIO=4&transport=polling&t=PCD3Ts4 HTTP/1.1" 200 -
+2024-11-09 01:33:52,791 - INFO - 192.168.1.13 - - [09/Nov/2024 01:33:52] "POST /socket.io/?EIO=4&transport=polling&t=PCD3TsI&sid=pVtrEQDd2qGctefiAAAA HTTP/1.1" 200 -
+2024-11-09 01:33:52,797 - INFO - 192.168.1.13 - - [09/Nov/2024 01:33:52] "GET /socket.io/?EIO=4&transport=polling&t=PCD3TsJ&sid=pVtrEQDd2qGctefiAAAA HTTP/1.1" 200 -
+2024-11-09 01:33:54,697 - INFO - 192.168.1.13 - - [09/Nov/2024 01:33:54] "GET /video_feed HTTP/1.1" 200 -
+2024-11-09 01:33:55,310 - INFO - 192.168.1.13 - - [09/Nov/2024 01:33:55] "GET /index/data HTTP/1.1" 200 -
+2024-11-09 01:36:08,491 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
  * Running on all addresses (0.0.0.0)
  * Running on http://127.0.0.1:5003
  * Running on http://192.168.1.13:5003
-2024-11-08 23:39:28,177 - INFO - [33mPress CTRL+C to quit[0m
-2024-11-08 23:39:28,177 - INFO -  * Restarting with stat
-2024-11-08 23:39:29,158 - WARNING -  * Debugger is active!
-2024-11-08 23:39:29,160 - INFO -  * Debugger PIN: 111-161-771
-2024-11-08 23:39:29,201 - INFO - 192.168.1.13 - - [08/Nov/2024 23:39:29] "[35m[1mGET / HTTP/1.1[0m" 500 -
-2024-11-08 23:39:29,248 - INFO - 192.168.1.13 - - [08/Nov/2024 23:39:29] "[36mGET /?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 304 -
-2024-11-08 23:39:29,251 - INFO - 192.168.1.13 - - [08/Nov/2024 23:39:29] "[36mGET /?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 304 -
-2024-11-08 23:39:29,302 - INFO - 192.168.1.13 - - [08/Nov/2024 23:39:29] "[36mGET /?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
-2024-11-08 23:40:32,042 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+2024-11-09 01:36:08,492 - INFO - [33mPress CTRL+C to quit[0m
+2024-11-09 01:36:08,492 - INFO -  * Restarting with stat
+2024-11-09 01:36:09,537 - WARNING -  * Debugger is active!
+2024-11-09 01:36:09,539 - INFO -  * Debugger PIN: 111-161-771
+2024-11-09 01:36:09,553 - INFO - 192.168.1.13 - - [09/Nov/2024 01:36:09] "GET /socket.io/?EIO=4&transport=polling&t=PCD3-qt HTTP/1.1" 200 -
+2024-11-09 01:36:09,559 - INFO - 192.168.1.13 - - [09/Nov/2024 01:36:09] "POST /socket.io/?EIO=4&transport=polling&t=PCD3_FJ&sid=4WrXDk9S4BeQppaCAAAA HTTP/1.1" 200 -
+2024-11-09 01:36:09,560 - INFO - 192.168.1.13 - - [09/Nov/2024 01:36:09] "GET /socket.io/?EIO=4&transport=polling&t=PCD3_FL&sid=4WrXDk9S4BeQppaCAAAA HTTP/1.1" 200 -
+2024-11-09 01:36:11,243 - INFO - 192.168.1.13 - - [09/Nov/2024 01:36:11] "GET /socket.io/?EIO=4&transport=websocket&sid=4WrXDk9S4BeQppaCAAAA HTTP/1.1" 200 -
+2024-11-09 01:36:11,257 - INFO - 192.168.1.13 - - [09/Nov/2024 01:36:11] "GET /index HTTP/1.1" 200 -
+2024-11-09 01:36:11,311 - INFO - 192.168.1.13 - - [09/Nov/2024 01:36:11] "[36mGET /static/script.js HTTP/1.1[0m" 304 -
+2024-11-09 01:36:11,312 - INFO - 192.168.1.13 - - [09/Nov/2024 01:36:11] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2024-11-09 01:36:11,321 - INFO - 192.168.1.13 - - [09/Nov/2024 01:36:11] "GET /socket.io/?EIO=4&transport=polling&t=PCD3_gr HTTP/1.1" 200 -
+2024-11-09 01:36:11,327 - INFO - 192.168.1.13 - - [09/Nov/2024 01:36:11] "POST /socket.io/?EIO=4&transport=polling&t=PCD3_gx&sid=GXktThAmtzH12x3aAAAC HTTP/1.1" 200 -
+2024-11-09 01:36:11,330 - INFO - 192.168.1.13 - - [09/Nov/2024 01:36:11] "GET /socket.io/?EIO=4&transport=polling&t=PCD3_gx.0&sid=GXktThAmtzH12x3aAAAC HTTP/1.1" 200 -
+2024-11-09 01:36:13,184 - INFO - 192.168.1.13 - - [09/Nov/2024 01:36:13] "GET /video_feed HTTP/1.1" 200 -
+2024-11-09 01:36:13,742 - INFO - 192.168.1.13 - - [09/Nov/2024 01:36:13] "[33mGET /index/data HTTP/1.1[0m" 404 -
+2024-11-09 01:36:28,415 - ERROR - L\u1ed7i nh\u1eadn d\u1ea1ng v\u1eadt th\u1ec3: (sqlite3.IntegrityError) NOT NULL constraint failed: detected_object.type
+[SQL: INSERT INTO detected_object (name, count, type) VALUES (?, ?, ?)]
+[parameters: ('person', 1, None)]
+(Background on this error at: https://sqlalche.me/e/20/gkpj)
+2024-11-09 01:36:29,049 - ERROR - L\u1ed7i nh\u1eadn d\u1ea1ng v\u1eadt th\u1ec3: (sqlite3.IntegrityError) NOT NULL constraint failed: detected_object.type
+[SQL: INSERT INTO detected_object (name, count, type) VALUES (?, ?, ?)]
+[parameters: ('person', 1, None)]
+(Background on this error at: https://sqlalche.me/e/20/gkpj)
+2024-11-09 01:36:29,650 - ERROR - L\u1ed7i nh\u1eadn d\u1ea1ng v\u1eadt th\u1ec3: (sqlite3.IntegrityError) NOT NULL constraint failed: detected_object.type
+[SQL: INSERT INTO detected_object (name, count, type) VALUES (?, ?, ?)]
+[parameters: ('person', 1, None)]
+(Background on this error at: https://sqlalche.me/e/20/gkpj)
+2024-11-09 01:36:30,250 - ERROR - L\u1ed7i nh\u1eadn d\u1ea1ng v\u1eadt th\u1ec3: (sqlite3.IntegrityError) NOT NULL constraint failed: detected_object.type
+[SQL: INSERT INTO detected_object (name, count, type) VALUES (?, ?, ?)]
+[parameters: ('person', 1, None)]
+(Background on this error at: https://sqlalche.me/e/20/gkpj)
+2024-11-09 01:36:30,836 - ERROR - L\u1ed7i nh\u1eadn d\u1ea1ng v\u1eadt th\u1ec3: (sqlite3.IntegrityError) NOT NULL constraint failed: detected_object.type
+[SQL: INSERT INTO detected_object (name, count, type) VALUES (?, ?, ?)]
+[parameters: ('person', 1, None)]
+(Background on this error at: https://sqlalche.me/e/20/gkpj)
+2024-11-09 01:36:31,431 - ERROR - L\u1ed7i nh\u1eadn d\u1ea1ng v\u1eadt th\u1ec3: (sqlite3.IntegrityError) NOT NULL constraint failed: detected_object.type
+[SQL: INSERT INTO detected_object (name, count, type) VALUES (?, ?, ?)]
+[parameters: ('person', 1, None)]
+(Background on this error at: https://sqlalche.me/e/20/gkpj)
+2024-11-09 01:36:32,048 - ERROR - L\u1ed7i nh\u1eadn d\u1ea1ng v\u1eadt th\u1ec3: (sqlite3.IntegrityError) NOT NULL constraint failed: detected_object.type
+[SQL: INSERT INTO detected_object (name, count, type) VALUES (?, ?, ?)]
+[parameters: ('person', 1, None)]
+(Background on this error at: https://sqlalche.me/e/20/gkpj)
+2024-11-09 01:36:32,639 - ERROR - L\u1ed7i nh\u1eadn d\u1ea1ng v\u1eadt th\u1ec3: (sqlite3.IntegrityError) NOT NULL constraint failed: detected_object.type
+[SQL: INSERT INTO detected_object (name, count, type) VALUES (?, ?, ?)]
+[parameters: ('person', 1, None)]
+(Background on this error at: https://sqlalche.me/e/20/gkpj)
+2024-11-09 01:36:33,234 - ERROR - L\u1ed7i nh\u1eadn d\u1ea1ng v\u1eadt th\u1ec3: (sqlite3.IntegrityError) NOT NULL constraint failed: detected_object.type
+[SQL: INSERT INTO detected_object (name, count, type) VALUES (?, ?, ?)]
+[parameters: ('person', 1, None)]
+(Background on this error at: https://sqlalche.me/e/20/gkpj)
+2024-11-09 01:36:33,848 - ERROR - L\u1ed7i nh\u1eadn d\u1ea1ng v\u1eadt th\u1ec3: (sqlite3.IntegrityError) NOT NULL constraint failed: detected_object.type
+[SQL: INSERT INTO detected_object (name, count, type) VALUES (?, ?, ?)]
+[parameters: ('person', 1, None)]
+(Background on this error at: https://sqlalche.me/e/20/gkpj)
+2024-11-09 01:36:34,460 - ERROR - L\u1ed7i nh\u1eadn d\u1ea1ng v\u1eadt th\u1ec3: (sqlite3.IntegrityError) NOT NULL constraint failed: detected_object.type
+[SQL: INSERT INTO detected_object (name, count, type) VALUES (?, ?, ?)]
+[parameters: ('person', 1, None)]
+(Background on this error at: https://sqlalche.me/e/20/gkpj)
+2024-11-09 01:36:35,082 - ERROR - L\u1ed7i nh\u1eadn d\u1ea1ng v\u1eadt th\u1ec3: (sqlite3.IntegrityError) NOT NULL constraint failed: detected_object.type
+[SQL: INSERT INTO detected_object (name, count, type) VALUES (?, ?, ?)]
+[parameters: ('person', 1, None)]
+(Background on this error at: https://sqlalche.me/e/20/gkpj)
+2024-11-09 01:36:35,695 - ERROR - L\u1ed7i nh\u1eadn d\u1ea1ng v\u1eadt th\u1ec3: (sqlite3.IntegrityError) NOT NULL constraint failed: detected_object.type
+[SQL: INSERT INTO detected_object (name, count, type) VALUES (?, ?, ?)]
+[parameters: ('person', 1, None)]
+(Background on this error at: https://sqlalche.me/e/20/gkpj)
+2024-11-09 01:36:36,305 - ERROR - L\u1ed7i nh\u1eadn d\u1ea1ng v\u1eadt th\u1ec3: (sqlite3.IntegrityError) NOT NULL constraint failed: detected_object.type
+[SQL: INSERT INTO detected_object (name, count, type) VALUES (?, ?, ?)]
+[parameters: ('person', 1, None)]
+(Background on this error at: https://sqlalche.me/e/20/gkpj)
+2024-11-09 01:36:36,912 - ERROR - L\u1ed7i nh\u1eadn d\u1ea1ng v\u1eadt th\u1ec3: (sqlite3.IntegrityError) NOT NULL constraint failed: detected_object.type
+[SQL: INSERT INTO detected_object (name, count, type) VALUES (?, ?, ?)]
+[parameters: ('person', 1, None)]
+(Background on this error at: https://sqlalche.me/e/20/gkpj)
+2024-11-09 01:36:37,516 - ERROR - L\u1ed7i nh\u1eadn d\u1ea1ng v\u1eadt th\u1ec3: (sqlite3.IntegrityError) NOT NULL constraint failed: detected_object.type
+[SQL: INSERT INTO detected_object (name, count, type) VALUES (?, ?, ?)]
+[parameters: ('person', 1, None)]
+(Background on this error at: https://sqlalche.me/e/20/gkpj)
+2024-11-09 01:36:38,115 - ERROR - L\u1ed7i nh\u1eadn d\u1ea1ng v\u1eadt th\u1ec3: (sqlite3.IntegrityError) NOT NULL constraint failed: detected_object.type
+[SQL: INSERT INTO detected_object (name, count, type) VALUES (?, ?, ?)]
+[parameters: ('person', 1, None)]
+(Background on this error at: https://sqlalche.me/e/20/gkpj)
+2024-11-09 01:36:38,735 - ERROR - L\u1ed7i nh\u1eadn d\u1ea1ng v\u1eadt th\u1ec3: (sqlite3.IntegrityError) NOT NULL constraint failed: detected_object.type
+[SQL: INSERT INTO detected_object (name, count, type) VALUES (?, ?, ?)]
+[parameters: ('person', 1, None)]
+(Background on this error at: https://sqlalche.me/e/20/gkpj)
+2024-11-09 01:36:39,345 - ERROR - L\u1ed7i nh\u1eadn d\u1ea1ng v\u1eadt th\u1ec3: (sqlite3.IntegrityError) NOT NULL constraint failed: detected_object.type
+[SQL: INSERT INTO detected_object (name, count, type) VALUES (?, ?, ?)]
+[parameters: ('person', 1, None)]
+(Background on this error at: https://sqlalche.me/e/20/gkpj)
+2024-11-09 01:36:39,950 - ERROR - L\u1ed7i nh\u1eadn d\u1ea1ng v\u1eadt th\u1ec3: (sqlite3.IntegrityError) NOT NULL constraint failed: detected_object.type
+[SQL: INSERT INTO detected_object (name, count, type) VALUES (?, ?, ?)]
+[parameters: ('person', 1, None)]
+(Background on this error at: https://sqlalche.me/e/20/gkpj)
+2024-11-09 01:36:40,099 - INFO - 192.168.1.13 - - [09/Nov/2024 01:36:40] "GET /socket.io/?EIO=4&transport=websocket&sid=GXktThAmtzH12x3aAAAC HTTP/1.1" 200 -
+2024-11-09 01:36:40,103 - INFO - 192.168.1.13 - - [09/Nov/2024 01:36:40] "GET /index HTTP/1.1" 200 -
+2024-11-09 01:36:40,129 - INFO - 192.168.1.13 - - [09/Nov/2024 01:36:40] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2024-11-09 01:36:40,130 - INFO - 192.168.1.13 - - [09/Nov/2024 01:36:40] "[36mGET /static/script.js HTTP/1.1[0m" 304 -
+2024-11-09 01:36:40,138 - INFO - 192.168.1.13 - - [09/Nov/2024 01:36:40] "GET /socket.io/?EIO=4&transport=polling&t=PCD46j6 HTTP/1.1" 200 -
+2024-11-09 01:36:40,143 - INFO - 192.168.1.13 - - [09/Nov/2024 01:36:40] "POST /socket.io/?EIO=4&transport=polling&t=PCD46jC&sid=_egAmdPtlj3v5uzGAAAE HTTP/1.1" 200 -
+2024-11-09 01:36:40,148 - INFO - 192.168.1.13 - - [09/Nov/2024 01:36:40] "GET /socket.io/?EIO=4&transport=polling&t=PCD46jD&sid=_egAmdPtlj3v5uzGAAAE HTTP/1.1" 200 -
+2024-11-09 01:36:40,539 - ERROR - L\u1ed7i nh\u1eadn d\u1ea1ng v\u1eadt th\u1ec3: (sqlite3.IntegrityError) NOT NULL constraint failed: detected_object.type
+[SQL: INSERT INTO detected_object (name, count, type) VALUES (?, ?, ?)]
+[parameters: ('person', 1, None)]
+(Background on this error at: https://sqlalche.me/e/20/gkpj)
+2024-11-09 01:36:40,745 - INFO - 192.168.1.13 - - [09/Nov/2024 01:36:40] "GET /video_feed HTTP/1.1" 200 -
+2024-11-09 01:36:41,145 - ERROR - L\u1ed7i nh\u1eadn d\u1ea1ng v\u1eadt th\u1ec3: (sqlite3.IntegrityError) NOT NULL constraint failed: detected_object.type
+[SQL: INSERT INTO detected_object (name, count, type) VALUES (?, ?, ?)]
+[parameters: ('person', 1, None)]
+(Background on this error at: https://sqlalche.me/e/20/gkpj)
+2024-11-09 01:36:41,358 - INFO - 192.168.1.13 - - [09/Nov/2024 01:36:41] "[33mGET /index/data HTTP/1.1[0m" 404 -
+2024-11-09 01:36:41,746 - ERROR - L\u1ed7i nh\u1eadn d\u1ea1ng v\u1eadt th\u1ec3: (sqlite3.IntegrityError) NOT NULL constraint failed: detected_object.type
+[SQL: INSERT INTO detected_object (name, count, type) VALUES (?, ?, ?)]
+[parameters: ('person', 1, None)]
+(Background on this error at: https://sqlalche.me/e/20/gkpj)
+2024-11-09 01:36:42,346 - ERROR - L\u1ed7i nh\u1eadn d\u1ea1ng v\u1eadt th\u1ec3: (sqlite3.IntegrityError) NOT NULL constraint failed: detected_object.type
+[SQL: INSERT INTO detected_object (name, count, type) VALUES (?, ?, ?)]
+[parameters: ('person', 1, None)]
+(Background on this error at: https://sqlalche.me/e/20/gkpj)
+2024-11-09 01:36:42,960 - ERROR - L\u1ed7i nh\u1eadn d\u1ea1ng v\u1eadt th\u1ec3: (sqlite3.IntegrityError) NOT NULL constraint failed: detected_object.type
+[SQL: INSERT INTO detected_object (name, count, type) VALUES (?, ?, ?)]
+[parameters: ('person', 1, None)]
+(Background on this error at: https://sqlalche.me/e/20/gkpj)
+2024-11-09 01:36:43,572 - ERROR - L\u1ed7i nh\u1eadn d\u1ea1ng v\u1eadt th\u1ec3: (sqlite3.IntegrityError) NOT NULL constraint failed: detected_object.type
+[SQL: INSERT INTO detected_object (name, count, type) VALUES (?, ?, ?)]
+[parameters: ('person', 1, None)]
+(Background on this error at: https://sqlalche.me/e/20/gkpj)
+2024-11-09 01:36:44,184 - ERROR - L\u1ed7i nh\u1eadn d\u1ea1ng v\u1eadt th\u1ec3: (sqlite3.IntegrityError) NOT NULL constraint failed: detected_object.type
+[SQL: INSERT INTO detected_object (name, count, type) VALUES (?, ?, ?)]
+[parameters: ('person', 1, None)]
+(Background on this error at: https://sqlalche.me/e/20/gkpj)
+2024-11-09 01:36:45,422 - ERROR - L\u1ed7i nh\u1eadn d\u1ea1ng v\u1eadt th\u1ec3: (sqlite3.IntegrityError) NOT NULL constraint failed: detected_object.type
+[SQL: INSERT INTO detected_object (name, count, type) VALUES (?, ?, ?)]
+[parameters: ('person', 1, None)]
+(Background on this error at: https://sqlalche.me/e/20/gkpj)
+2024-11-09 01:36:46,024 - ERROR - L\u1ed7i nh\u1eadn d\u1ea1ng v\u1eadt th\u1ec3: (sqlite3.IntegrityError) NOT NULL constraint failed: detected_object.type
+[SQL: INSERT INTO detected_object (name, count, type) VALUES (?, ?, ?)]
+[parameters: ('person', 1, None)]
+(Background on this error at: https://sqlalche.me/e/20/gkpj)
+2024-11-09 01:36:46,619 - ERROR - L\u1ed7i nh\u1eadn d\u1ea1ng v\u1eadt th\u1ec3: (sqlite3.IntegrityError) NOT NULL constraint failed: detected_object.type
+[SQL: INSERT INTO detected_object (name, count, type) VALUES (?, ?, ?)]
+[parameters: ('person', 1, None)]
+(Background on this error at: https://sqlalche.me/e/20/gkpj)
+2024-11-09 01:36:47,235 - ERROR - L\u1ed7i nh\u1eadn d\u1ea1ng v\u1eadt th\u1ec3: (sqlite3.IntegrityError) NOT NULL constraint failed: detected_object.type
+[SQL: INSERT INTO detected_object (name, count, type) VALUES (?, ?, ?)]
+[parameters: ('person', 1, None)]
+(Background on this error at: https://sqlalche.me/e/20/gkpj)
+2024-11-09 01:36:47,844 - ERROR - L\u1ed7i nh\u1eadn d\u1ea1ng v\u1eadt th\u1ec3: (sqlite3.IntegrityError) NOT NULL constraint failed: detected_object.type
+[SQL: INSERT INTO detected_object (name, count, type) VALUES (?, ?, ?)]
+[parameters: ('person', 1, None)]
+(Background on this error at: https://sqlalche.me/e/20/gkpj)
+2024-11-09 01:36:48,450 - ERROR - L\u1ed7i nh\u1eadn d\u1ea1ng v\u1eadt th\u1ec3: (sqlite3.IntegrityError) NOT NULL constraint failed: detected_object.type
+[SQL: INSERT INTO detected_object (name, count, type) VALUES (?, ?, ?)]
+[parameters: ('person', 1, None)]
+(Background on this error at: https://sqlalche.me/e/20/gkpj)
+2024-11-09 01:36:49,069 - ERROR - L\u1ed7i nh\u1eadn d\u1ea1ng v\u1eadt th\u1ec3: (sqlite3.IntegrityError) NOT NULL constraint failed: detected_object.type
+[SQL: INSERT INTO detected_object (name, count, type) VALUES (?, ?, ?)]
+[parameters: ('person', 1, None)]
+(Background on this error at: https://sqlalche.me/e/20/gkpj)
+2024-11-09 01:38:00,258 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
  * Running on all addresses (0.0.0.0)
  * Running on http://127.0.0.1:5003
  * Running on http://192.168.1.13:5003
-2024-11-08 23:40:32,042 - INFO - [33mPress CTRL+C to quit[0m
-2024-11-08 23:40:32,042 - INFO -  * Restarting with stat
-2024-11-08 23:40:33,034 - WARNING -  * Debugger is active!
-2024-11-08 23:40:33,036 - INFO -  * Debugger PIN: 111-161-771
-2024-11-08 23:40:33,078 - INFO - 192.168.1.13 - - [08/Nov/2024 23:40:33] "GET / HTTP/1.1" 200 -
-2024-11-08 23:40:33,143 - INFO - 192.168.1.13 - - [08/Nov/2024 23:40:33] "GET /static/style.css HTTP/1.1" 200 -
-2024-11-08 23:40:33,163 - INFO - 192.168.1.13 - - [08/Nov/2024 23:40:33] "[33mGET /static/scripts.js HTTP/1.1[0m" 404 -
-2024-11-08 23:40:35,044 - INFO - 192.168.1.13 - - [08/Nov/2024 23:40:35] "GET /video_feed HTTP/1.1" 200 -
-2024-11-08 23:41:33,716 - INFO -  * Detected change in 'c:\\Users\\NGAIVINH\\Desktop\\Project\\IOT_Python\\app.py', reloading
-2024-11-08 23:41:33,887 - INFO -  * Restarting with stat
-2024-11-08 23:41:49,569 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
- * Running on all addresses (0.0.0.0)
- * Running on http://127.0.0.1:5003
- * Running on http://192.168.1.13:5003
-2024-11-08 23:41:49,569 - INFO - [33mPress CTRL+C to quit[0m
-2024-11-08 23:41:49,570 - INFO -  * Restarting with stat
-2024-11-08 23:41:50,591 - WARNING -  * Debugger is active!
-2024-11-08 23:41:50,593 - INFO -  * Debugger PIN: 111-161-771
-2024-11-08 23:41:50,609 - INFO - 192.168.1.13 - - [08/Nov/2024 23:41:50] "GET / HTTP/1.1" 200 -
-2024-11-08 23:41:50,653 - INFO - 192.168.1.13 - - [08/Nov/2024 23:41:50] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
-2024-11-08 23:41:50,658 - INFO - 192.168.1.13 - - [08/Nov/2024 23:41:50] "[33mGET /static/scripts.js HTTP/1.1[0m" 404 -
-2024-11-08 23:41:52,484 - INFO - 192.168.1.13 - - [08/Nov/2024 23:41:52] "GET /video_feed HTTP/1.1" 200 -
-2024-11-08 23:41:57,712 - INFO - 192.168.1.13 - - [08/Nov/2024 23:41:57] "GET / HTTP/1.1" 200 -
-2024-11-08 23:41:57,741 - INFO - 192.168.1.13 - - [08/Nov/2024 23:41:57] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
-2024-11-08 23:41:57,745 - INFO - 192.168.1.13 - - [08/Nov/2024 23:41:57] "[33mGET /static/scripts.js HTTP/1.1[0m" 404 -
-2024-11-08 23:41:58,409 - INFO - 192.168.1.13 - - [08/Nov/2024 23:41:58] "GET /video_feed HTTP/1.1" 200 -
-2024-11-08 23:42:29,092 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
- * Running on all addresses (0.0.0.0)
- * Running on http://127.0.0.1:5003
- * Running on http://192.168.1.13:5003
-2024-11-08 23:42:29,092 - INFO - [33mPress CTRL+C to quit[0m
-2024-11-08 23:42:29,092 - INFO -  * Restarting with stat
-2024-11-08 23:42:30,595 - WARNING -  * Debugger is active!
-2024-11-08 23:42:30,597 - INFO -  * Debugger PIN: 111-161-771
-2024-11-08 23:42:40,025 - INFO - 192.168.1.13 - - [08/Nov/2024 23:42:40] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
-2024-11-08 23:42:40,040 - INFO - 192.168.1.13 - - [08/Nov/2024 23:42:40] "[33mGET /static/scripts.js HTTP/1.1[0m" 404 -
-2024-11-08 23:42:41,905 - INFO - 192.168.1.13 - - [08/Nov/2024 23:42:41] "GET /video_feed HTTP/1.1" 200 -
-2024-11-08 23:42:42,292 - INFO - 192.168.1.13 - - [08/Nov/2024 23:42:42] "GET / HTTP/1.1" 200 -
-2024-11-08 23:42:42,303 - INFO - 192.168.1.13 - - [08/Nov/2024 23:42:42] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
-2024-11-08 23:42:42,305 - INFO - 192.168.1.13 - - [08/Nov/2024 23:42:42] "GET /static/script.js HTTP/1.1" 200 -
-2024-11-08 23:42:42,315 - INFO - 192.168.1.13 - - [08/Nov/2024 23:42:42] "GET /socket.io/?EIO=4&transport=polling&t=PCCg1K6 HTTP/1.1" 200 -
-2024-11-08 23:42:42,325 - INFO - 192.168.1.13 - - [08/Nov/2024 23:42:42] "POST /socket.io/?EIO=4&transport=polling&t=PCCg1KF&sid=qn7OSBVzHnduwxUvAAAA HTTP/1.1" 200 -
-2024-11-08 23:42:42,326 - INFO - 192.168.1.13 - - [08/Nov/2024 23:42:42] "GET /socket.io/?EIO=4&transport=polling&t=PCCg1KG&sid=qn7OSBVzHnduwxUvAAAA HTTP/1.1" 200 -
-2024-11-08 23:42:42,867 - INFO - 192.168.1.13 - - [08/Nov/2024 23:42:42] "GET /video_feed HTTP/1.1" 200 -
-2024-11-08 23:42:49,840 - INFO - 192.168.1.13 - - [08/Nov/2024 23:42:49] "GET /socket.io/?EIO=4&transport=websocket&sid=qn7OSBVzHnduwxUvAAAA HTTP/1.1" 200 -
-2024-11-08 23:48:11,707 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
- * Running on all addresses (0.0.0.0)
- * Running on http://127.0.0.1:5003
- * Running on http://192.168.1.13:5003
-2024-11-08 23:48:11,707 - INFO - [33mPress CTRL+C to quit[0m
-2024-11-08 23:48:11,707 - INFO -  * Restarting with stat
-2024-11-08 23:48:13,913 - WARNING -  * Debugger is active!
-2024-11-08 23:48:13,915 - INFO -  * Debugger PIN: 111-161-771
-2024-11-08 23:48:28,585 - INFO - 192.168.1.13 - - [08/Nov/2024 23:48:28] "GET /static/style.css HTTP/1.1" 200 -
-2024-11-08 23:48:28,801 - INFO - 192.168.1.13 - - [08/Nov/2024 23:48:28] "GET /static/script.js HTTP/1.1" 200 -
-2024-11-08 23:48:28,809 - INFO - 192.168.1.13 - - [08/Nov/2024 23:48:28] "GET /socket.io/?EIO=4&transport=polling&t=PCChLw5 HTTP/1.1" 200 -
-2024-11-08 23:48:28,817 - INFO - 192.168.1.13 - - [08/Nov/2024 23:48:28] "POST /socket.io/?EIO=4&transport=polling&t=PCChLwC&sid=FyKt8-O4mX5___VWAAAA HTTP/1.1" 200 -
-2024-11-08 23:48:28,817 - INFO - 192.168.1.13 - - [08/Nov/2024 23:48:28] "GET /socket.io/?EIO=4&transport=polling&t=PCChLwD&sid=FyKt8-O4mX5___VWAAAA HTTP/1.1" 200 -
-2024-11-08 23:48:29,810 - INFO - 192.168.1.13 - - [08/Nov/2024 23:48:29] "[33mGET /get_object_count HTTP/1.1[0m" 404 -
-2024-11-08 23:48:30,809 - INFO - 192.168.1.13 - - [08/Nov/2024 23:48:30] "[33mGET /get_object_count HTTP/1.1[0m" 404 -
-2024-11-08 23:48:31,482 - INFO - 192.168.1.13 - - [08/Nov/2024 23:48:31] "GET /video_feed HTTP/1.1" 200 -
-2024-11-08 23:48:31,824 - INFO - 192.168.1.13 - - [08/Nov/2024 23:48:31] "[33mGET /get_object_count HTTP/1.1[0m" 404 -
-2024-11-08 23:48:32,810 - INFO - 192.168.1.13 - - [08/Nov/2024 23:48:32] "[33mGET /get_object_count HTTP/1.1[0m" 404 -
-2024-11-08 23:48:33,810 - INFO - 192.168.1.13 - - [08/Nov/2024 23:48:33] "[33mGET /get_object_count HTTP/1.1[0m" 404 -
-2024-11-08 23:48:34,820 - INFO - 192.168.1.13 - - [08/Nov/2024 23:48:34] "[33mGET /get_object_count HTTP/1.1[0m" 404 -
-2024-11-08 23:48:35,812 - INFO - 192.168.1.13 - - [08/Nov/2024 23:48:35] "[33mGET /get_object_count HTTP/1.1[0m" 404 -
-2024-11-08 23:48:36,812 - INFO - 192.168.1.13 - - [08/Nov/2024 23:48:36] "[33mGET /get_object_count HTTP/1.1[0m" 404 -
-2024-11-08 23:48:37,306 - INFO - 192.168.1.13 - - [08/Nov/2024 23:48:37] "GET /socket.io/?EIO=4&transport=websocket&sid=FyKt8-O4mX5___VWAAAA HTTP/1.1" 200 -
-2024-11-08 23:48:37,330 - INFO - 192.168.1.13 - - [08/Nov/2024 23:48:37] "GET / HTTP/1.1" 200 -
-2024-11-08 23:48:37,349 - INFO - 192.168.1.13 - - [08/Nov/2024 23:48:37] "GET /static/loginStyle.css HTTP/1.1" 200 -
-2024-11-08 23:48:37,367 - INFO - 192.168.1.13 - - [08/Nov/2024 23:48:37] "GET /static/loginScripts.js HTTP/1.1" 200 -
-2024-11-08 23:49:16,062 - INFO - 192.168.1.13 - - [08/Nov/2024 23:49:16] "[33mGET /index HTTP/1.1[0m" 404 -
-2024-11-08 23:57:33,031 - INFO - 192.168.1.13 - - [08/Nov/2024 23:57:33] "[33mGET /index HTTP/1.1[0m" 404 -
-2024-11-09 00:03:00,713 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
- * Running on all addresses (0.0.0.0)
- * Running on http://127.0.0.1:5003
- * Running on http://192.168.1.13:5003
-2024-11-09 00:03:00,713 - INFO - [33mPress CTRL+C to quit[0m
-2024-11-09 00:03:00,713 - INFO -  * Restarting with stat
-2024-11-09 00:03:01,751 - WARNING -  * Debugger is active!
-2024-11-09 00:03:01,753 - INFO -  * Debugger PIN: 111-161-771
-2024-11-09 00:03:08,004 - INFO - 192.168.1.13 - - [09/Nov/2024 00:03:08] "GET / HTTP/1.1" 200 -
-2024-11-09 00:03:08,067 - INFO - 192.168.1.13 - - [09/Nov/2024 00:03:08] "[36mGET /static/loginScripts.js HTTP/1.1[0m" 304 -
-2024-11-09 00:03:08,068 - INFO - 192.168.1.13 - - [09/Nov/2024 00:03:08] "[36mGET /static/loginStyle.css HTTP/1.1[0m" 304 -
-2024-11-09 00:03:15,705 - INFO - 192.168.1.13 - - [09/Nov/2024 00:03:15] "[33mGET /index HTTP/1.1[0m" 404 -
-2024-11-09 00:03:18,142 - INFO - 192.168.1.13 - - [09/Nov/2024 00:03:18] "[33mGET /index HTTP/1.1[0m" 404 -
-2024-11-09 00:03:18,594 - INFO - 192.168.1.13 - - [09/Nov/2024 00:03:18] "[33mGET /index HTTP/1.1[0m" 404 -
-2024-11-09 00:03:18,764 - INFO - 192.168.1.13 - - [09/Nov/2024 00:03:18] "[33mGET /index HTTP/1.1[0m" 404 -
-2024-11-09 00:03:18,914 - INFO - 192.168.1.13 - - [09/Nov/2024 00:03:18] "[33mGET /index HTTP/1.1[0m" 404 -
-2024-11-09 00:03:48,290 - INFO -  * Detected change in 'c:\\Users\\NGAIVINH\\Desktop\\Project\\IOT_Python\\app.py', reloading
-2024-11-09 00:03:48,380 - INFO -  * Restarting with stat
-2024-11-09 00:05:49,346 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
- * Running on all addresses (0.0.0.0)
- * Running on http://127.0.0.1:5003
- * Running on http://192.168.1.13:5003
-2024-11-09 00:05:49,346 - INFO - [33mPress CTRL+C to quit[0m
-2024-11-09 00:05:49,346 - INFO -  * Restarting with stat
-2024-11-09 00:05:50,456 - WARNING -  * Debugger is active!
-2024-11-09 00:05:50,458 - INFO -  * Debugger PIN: 111-161-771
-2024-11-09 00:05:51,289 - INFO - 192.168.1.13 - - [09/Nov/2024 00:05:51] "GET /index HTTP/1.1" 200 -
-2024-11-09 00:05:51,331 - INFO - 192.168.1.13 - - [09/Nov/2024 00:05:51] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
-2024-11-09 00:05:51,336 - INFO - 192.168.1.13 - - [09/Nov/2024 00:05:51] "[36mGET /static/script.js HTTP/1.1[0m" 304 -
-2024-11-09 00:05:51,354 - INFO - 192.168.1.13 - - [09/Nov/2024 00:05:51] "GET /socket.io/?EIO=4&transport=polling&t=PCClKRp HTTP/1.1" 200 -
-2024-11-09 00:05:51,359 - INFO - 192.168.1.13 - - [09/Nov/2024 00:05:51] "POST /socket.io/?EIO=4&transport=polling&t=PCClKRx&sid=v8Uw_UDWPk0CQCMdAAAA HTTP/1.1" 200 -
-2024-11-09 00:05:51,364 - INFO - 192.168.1.13 - - [09/Nov/2024 00:05:51] "GET /socket.io/?EIO=4&transport=polling&t=PCClKRy&sid=v8Uw_UDWPk0CQCMdAAAA HTTP/1.1" 200 -
-2024-11-09 00:05:52,354 - INFO - 192.168.1.13 - - [09/Nov/2024 00:05:52] "[33mGET /get_object_count HTTP/1.1[0m" 404 -
-2024-11-09 00:05:53,296 - INFO - 192.168.1.13 - - [09/Nov/2024 00:05:53] "GET /video_feed HTTP/1.1" 200 -
-2024-11-09 00:05:53,356 - INFO - 192.168.1.13 - - [09/Nov/2024 00:05:53] "[33mGET /get_object_count HTTP/1.1[0m" 404 -
-2024-11-09 00:05:54,358 - INFO - 192.168.1.13 - - [09/Nov/2024 00:05:54] "[33mGET /get_object_count HTTP/1.1[0m" 404 -
-2024-11-09 00:05:55,357 - INFO - 192.168.1.13 - - [09/Nov/2024 00:05:55] "[33mGET /get_object_count HTTP/1.1[0m" 404 -
-2024-11-09 00:05:56,362 - INFO - 192.168.1.13 - - [09/Nov/2024 00:05:56] "[33mGET /get_object_count HTTP/1.1[0m" 404 -
-2024-11-09 00:05:57,356 - INFO - 192.168.1.13 - - [09/Nov/2024 00:05:57] "[33mGET /get_object_count HTTP/1.1[0m" 404 -
-2024-11-09 00:05:58,007 - INFO - 192.168.1.13 - - [09/Nov/2024 00:05:58] "GET /socket.io/?EIO=4&transport=websocket&sid=v8Uw_UDWPk0CQCMdAAAA HTTP/1.1" 200 -
-2024-11-09 00:05:58,018 - INFO - 192.168.1.13 - - [09/Nov/2024 00:05:58] "[33mGET /login HTTP/1.1[0m" 404 -
-2024-11-09 00:06:00,862 - INFO - 192.168.1.13 - - [09/Nov/2024 00:06:00] "GET / HTTP/1.1" 200 -
-2024-11-09 00:06:00,878 - INFO - 192.168.1.13 - - [09/Nov/2024 00:06:00] "[36mGET /static/loginStyle.css HTTP/1.1[0m" 304 -
-2024-11-09 00:06:00,879 - INFO - 192.168.1.13 - - [09/Nov/2024 00:06:00] "[36mGET /static/loginScripts.js HTTP/1.1[0m" 304 -
-2024-11-09 00:06:06,868 - INFO - 192.168.1.13 - - [09/Nov/2024 00:06:06] "GET /index HTTP/1.1" 200 -
-2024-11-09 00:06:06,890 - INFO - 192.168.1.13 - - [09/Nov/2024 00:06:06] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
-2024-11-09 00:06:06,891 - INFO - 192.168.1.13 - - [09/Nov/2024 00:06:06] "[36mGET /static/script.js HTTP/1.1[0m" 304 -
-2024-11-09 00:06:06,897 - INFO - 192.168.1.13 - - [09/Nov/2024 00:06:06] "GET /socket.io/?EIO=4&transport=polling&t=PCClOEi HTTP/1.1" 200 -
-2024-11-09 00:06:06,904 - INFO - 192.168.1.13 - - [09/Nov/2024 00:06:06] "POST /socket.io/?EIO=4&transport=polling&t=PCClOEp&sid=FtymaK5fnridgPc-AAAC HTTP/1.1" 200 -
-2024-11-09 00:06:06,906 - INFO - 192.168.1.13 - - [09/Nov/2024 00:06:06] "GET /socket.io/?EIO=4&transport=polling&t=PCClOEp.0&sid=FtymaK5fnridgPc-AAAC HTTP/1.1" 200 -
-2024-11-09 00:06:07,627 - INFO - 192.168.1.13 - - [09/Nov/2024 00:06:07] "GET /video_feed HTTP/1.1" 200 -
-2024-11-09 00:06:07,898 - INFO - 192.168.1.13 - - [09/Nov/2024 00:06:07] "[33mGET /get_object_count HTTP/1.1[0m" 404 -
-2024-11-09 00:06:08,910 - INFO - 192.168.1.13 - - [09/Nov/2024 00:06:08] "[33mGET /get_object_count HTTP/1.1[0m" 404 -
-2024-11-09 00:06:09,900 - INFO - 192.168.1.13 - - [09/Nov/2024 00:06:09] "[33mGET /get_object_count HTTP/1.1[0m" 404 -
-2024-11-09 00:06:10,907 - INFO - 192.168.1.13 - - [09/Nov/2024 00:06:10] "[33mGET /get_object_count HTTP/1.1[0m" 404 -
-2024-11-09 00:06:11,910 - INFO - 192.168.1.13 - - [09/Nov/2024 00:06:11] "[33mGET /get_object_count HTTP/1.1[0m" 404 -
-2024-11-09 00:06:12,912 - INFO - 192.168.1.13 - - [09/Nov/2024 00:06:12] "[33mGET /get_object_count HTTP/1.1[0m" 404 -
-2024-11-09 00:06:13,911 - INFO - 192.168.1.13 - - [09/Nov/2024 00:06:13] "[33mGET /get_object_count HTTP/1.1[0m" 404 -
-2024-11-09 00:06:14,952 - ERROR - L\u1ed7i nh\u1eadn d\u1ea1ng v\u1eadt th\u1ec3: OpenCV(4.10.0) :-1: error: (-5:Bad argument) in function 'rectangle'
-> Overload resolution failed:
->  - Can't parse 'pt1'. Sequence item with index 0 has a wrong type
->  - Can't parse 'pt1'. Sequence item with index 0 has a wrong type
->  - Can't parse 'rec'. Expected sequence length 4, got 2
->  - Can't parse 'rec'. Expected sequence length 4, got 2
-
-2024-11-09 00:06:14,953 - INFO - 192.168.1.13 - - [09/Nov/2024 00:06:14] "[33mGET /get_object_count HTTP/1.1[0m" 404 -
-2024-11-09 00:06:14,998 - ERROR - L\u1ed7i nh\u1eadn d\u1ea1ng v\u1eadt th\u1ec3: OpenCV(4.10.0) :-1: error: (-5:Bad argument) in function 'rectangle'
-> Overload resolution failed:
->  - Can't parse 'pt1'. Sequence item with index 0 has a wrong type
->  - Can't parse 'pt1'. Sequence item with index 0 has a wrong type
->  - Can't parse 'rec'. Expected sequence length 4, got 2
->  - Can't parse 'rec'. Expected sequence length 4, got 2
-
-2024-11-09 00:06:15,897 - INFO - 192.168.1.13 - - [09/Nov/2024 00:06:15] "[33mGET /get_object_count HTTP/1.1[0m" 404 -
-2024-11-09 00:06:16,908 - INFO - 192.168.1.13 - - [09/Nov/2024 00:06:16] "[33mGET /get_object_count HTTP/1.1[0m" 404 -
-2024-11-09 00:06:17,897 - INFO - 192.168.1.13 - - [09/Nov/2024 00:06:17] "[33mGET /get_object_count HTTP/1.1[0m" 404 -
-2024-11-09 00:06:18,897 - INFO - 192.168.1.13 - - [09/Nov/2024 00:06:18] "[33mGET /get_object_count HTTP/1.1[0m" 404 -
-2024-11-09 00:06:19,898 - INFO - 192.168.1.13 - - [09/Nov/2024 00:06:19] "[33mGET /get_object_count HTTP/1.1[0m" 404 -
-2024-11-09 00:06:20,898 - INFO - 192.168.1.13 - - [09/Nov/2024 00:06:20] "[33mGET /get_object_count HTTP/1.1[0m" 404 -
-2024-11-09 00:06:21,896 - INFO - 192.168.1.13 - - [09/Nov/2024 00:06:21] "[33mGET /get_object_count HTTP/1.1[0m" 404 -
-2024-11-09 00:06:22,899 - INFO - 192.168.1.13 - - [09/Nov/2024 00:06:22] "[33mGET /get_object_count HTTP/1.1[0m" 404 -
-2024-11-09 00:06:23,897 - INFO - 192.168.1.13 - - [09/Nov/2024 00:06:23] "[33mGET /get_object_count HTTP/1.1[0m" 404 -
-2024-11-09 00:06:24,911 - INFO - 192.168.1.13 - - [09/Nov/2024 00:06:24] "[33mGET /get_object_count HTTP/1.1[0m" 404 -
-2024-11-09 00:06:25,452 - INFO - 192.168.1.13 - - [09/Nov/2024 00:06:25] "GET /socket.io/?EIO=4&transport=websocket&sid=FtymaK5fnridgPc-AAAC HTTP/1.1" 200 -
-2024-11-09 00:06:25,465 - INFO - 192.168.1.13 - - [09/Nov/2024 00:06:25] "GET /index HTTP/1.1" 200 -
-2024-11-09 00:06:25,479 - INFO - 192.168.1.13 - - [09/Nov/2024 00:06:25] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
-2024-11-09 00:06:25,480 - INFO - 192.168.1.13 - - [09/Nov/2024 00:06:25] "[36mGET /static/script.js HTTP/1.1[0m" 304 -
-2024-11-09 00:06:25,487 - INFO - 192.168.1.13 - - [09/Nov/2024 00:06:25] "GET /socket.io/?EIO=4&transport=polling&t=PCClSnB HTTP/1.1" 200 -
-2024-11-09 00:06:25,493 - INFO - 192.168.1.13 - - [09/Nov/2024 00:06:25] "POST /socket.io/?EIO=4&transport=polling&t=PCClSnI&sid=vR2mBdnGa5P-qAz8AAAE HTTP/1.1" 200 -
-2024-11-09 00:06:25,495 - INFO - 192.168.1.13 - - [09/Nov/2024 00:06:25] "GET /socket.io/?EIO=4&transport=polling&t=PCClSnJ&sid=vR2mBdnGa5P-qAz8AAAE HTTP/1.1" 200 -
-2024-11-09 00:06:26,092 - INFO - 192.168.1.13 - - [09/Nov/2024 00:06:26] "GET /video_feed HTTP/1.1" 200 -
-2024-11-09 00:06:26,488 - INFO - 192.168.1.13 - - [09/Nov/2024 00:06:26] "[33mGET /get_object_count HTTP/1.1[0m" 404 -
-2024-11-09 00:06:27,492 - INFO - 192.168.1.13 - - [09/Nov/2024 00:06:27] "[33mGET /get_object_count HTTP/1.1[0m" 404 -
-2024-11-09 00:06:27,769 - INFO - 192.168.1.13 - - [09/Nov/2024 00:06:27] "GET /socket.io/?EIO=4&transport=websocket&sid=vR2mBdnGa5P-qAz8AAAE HTTP/1.1" 200 -
-2024-11-09 00:07:10,810 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
- * Running on all addresses (0.0.0.0)
- * Running on http://127.0.0.1:5003
- * Running on http://192.168.1.13:5003
-2024-11-09 00:07:10,810 - INFO - [33mPress CTRL+C to quit[0m
-2024-11-09 00:07:10,810 - INFO -  * Restarting with stat
-2024-11-09 00:07:11,836 - WARNING -  * Debugger is active!
-2024-11-09 00:07:11,838 - INFO -  * Debugger PIN: 111-161-771
-2024-11-09 00:07:25,385 - INFO - 192.168.1.13 - - [09/Nov/2024 00:07:25] "GET / HTTP/1.1" 200 -
-2024-11-09 00:07:25,462 - INFO - 192.168.1.13 - - [09/Nov/2024 00:07:25] "[36mGET /static/loginStyle.css HTTP/1.1[0m" 304 -
-2024-11-09 00:07:25,463 - INFO - 192.168.1.13 - - [09/Nov/2024 00:07:25] "[36mGET /static/loginScripts.js HTTP/1.1[0m" 304 -
-2024-11-09 00:07:32,114 - INFO - 192.168.1.13 - - [09/Nov/2024 00:07:32] "GET /index HTTP/1.1" 200 -
-2024-11-09 00:07:32,136 - INFO - 192.168.1.13 - - [09/Nov/2024 00:07:32] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
-2024-11-09 00:07:32,139 - INFO - 192.168.1.13 - - [09/Nov/2024 00:07:32] "GET /static/script.js HTTP/1.1" 200 -
-2024-11-09 00:07:32,147 - INFO - 192.168.1.13 - - [09/Nov/2024 00:07:32] "GET /socket.io/?EIO=4&transport=polling&t=PCClj2j HTTP/1.1" 200 -
-2024-11-09 00:07:32,163 - INFO - 192.168.1.13 - - [09/Nov/2024 00:07:32] "POST /socket.io/?EIO=4&transport=polling&t=PCClj2x&sid=ou1x5mm3g89WfCdoAAAA HTTP/1.1" 200 -
-2024-11-09 00:07:32,165 - INFO - 192.168.1.13 - - [09/Nov/2024 00:07:32] "GET /socket.io/?EIO=4&transport=polling&t=PCClj2x.0&sid=ou1x5mm3g89WfCdoAAAA HTTP/1.1" 200 -
-2024-11-09 00:07:34,538 - INFO - 192.168.1.13 - - [09/Nov/2024 00:07:34] "GET /video_feed HTTP/1.1" 200 -
-2024-11-09 00:07:54,588 - INFO - 192.168.1.13 - - [09/Nov/2024 00:07:54] "GET /socket.io/?EIO=4&transport=websocket&sid=ou1x5mm3g89WfCdoAAAA HTTP/1.1" 200 -
-2024-11-09 00:07:54,598 - INFO - 192.168.1.13 - - [09/Nov/2024 00:07:54] "GET /index HTTP/1.1" 200 -
-2024-11-09 00:07:54,617 - INFO - 192.168.1.13 - - [09/Nov/2024 00:07:54] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
-2024-11-09 00:07:54,619 - INFO - 192.168.1.13 - - [09/Nov/2024 00:07:54] "[36mGET /static/script.js HTTP/1.1[0m" 304 -
-2024-11-09 00:07:54,626 - INFO - 192.168.1.13 - - [09/Nov/2024 00:07:54] "GET /socket.io/?EIO=4&transport=polling&t=PCCloXz HTTP/1.1" 200 -
-2024-11-09 00:07:54,632 - INFO - 192.168.1.13 - - [09/Nov/2024 00:07:54] "POST /socket.io/?EIO=4&transport=polling&t=PCCloY4&sid=44_znivtMxEEE7afAAAC HTTP/1.1" 200 -
-2024-11-09 00:07:54,634 - INFO - 192.168.1.13 - - [09/Nov/2024 00:07:54] "GET /socket.io/?EIO=4&transport=polling&t=PCCloY5&sid=44_znivtMxEEE7afAAAC HTTP/1.1" 200 -
-2024-11-09 00:07:55,219 - INFO - 192.168.1.13 - - [09/Nov/2024 00:07:55] "GET /video_feed HTTP/1.1" 200 -
-2024-11-09 00:07:55,930 - INFO - 192.168.1.13 - - [09/Nov/2024 00:07:55] "GET /socket.io/?EIO=4&transport=websocket&sid=44_znivtMxEEE7afAAAC HTTP/1.1" 200 -
-2024-11-09 00:07:55,933 - INFO - 192.168.1.13 - - [09/Nov/2024 00:07:55] "GET /index HTTP/1.1" 200 -
-2024-11-09 00:07:55,953 - INFO - 192.168.1.13 - - [09/Nov/2024 00:07:55] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
-2024-11-09 00:07:55,954 - INFO - 192.168.1.13 - - [09/Nov/2024 00:07:55] "[36mGET /static/script.js HTTP/1.1[0m" 304 -
-2024-11-09 00:07:55,961 - INFO - 192.168.1.13 - - [09/Nov/2024 00:07:55] "GET /socket.io/?EIO=4&transport=polling&t=PCClosq HTTP/1.1" 200 -
-2024-11-09 00:07:55,967 - INFO - 192.168.1.13 - - [09/Nov/2024 00:07:55] "POST /socket.io/?EIO=4&transport=polling&t=PCClosx&sid=1LEmXanGFu6hLwPhAAAE HTTP/1.1" 200 -
-2024-11-09 00:07:55,968 - INFO - 192.168.1.13 - - [09/Nov/2024 00:07:55] "GET /socket.io/?EIO=4&transport=polling&t=PCClosx.0&sid=1LEmXanGFu6hLwPhAAAE HTTP/1.1" 200 -
-2024-11-09 00:07:56,561 - INFO - 192.168.1.13 - - [09/Nov/2024 00:07:56] "GET /video_feed HTTP/1.1" 200 -
-2024-11-09 00:08:13,787 - INFO - 192.168.1.13 - - [09/Nov/2024 00:08:13] "GET /socket.io/?EIO=4&transport=websocket&sid=1LEmXanGFu6hLwPhAAAE HTTP/1.1" 200 -
-2024-11-09 00:10:00,788 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
- * Running on all addresses (0.0.0.0)
- * Running on http://127.0.0.1:5003
- * Running on http://192.168.1.13:5003
-2024-11-09 00:10:00,788 - INFO - [33mPress CTRL+C to quit[0m
-2024-11-09 00:10:00,788 - INFO -  * Restarting with stat
-2024-11-09 00:10:02,292 - WARNING -  * Debugger is active!
-2024-11-09 00:10:02,293 - INFO -  * Debugger PIN: 111-161-771
-2024-11-09 00:10:06,945 - INFO - 192.168.1.13 - - [09/Nov/2024 00:10:06] "GET / HTTP/1.1" 200 -
-2024-11-09 00:10:07,002 - INFO - 192.168.1.13 - - [09/Nov/2024 00:10:07] "[36mGET /static/loginStyle.css HTTP/1.1[0m" 304 -
-2024-11-09 00:10:07,003 - INFO - 192.168.1.13 - - [09/Nov/2024 00:10:07] "[36mGET /static/loginScripts.js HTTP/1.1[0m" 304 -
-2024-11-09 00:10:12,128 - INFO - 192.168.1.13 - - [09/Nov/2024 00:10:12] "GET /index HTTP/1.1" 200 -
-2024-11-09 00:10:12,149 - INFO - 192.168.1.13 - - [09/Nov/2024 00:10:12] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
-2024-11-09 00:10:12,152 - INFO - 192.168.1.13 - - [09/Nov/2024 00:10:12] "[36mGET /static/script.js HTTP/1.1[0m" 304 -
-2024-11-09 00:10:12,159 - INFO - 192.168.1.13 - - [09/Nov/2024 00:10:12] "GET /socket.io/?EIO=4&transport=polling&t=PCCmK6w HTTP/1.1" 200 -
-2024-11-09 00:10:12,177 - INFO - 192.168.1.13 - - [09/Nov/2024 00:10:12] "POST /socket.io/?EIO=4&transport=polling&t=PCCmK77&sid=hwS3LO0gm3oHj8M5AAAA HTTP/1.1" 200 -
-2024-11-09 00:10:12,178 - INFO - 192.168.1.13 - - [09/Nov/2024 00:10:12] "GET /socket.io/?EIO=4&transport=polling&t=PCCmK78&sid=hwS3LO0gm3oHj8M5AAAA HTTP/1.1" 200 -
-2024-11-09 00:10:14,553 - INFO - 192.168.1.13 - - [09/Nov/2024 00:10:14] "GET /video_feed HTTP/1.1" 200 -
-2024-11-09 00:10:21,250 - INFO - 192.168.1.13 - - [09/Nov/2024 00:10:21] "GET /socket.io/?EIO=4&transport=websocket&sid=hwS3LO0gm3oHj8M5AAAA HTTP/1.1" 200 -
-2024-11-09 00:10:21,292 - INFO - 192.168.1.13 - - [09/Nov/2024 00:10:21] "GET /index HTTP/1.1" 200 -
-2024-11-09 00:10:21,308 - INFO - 192.168.1.13 - - [09/Nov/2024 00:10:21] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
-2024-11-09 00:10:21,310 - INFO - 192.168.1.13 - - [09/Nov/2024 00:10:21] "[36mGET /static/script.js HTTP/1.1[0m" 304 -
-2024-11-09 00:10:21,319 - INFO - 192.168.1.13 - - [09/Nov/2024 00:10:21] "GET /socket.io/?EIO=4&transport=polling&t=PCCmMM3 HTTP/1.1" 200 -
-2024-11-09 00:10:21,331 - INFO - 192.168.1.13 - - [09/Nov/2024 00:10:21] "POST /socket.io/?EIO=4&transport=polling&t=PCCmMM9&sid=U82Kq9u-qfjUfetBAAAC HTTP/1.1" 200 -
-2024-11-09 00:10:21,333 - INFO - 192.168.1.13 - - [09/Nov/2024 00:10:21] "GET /socket.io/?EIO=4&transport=polling&t=PCCmMMA&sid=U82Kq9u-qfjUfetBAAAC HTTP/1.1" 200 -
-2024-11-09 00:10:22,020 - INFO - 192.168.1.13 - - [09/Nov/2024 00:10:22] "GET /video_feed HTTP/1.1" 200 -
-2024-11-09 00:10:29,885 - INFO - 192.168.1.13 - - [09/Nov/2024 00:10:29] "GET /socket.io/?EIO=4&transport=websocket&sid=U82Kq9u-qfjUfetBAAAC HTTP/1.1" 200 -
-2024-11-09 00:10:29,894 - INFO - 192.168.1.13 - - [09/Nov/2024 00:10:29] "GET /index HTTP/1.1" 200 -
-2024-11-09 00:10:29,906 - INFO - 192.168.1.13 - - [09/Nov/2024 00:10:29] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
-2024-11-09 00:10:29,908 - INFO - 192.168.1.13 - - [09/Nov/2024 00:10:29] "[36mGET /static/script.js HTTP/1.1[0m" 304 -
-2024-11-09 00:10:29,916 - INFO - 192.168.1.13 - - [09/Nov/2024 00:10:29] "GET /socket.io/?EIO=4&transport=polling&t=PCCmOSO HTTP/1.1" 200 -
-2024-11-09 00:10:29,922 - INFO - 192.168.1.13 - - [09/Nov/2024 00:10:29] "POST /socket.io/?EIO=4&transport=polling&t=PCCmOST&sid=CzfniRafiEeGfnpYAAAE HTTP/1.1" 200 -
-2024-11-09 00:10:29,923 - INFO - 192.168.1.13 - - [09/Nov/2024 00:10:29] "GET /socket.io/?EIO=4&transport=polling&t=PCCmOST.0&sid=CzfniRafiEeGfnpYAAAE HTTP/1.1" 200 -
-2024-11-09 00:10:30,514 - INFO - 192.168.1.13 - - [09/Nov/2024 00:10:30] "GET /video_feed HTTP/1.1" 200 -
-2024-11-09 00:10:35,178 - INFO - 192.168.1.13 - - [09/Nov/2024 00:10:35] "GET /socket.io/?EIO=4&transport=websocket&sid=CzfniRafiEeGfnpYAAAE HTTP/1.1" 200 -
-2024-11-09 00:10:35,182 - INFO - 192.168.1.13 - - [09/Nov/2024 00:10:35] "GET /index HTTP/1.1" 200 -
-2024-11-09 00:10:35,199 - INFO - 192.168.1.13 - - [09/Nov/2024 00:10:35] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
-2024-11-09 00:10:35,201 - INFO - 192.168.1.13 - - [09/Nov/2024 00:10:35] "[36mGET /static/script.js HTTP/1.1[0m" 304 -
-2024-11-09 00:10:35,210 - INFO - 192.168.1.13 - - [09/Nov/2024 00:10:35] "GET /socket.io/?EIO=4&transport=polling&t=PCCmPl6 HTTP/1.1" 200 -
-2024-11-09 00:10:35,217 - INFO - 192.168.1.13 - - [09/Nov/2024 00:10:35] "POST /socket.io/?EIO=4&transport=polling&t=PCCmPlB&sid=79LuvxVICa6Ztd8QAAAG HTTP/1.1" 200 -
-2024-11-09 00:10:35,218 - INFO - 192.168.1.13 - - [09/Nov/2024 00:10:35] "GET /socket.io/?EIO=4&transport=polling&t=PCCmPlB.0&sid=79LuvxVICa6Ztd8QAAAG HTTP/1.1" 200 -
-2024-11-09 00:10:35,790 - INFO - 192.168.1.13 - - [09/Nov/2024 00:10:35] "GET /video_feed HTTP/1.1" 200 -
-2024-11-09 00:10:38,461 - INFO - 192.168.1.13 - - [09/Nov/2024 00:10:38] "GET /socket.io/?EIO=4&transport=websocket&sid=79LuvxVICa6Ztd8QAAAG HTTP/1.1" 200 -
-2024-11-09 00:10:38,465 - INFO - 192.168.1.13 - - [09/Nov/2024 00:10:38] "GET /index HTTP/1.1" 200 -
-2024-11-09 00:10:38,490 - INFO - 192.168.1.13 - - [09/Nov/2024 00:10:38] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
-2024-11-09 00:10:38,492 - INFO - 192.168.1.13 - - [09/Nov/2024 00:10:38] "[36mGET /static/script.js HTTP/1.1[0m" 304 -
-2024-11-09 00:10:38,500 - INFO - 192.168.1.13 - - [09/Nov/2024 00:10:38] "GET /socket.io/?EIO=4&transport=polling&t=PCCmQYT HTTP/1.1" 200 -
-2024-11-09 00:10:38,508 - INFO - 192.168.1.13 - - [09/Nov/2024 00:10:38] "POST /socket.io/?EIO=4&transport=polling&t=PCCmQYb&sid=pBnNUBDNLkstjaoVAAAI HTTP/1.1" 200 -
-2024-11-09 00:10:38,509 - INFO - 192.168.1.13 - - [09/Nov/2024 00:10:38] "GET /socket.io/?EIO=4&transport=polling&t=PCCmQYc&sid=pBnNUBDNLkstjaoVAAAI HTTP/1.1" 200 -
-2024-11-09 00:10:39,104 - INFO - 192.168.1.13 - - [09/Nov/2024 00:10:39] "GET /video_feed HTTP/1.1" 200 -
-2024-11-09 00:10:39,386 - INFO - 192.168.1.13 - - [09/Nov/2024 00:10:39] "GET /socket.io/?EIO=4&transport=websocket&sid=pBnNUBDNLkstjaoVAAAI HTTP/1.1" 200 -
-2024-11-09 00:10:39,397 - INFO - 192.168.1.13 - - [09/Nov/2024 00:10:39] "GET /index HTTP/1.1" 200 -
-2024-11-09 00:10:39,421 - INFO - 192.168.1.13 - - [09/Nov/2024 00:10:39] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
-2024-11-09 00:10:39,424 - INFO - 192.168.1.13 - - [09/Nov/2024 00:10:39] "[36mGET /static/script.js HTTP/1.1[0m" 304 -
-2024-11-09 00:10:39,431 - INFO - 192.168.1.13 - - [09/Nov/2024 00:10:39] "GET /socket.io/?EIO=4&transport=polling&t=PCCmQn1 HTTP/1.1" 200 -
-2024-11-09 00:10:39,443 - INFO - 192.168.1.13 - - [09/Nov/2024 00:10:39] "POST /socket.io/?EIO=4&transport=polling&t=PCCmQn9&sid=WgH1il8NQ5wQGzf7AAAK HTTP/1.1" 200 -
-2024-11-09 00:10:39,444 - INFO - 192.168.1.13 - - [09/Nov/2024 00:10:39] "GET /socket.io/?EIO=4&transport=polling&t=PCCmQn9.0&sid=WgH1il8NQ5wQGzf7AAAK HTTP/1.1" 200 -
-2024-11-09 00:10:40,015 - INFO - 192.168.1.13 - - [09/Nov/2024 00:10:40] "GET /video_feed HTTP/1.1" 200 -
-2024-11-09 00:11:31,891 - INFO - 192.168.1.13 - - [09/Nov/2024 00:11:31] "GET /socket.io/?EIO=4&transport=websocket&sid=WgH1il8NQ5wQGzf7AAAK HTTP/1.1" 200 -
-2024-11-09 00:11:31,901 - INFO - 192.168.1.13 - - [09/Nov/2024 00:11:31] "GET /index HTTP/1.1" 200 -
-2024-11-09 00:11:31,914 - INFO - 192.168.1.13 - - [09/Nov/2024 00:11:31] "[36mGET /static/script.js HTTP/1.1[0m" 304 -
-2024-11-09 00:11:31,920 - INFO - 192.168.1.13 - - [09/Nov/2024 00:11:31] "GET /static/style.css HTTP/1.1" 200 -
-2024-11-09 00:11:31,926 - INFO - 192.168.1.13 - - [09/Nov/2024 00:11:31] "GET /socket.io/?EIO=4&transport=polling&t=PCCmdbJ HTTP/1.1" 200 -
-2024-11-09 00:11:31,932 - INFO - 192.168.1.13 - - [09/Nov/2024 00:11:31] "POST /socket.io/?EIO=4&transport=polling&t=PCCmdbO&sid=NWo8tShnPn5S3ayzAAAM HTTP/1.1" 200 -
-2024-11-09 00:11:31,933 - INFO - 192.168.1.13 - - [09/Nov/2024 00:11:31] "GET /socket.io/?EIO=4&transport=polling&t=PCCmdbP&sid=NWo8tShnPn5S3ayzAAAM HTTP/1.1" 200 -
-2024-11-09 00:11:32,334 - ERROR - L\u1ed7i nh\u1eadn d\u1ea1ng v\u1eadt th\u1ec3: OpenCV(4.10.0) :-1: error: (-5:Bad argument) in function 'rectangle'
-> Overload resolution failed:
->  - Can't parse 'pt1'. Sequence item with index 1 has a wrong type
->  - Can't parse 'pt1'. Sequence item with index 1 has a wrong type
->  - Can't parse 'rec'. Expected sequence length 4, got 2
->  - Can't parse 'rec'. Expected sequence length 4, got 2
-
-2024-11-09 00:11:32,343 - ERROR - L\u1ed7i nh\u1eadn d\u1ea1ng v\u1eadt th\u1ec3: OpenCV(4.10.0) :-1: error: (-5:Bad argument) in function 'rectangle'
-> Overload resolution failed:
->  - Can't parse 'pt1'. Sequence item with index 0 has a wrong type
->  - Can't parse 'pt1'. Sequence item with index 0 has a wrong type
->  - Can't parse 'rec'. Expected sequence length 4, got 2
->  - Can't parse 'rec'. Expected sequence length 4, got 2
-
-2024-11-09 00:11:32,546 - INFO - 192.168.1.13 - - [09/Nov/2024 00:11:32] "GET /video_feed HTTP/1.1" 200 -
-2024-11-09 00:11:46,530 - INFO - 192.168.1.13 - - [09/Nov/2024 00:11:46] "GET /socket.io/?EIO=4&transport=websocket&sid=NWo8tShnPn5S3ayzAAAM HTTP/1.1" 200 -
-2024-11-09 00:11:46,539 - INFO - 192.168.1.13 - - [09/Nov/2024 00:11:46] "GET /index HTTP/1.1" 200 -
-2024-11-09 00:11:46,561 - INFO - 192.168.1.13 - - [09/Nov/2024 00:11:46] "[36mGET /static/script.js HTTP/1.1[0m" 304 -
-2024-11-09 00:11:46,566 - INFO - 192.168.1.13 - - [09/Nov/2024 00:11:46] "GET /static/style.css HTTP/1.1" 200 -
-2024-11-09 00:11:46,572 - INFO - 192.168.1.13 - - [09/Nov/2024 00:11:46] "GET /socket.io/?EIO=4&transport=polling&t=PCCmhA8 HTTP/1.1" 200 -
-2024-11-09 00:11:46,579 - INFO - 192.168.1.13 - - [09/Nov/2024 00:11:46] "POST /socket.io/?EIO=4&transport=polling&t=PCCmhAE&sid=ZB0rQL2B-VX5fO1RAAAO HTTP/1.1" 200 -
-2024-11-09 00:11:46,581 - INFO - 192.168.1.13 - - [09/Nov/2024 00:11:46] "GET /socket.io/?EIO=4&transport=polling&t=PCCmhAE.0&sid=ZB0rQL2B-VX5fO1RAAAO HTTP/1.1" 200 -
-2024-11-09 00:11:47,159 - INFO - 192.168.1.13 - - [09/Nov/2024 00:11:47] "GET /video_feed HTTP/1.1" 200 -
-2024-11-09 00:12:13,930 - INFO - 192.168.1.13 - - [09/Nov/2024 00:12:13] "GET /socket.io/?EIO=4&transport=websocket&sid=ZB0rQL2B-VX5fO1RAAAO HTTP/1.1" 200 -
-2024-11-09 00:12:13,953 - INFO - 192.168.1.13 - - [09/Nov/2024 00:12:13] "GET /index HTTP/1.1" 200 -
-2024-11-09 00:12:13,964 - INFO - 192.168.1.13 - - [09/Nov/2024 00:12:13] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
-2024-11-09 00:12:13,967 - INFO - 192.168.1.13 - - [09/Nov/2024 00:12:13] "[36mGET /static/script.js HTTP/1.1[0m" 304 -
-2024-11-09 00:12:13,974 - INFO - 192.168.1.13 - - [09/Nov/2024 00:12:13] "GET /socket.io/?EIO=4&transport=polling&t=PCCmnsI HTTP/1.1" 200 -
-2024-11-09 00:12:13,980 - INFO - 192.168.1.13 - - [09/Nov/2024 00:12:13] "POST /socket.io/?EIO=4&transport=polling&t=PCCmnsO&sid=qoknPoWWD-ICKnRRAAAQ HTTP/1.1" 200 -
-2024-11-09 00:12:13,982 - INFO - 192.168.1.13 - - [09/Nov/2024 00:12:13] "GET /socket.io/?EIO=4&transport=polling&t=PCCmnsO.0&sid=qoknPoWWD-ICKnRRAAAQ HTTP/1.1" 200 -
-2024-11-09 00:12:14,525 - INFO - 192.168.1.13 - - [09/Nov/2024 00:12:14] "GET /video_feed HTTP/1.1" 200 -
-2024-11-09 00:14:01,026 - INFO - 192.168.1.13 - - [09/Nov/2024 00:14:01] "GET /socket.io/?EIO=4&transport=websocket&sid=qoknPoWWD-ICKnRRAAAQ HTTP/1.1" 200 -
-2024-11-09 00:14:01,035 - INFO - 192.168.1.13 - - [09/Nov/2024 00:14:01] "GET /index HTTP/1.1" 200 -
-2024-11-09 00:14:01,066 - INFO - 192.168.1.13 - - [09/Nov/2024 00:14:01] "GET /static/style.css HTTP/1.1" 200 -
-2024-11-09 00:14:01,071 - INFO - 192.168.1.13 - - [09/Nov/2024 00:14:01] "[36mGET /static/script.js HTTP/1.1[0m" 304 -
-2024-11-09 00:14:01,079 - INFO - 192.168.1.13 - - [09/Nov/2024 00:14:01] "GET /socket.io/?EIO=4&transport=polling&t=PCCnB_o HTTP/1.1" 200 -
-2024-11-09 00:14:01,088 - INFO - 192.168.1.13 - - [09/Nov/2024 00:14:01] "POST /socket.io/?EIO=4&transport=polling&t=PCCnB_w&sid=sqgjsqfIZGTRXRFsAAAS HTTP/1.1" 200 -
-2024-11-09 00:14:01,088 - INFO - 192.168.1.13 - - [09/Nov/2024 00:14:01] "GET /socket.io/?EIO=4&transport=polling&t=PCCnB_w.0&sid=sqgjsqfIZGTRXRFsAAAS HTTP/1.1" 200 -
-2024-11-09 00:14:01,622 - INFO - 192.168.1.13 - - [09/Nov/2024 00:14:01] "GET /video_feed HTTP/1.1" 200 -
-2024-11-09 00:14:27,764 - INFO - 192.168.1.13 - - [09/Nov/2024 00:14:27] "GET /socket.io/?EIO=4&transport=websocket&sid=sqgjsqfIZGTRXRFsAAAS HTTP/1.1" 200 -
-2024-11-09 00:14:27,773 - INFO - 192.168.1.13 - - [09/Nov/2024 00:14:27] "GET /index HTTP/1.1" 200 -
-2024-11-09 00:14:27,787 - INFO - 192.168.1.13 - - [09/Nov/2024 00:14:27] "[36mGET /static/script.js HTTP/1.1[0m" 304 -
-2024-11-09 00:14:27,792 - INFO - 192.168.1.13 - - [09/Nov/2024 00:14:27] "GET /static/style.css HTTP/1.1" 200 -
-2024-11-09 00:14:27,798 - INFO - 192.168.1.13 - - [09/Nov/2024 00:14:27] "GET /socket.io/?EIO=4&transport=polling&t=PCCnIXI HTTP/1.1" 200 -
-2024-11-09 00:14:27,804 - INFO - 192.168.1.13 - - [09/Nov/2024 00:14:27] "POST /socket.io/?EIO=4&transport=polling&t=PCCnIXN&sid=Ak0STOfXlZwXP7GAAAAU HTTP/1.1" 200 -
-2024-11-09 00:14:27,805 - INFO - 192.168.1.13 - - [09/Nov/2024 00:14:27] "GET /socket.io/?EIO=4&transport=polling&t=PCCnIXO&sid=Ak0STOfXlZwXP7GAAAAU HTTP/1.1" 200 -
-2024-11-09 00:14:28,347 - INFO - 192.168.1.13 - - [09/Nov/2024 00:14:28] "GET /video_feed HTTP/1.1" 200 -
-2024-11-09 00:14:43,850 - INFO - 192.168.1.13 - - [09/Nov/2024 00:14:43] "GET /socket.io/?EIO=4&transport=websocket&sid=Ak0STOfXlZwXP7GAAAAU HTTP/1.1" 200 -
-2024-11-09 00:14:43,863 - INFO - 192.168.1.13 - - [09/Nov/2024 00:14:43] "GET /index HTTP/1.1" 200 -
-2024-11-09 00:14:43,879 - INFO - 192.168.1.13 - - [09/Nov/2024 00:14:43] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
-2024-11-09 00:14:43,880 - INFO - 192.168.1.13 - - [09/Nov/2024 00:14:43] "[36mGET /static/script.js HTTP/1.1[0m" 304 -
-2024-11-09 00:14:43,887 - INFO - 192.168.1.13 - - [09/Nov/2024 00:14:43] "GET /socket.io/?EIO=4&transport=polling&t=PCCnMSi HTTP/1.1" 200 -
-2024-11-09 00:14:43,894 - INFO - 192.168.1.13 - - [09/Nov/2024 00:14:43] "POST /socket.io/?EIO=4&transport=polling&t=PCCnMSn&sid=BkQvWFEFQ_Ty7z9HAAAW HTTP/1.1" 200 -
-2024-11-09 00:14:43,894 - INFO - 192.168.1.13 - - [09/Nov/2024 00:14:43] "GET /socket.io/?EIO=4&transport=polling&t=PCCnMSo&sid=BkQvWFEFQ_Ty7z9HAAAW HTTP/1.1" 200 -
-2024-11-09 00:14:44,446 - INFO - 192.168.1.13 - - [09/Nov/2024 00:14:44] "GET /video_feed HTTP/1.1" 200 -
-2024-11-09 00:15:01,690 - INFO - 192.168.1.13 - - [09/Nov/2024 00:15:01] "GET /socket.io/?EIO=4&transport=websocket&sid=BkQvWFEFQ_Ty7z9HAAAW HTTP/1.1" 200 -
-2024-11-09 00:15:01,699 - INFO - 192.168.1.13 - - [09/Nov/2024 00:15:01] "GET /index HTTP/1.1" 200 -
-2024-11-09 00:15:01,711 - INFO - 192.168.1.13 - - [09/Nov/2024 00:15:01] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
-2024-11-09 00:15:01,711 - INFO - 192.168.1.13 - - [09/Nov/2024 00:15:01] "[36mGET /static/script.js HTTP/1.1[0m" 304 -
-2024-11-09 00:15:01,721 - INFO - 192.168.1.13 - - [09/Nov/2024 00:15:01] "GET /socket.io/?EIO=4&transport=polling&t=PCCnQpL HTTP/1.1" 200 -
-2024-11-09 00:15:01,726 - INFO - 192.168.1.13 - - [09/Nov/2024 00:15:01] "POST /socket.io/?EIO=4&transport=polling&t=PCCnQpR&sid=Yz4VMb8884vg9pLaAAAY HTTP/1.1" 200 -
-2024-11-09 00:15:01,728 - INFO - 192.168.1.13 - - [09/Nov/2024 00:15:01] "GET /socket.io/?EIO=4&transport=polling&t=PCCnQpR.0&sid=Yz4VMb8884vg9pLaAAAY HTTP/1.1" 200 -
-2024-11-09 00:15:02,273 - INFO - 192.168.1.13 - - [09/Nov/2024 00:15:02] "GET /video_feed HTTP/1.1" 200 -
-2024-11-09 00:15:11,682 - INFO - 192.168.1.13 - - [09/Nov/2024 00:15:11] "GET /socket.io/?EIO=4&transport=websocket&sid=Yz4VMb8884vg9pLaAAAY HTTP/1.1" 200 -
-2024-11-09 00:15:11,690 - INFO - 192.168.1.13 - - [09/Nov/2024 00:15:11] "GET /index HTTP/1.1" 200 -
-2024-11-09 00:15:11,703 - INFO - 192.168.1.13 - - [09/Nov/2024 00:15:11] "[36mGET /static/script.js HTTP/1.1[0m" 304 -
-2024-11-09 00:15:11,711 - INFO - 192.168.1.13 - - [09/Nov/2024 00:15:11] "GET /static/style.css HTTP/1.1" 200 -
-2024-11-09 00:15:11,718 - INFO - 192.168.1.13 - - [09/Nov/2024 00:15:11] "GET /socket.io/?EIO=4&transport=polling&t=PCCnTFZ HTTP/1.1" 200 -
-2024-11-09 00:15:11,728 - INFO - 192.168.1.13 - - [09/Nov/2024 00:15:11] "POST /socket.io/?EIO=4&transport=polling&t=PCCnTFg&sid=IsK71eiRWPUiUUWHAAAa HTTP/1.1" 200 -
-2024-11-09 00:15:11,729 - INFO - 192.168.1.13 - - [09/Nov/2024 00:15:11] "GET /socket.io/?EIO=4&transport=polling&t=PCCnTFh&sid=IsK71eiRWPUiUUWHAAAa HTTP/1.1" 200 -
-2024-11-09 00:15:12,310 - INFO - 192.168.1.13 - - [09/Nov/2024 00:15:12] "GET /video_feed HTTP/1.1" 200 -
-2024-11-09 00:15:35,706 - INFO - 192.168.1.13 - - [09/Nov/2024 00:15:35] "GET /socket.io/?EIO=4&transport=websocket&sid=IsK71eiRWPUiUUWHAAAa HTTP/1.1" 200 -
-2024-11-09 00:15:35,717 - INFO - 192.168.1.13 - - [09/Nov/2024 00:15:35] "GET /index HTTP/1.1" 200 -
-2024-11-09 00:15:35,737 - INFO - 192.168.1.13 - - [09/Nov/2024 00:15:35] "[36mGET /static/script.js HTTP/1.1[0m" 304 -
-2024-11-09 00:15:35,738 - INFO - 192.168.1.13 - - [09/Nov/2024 00:15:35] "GET /static/style.css HTTP/1.1" 200 -
-2024-11-09 00:15:35,746 - INFO - 192.168.1.13 - - [09/Nov/2024 00:15:35] "GET /socket.io/?EIO=4&transport=polling&t=PCCnZ6- HTTP/1.1" 200 -
-2024-11-09 00:15:35,753 - INFO - 192.168.1.13 - - [09/Nov/2024 00:15:35] "POST /socket.io/?EIO=4&transport=polling&t=PCCnZ74&sid=Jyl8n48h2CSp8KiIAAAc HTTP/1.1" 200 -
-2024-11-09 00:15:35,753 - INFO - 192.168.1.13 - - [09/Nov/2024 00:15:35] "GET /socket.io/?EIO=4&transport=polling&t=PCCnZ75&sid=Jyl8n48h2CSp8KiIAAAc HTTP/1.1" 200 -
-2024-11-09 00:15:36,316 - INFO - 192.168.1.13 - - [09/Nov/2024 00:15:36] "GET /video_feed HTTP/1.1" 200 -
-2024-11-09 00:16:13,282 - INFO - 192.168.1.13 - - [09/Nov/2024 00:16:13] "GET /socket.io/?EIO=4&transport=websocket&sid=Jyl8n48h2CSp8KiIAAAc HTTP/1.1" 200 -
-2024-11-09 00:16:13,297 - INFO - 192.168.1.13 - - [09/Nov/2024 00:16:13] "GET /index HTTP/1.1" 200 -
-2024-11-09 00:16:13,321 - INFO - 192.168.1.13 - - [09/Nov/2024 00:16:13] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
-2024-11-09 00:16:13,322 - INFO - 192.168.1.13 - - [09/Nov/2024 00:16:13] "[36mGET /static/script.js HTTP/1.1[0m" 304 -
-2024-11-09 00:16:13,332 - INFO - 192.168.1.13 - - [09/Nov/2024 00:16:13] "GET /socket.io/?EIO=4&transport=polling&t=PCCniIF HTTP/1.1" 200 -
-2024-11-09 00:16:13,341 - INFO - 192.168.1.13 - - [09/Nov/2024 00:16:13] "GET /socket.io/?EIO=4&transport=polling&t=PCCniIP&sid=EDzjnxmxV529NX_5AAAe HTTP/1.1" 200 -
-2024-11-09 00:16:13,344 - INFO - 192.168.1.13 - - [09/Nov/2024 00:16:13] "POST /socket.io/?EIO=4&transport=polling&t=PCCniIO&sid=EDzjnxmxV529NX_5AAAe HTTP/1.1" 200 -
-2024-11-09 00:16:13,884 - INFO - 192.168.1.13 - - [09/Nov/2024 00:16:13] "GET /video_feed HTTP/1.1" 200 -
-2024-11-09 00:16:19,594 - INFO - 192.168.1.13 - - [09/Nov/2024 00:16:19] "GET /socket.io/?EIO=4&transport=websocket&sid=EDzjnxmxV529NX_5AAAe HTTP/1.1" 200 -
-2024-11-09 00:16:19,598 - INFO - 192.168.1.13 - - [09/Nov/2024 00:16:19] "GET /index HTTP/1.1" 200 -
-2024-11-09 00:16:19,615 - INFO - 192.168.1.13 - - [09/Nov/2024 00:16:19] "[36mGET /static/script.js HTTP/1.1[0m" 304 -
-2024-11-09 00:16:19,626 - INFO - 192.168.1.13 - - [09/Nov/2024 00:16:19] "GET /static/style.css HTTP/1.1" 200 -
-2024-11-09 00:16:19,633 - INFO - 192.168.1.13 - - [09/Nov/2024 00:16:19] "GET /socket.io/?EIO=4&transport=polling&t=PCCnjqj HTTP/1.1" 200 -
-2024-11-09 00:16:19,638 - INFO - 192.168.1.13 - - [09/Nov/2024 00:16:19] "POST /socket.io/?EIO=4&transport=polling&t=PCCnjqo&sid=qKidetcp8Cp343kEAAAg HTTP/1.1" 200 -
-2024-11-09 00:16:19,641 - INFO - 192.168.1.13 - - [09/Nov/2024 00:16:19] "GET /socket.io/?EIO=4&transport=polling&t=PCCnjqp&sid=qKidetcp8Cp343kEAAAg HTTP/1.1" 200 -
-2024-11-09 00:16:20,220 - INFO - 192.168.1.13 - - [09/Nov/2024 00:16:20] "GET /video_feed HTTP/1.1" 200 -
+2024-11-09 01:38:00,258 - INFO - [33mPress CTRL+C to quit[0m
+2024-11-09 01:38:00,258 - INFO -  * Restarting with stat
+2024-11-09 01:38:01,281 - WARNING -  * Debugger is active!
+2024-11-09 01:38:01,282 - INFO -  * Debugger PIN: 111-161-771
+2024-11-09 01:38:01,294 - INFO - 192.168.1.13 - - [09/Nov/2024 01:38:01] "GET /socket.io/?EIO=4&transport=polling&t=PCD4QAk HTTP/1.1" 200 -
+2024-11-09 01:38:01,300 - INFO - 192.168.1.13 - - [09/Nov/2024 01:38:01] "POST /socket.io/?EIO=4&transport=polling&t=PCD4QXI&sid=UAh7lbXKYM0oZ6CCAAAA HTTP/1.1" 200 -
+2024-11-09 01:38:01,303 - INFO - 192.168.1.13 - - [09/Nov/2024 01:38:01] "GET /socket.io/?EIO=4&transport=polling&t=PCD4QXJ&sid=UAh7lbXKYM0oZ6CCAAAA HTTP/1.1" 200 -
+2024-11-09 01:38:08,631 - INFO - 192.168.1.13 - - [09/Nov/2024 01:38:08] "GET / HTTP/1.1" 200 -
+2024-11-09 01:38:08,701 - INFO - 192.168.1.13 - - [09/Nov/2024 01:38:08] "[36mGET /static/loginScripts.js HTTP/1.1[0m" 304 -
+2024-11-09 01:38:08,701 - INFO - 192.168.1.13 - - [09/Nov/2024 01:38:08] "[36mGET /static/loginStyle.css HTTP/1.1[0m" 304 -
+2024-11-09 01:38:15,100 - INFO - 192.168.1.13 - - [09/Nov/2024 01:38:15] "GET /index HTTP/1.1" 200 -
+2024-11-09 01:38:15,121 - INFO - 192.168.1.13 - - [09/Nov/2024 01:38:15] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2024-11-09 01:38:15,130 - INFO - 192.168.1.13 - - [09/Nov/2024 01:38:15] "[36mGET /static/script.js HTTP/1.1[0m" 304 -
+2024-11-09 01:38:15,158 - INFO - 192.168.1.13 - - [09/Nov/2024 01:38:15] "GET /socket.io/?EIO=4&transport=polling&t=PCD4Tvl HTTP/1.1" 200 -
+2024-11-09 01:38:15,165 - INFO - 192.168.1.13 - - [09/Nov/2024 01:38:15] "POST /socket.io/?EIO=4&transport=polling&t=PCD4Tvu&sid=dLuqOcrcIsoUHGMaAAAC HTTP/1.1" 200 -
+2024-11-09 01:38:15,167 - INFO - 192.168.1.13 - - [09/Nov/2024 01:38:15] "GET /socket.io/?EIO=4&transport=polling&t=PCD4Tvv&sid=dLuqOcrcIsoUHGMaAAAC HTTP/1.1" 200 -
+2024-11-09 01:38:17,146 - INFO - 192.168.1.13 - - [09/Nov/2024 01:38:17] "GET /video_feed HTTP/1.1" 200 -
+2024-11-09 01:38:17,753 - INFO - 192.168.1.13 - - [09/Nov/2024 01:38:17] "[33mGET /index/data HTTP/1.1[0m" 404 -
+2024-11-09 01:38:37,570 - INFO - 192.168.1.13 - - [09/Nov/2024 01:38:37] "GET /socket.io/?EIO=4&transport=websocket&sid=dLuqOcrcIsoUHGMaAAAC HTTP/1.1" 200 -

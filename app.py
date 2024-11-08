@@ -50,9 +50,10 @@ class DetectedObject(db.Model):
     id = db.Column(db.Integer, primary_key=True)
     name = db.Column(db.String(50), nullable=False)
     count = db.Column(db.Integer, nullable=False)
+    type = db.Column(db.String(50), nullable=False)
 
     def __repr__(self):
-        return f"<DetectedObject {self.name}: {self.count}>"
+        return f'<DetectedObject {self.name}: {self.count}: {self.type}>'
 
 
 with app.app_context():
@@ -74,6 +75,12 @@ net.setPreferableTarget(cv2.dnn.DNN_TARGET_CPU)
 
 detected_objects = {}
 cap = None
+
+def classify_object(object_name):
+    for category, objects in object_categories.items():
+        if object_name in objects:
+            return category
+    return "Khác"
 
 def findObjects(outputs: List[np.ndarray], img: np.ndarray) -> List[str]:
     global detected_objects
@@ -108,27 +115,26 @@ def findObjects(outputs: List[np.ndarray], img: np.ndarray) -> List[str]:
                     object_name = classNames[classIds[i]]
                     current_detected[object_name] = current_detected.get(object_name, 0) + 1
 
+            # Phân loại và cập nhật detected_objects
             for obj, count in current_detected.items():
-                if obj in detected_objects:
-                    detected_objects[obj] += count
-                else:
-                    detected_objects[obj] = count
+                category = classify_object(obj)
+                detected_objects[obj] = detected_objects.get(obj, 0) + count
 
-            socketio.emit('update_objects', {
-                'objects': [{'name': obj, 'count': detected_objects[obj]} for obj in detected_objects],
-                'total_count': sum(detected_objects.values())
-            })
-
-            #lưu database
-            for obj, count in current_detected.items():
+                # Lưu vào database
                 detected_object = DetectedObject.query.filter_by(name=obj).first()
                 if detected_object:
                     detected_object.count += count
                 else:
-                    detected_object = DetectedObject(name=obj, count=count)
+                    detected_object = DetectedObject(name=obj, count=count, type=category)
                     db.session.add(detected_object)
 
             db.session.commit()
+
+            # Phát sự kiện cho frontend
+            socketio.emit('update_objects', {
+                'objects': [{'name': obj, 'count': detected_objects[obj], 'type': classify_object(obj)} for obj in detected_objects],
+                'total_count': sum(detected_objects.values())
+            })
 
     except Exception as e:
         logging.error("Lỗi nhận dạng vật thể: %s", e)

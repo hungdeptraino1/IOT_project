@@ -4,15 +4,11 @@ import os
 import logging
 from flask import Flask, render_template, Response
 from flask_socketio import SocketIO
-from flask_sqlalchemy import SQLAlchemy
 import time
 from typing import List
 import serial
 
 app = Flask(__name__)
-app.config['SQLALCHEMY_DATABASE_URI'] = 'sqlite:///detected_objects.db'
-app.config['SQLALCHEMY_TRACK_MODIFICATIONS'] = False
-db = SQLAlchemy(app)
 socketio = SocketIO(app)
 
 
@@ -21,19 +17,6 @@ logging.basicConfig(
     level=logging.INFO,
     format='%(asctime)s - %(levelname)s - %(message)s',
 )
-
-
-class DetectedObject(db.Model):
-    id = db.Column(db.Integer, primary_key=True)
-    name = db.Column(db.String(50), nullable=False)
-    count = db.Column(db.Integer, nullable=False)
-
-    def __repr__(self):
-        return f"<DetectedObject {self.name}: {self.count}>"
-
-
-with app.app_context():
-    db.create_all()
 
 whT = 320
 confThreshold = 0.5
@@ -79,53 +62,39 @@ def findObjects(outputs: List[np.ndarray], img: np.ndarray) -> List[str]:
                 confs.append(float(confidence))
 
     try:
-        with app.app_context():
-            indices = cv2.dnn.NMSBoxes(bbox, confs, confThreshold, nmsThreshold)
-            current_detected = {}
+        indices = cv2.dnn.NMSBoxes(bbox, confs, confThreshold, nmsThreshold)
+        current_detected = {}
 
-            if indices is not None and len(indices) > 0:
-                for i in indices.flatten():
-                    box = bbox[i]
-                    x, y, w, h = box
-                    cv2.rectangle(img, (x, y), (x + w, y + h), (255, 0, 255), 2)
-                    label = f'{classNames[classIds[i]].upper()} {int(confs[i] * 100)}%'
-                    cv2.putText(img, label, (x, y - 10), cv2.FONT_HERSHEY_SIMPLEX, 0.6, (255, 0, 255), 2)
-            #Arduino
-                    object_name = classNames[classIds[i]]
-                    if object_name in animal_classes:
-                        arduino.write(b'1')
-                        continue
-                    else:
-                        current_detected[object_name] = current_detected.get(object_name, 0) + 1
+        if indices is not None and len(indices) > 0:
+            for i in indices.flatten():
+                box = bbox[i]
+                x, y, w, h = box
+                cv2.rectangle(img, (x, y), (x + w, y + h), (255, 0, 255), 2)
+                label = f'{classNames[classIds[i]].upper()} {int(confs[i] * 100)}%'
+                cv2.putText(img, label, (x, y - 10), cv2.FONT_HERSHEY_SIMPLEX, 0.6, (255, 0, 255), 2)
 
-
-            for obj, count in current_detected.items():
-                if obj in detected_objects:
-                    detected_objects[obj] += count
+                object_name = classNames[classIds[i]]
+                if object_name in animal_classes:
+                    arduino.write(b'1')
+                    continue
                 else:
-                    detected_objects[obj] = count
+                    current_detected[object_name] = current_detected.get(object_name, 0) + 1
 
-            #JS
-            socketio.emit('update_objects', {
-                'objects': [{'name': obj, 'count': detected_objects[obj]} for obj in detected_objects],
-                'total_count': sum(detected_objects.values())
-            })
+        for obj, count in current_detected.items():
+            if obj in detected_objects:
+                detected_objects[obj] += count
+            else:
+                detected_objects[obj] = count
 
-            #database
-            for obj, count in current_detected.items():
-                detected_object = DetectedObject.query.filter_by(name=obj).first()
-                if detected_object:
-                    detected_object.count += count
-                else:
-                    detected_object = DetectedObject(name=obj, count=count)
-                    db.session.add(detected_object)
-
-            db.session.commit()
-
+        # Phát sự kiện cho các đối tượng đã phát hiện đến client
+        socketio.emit('update_objects', {
+            'objects': [{'name': obj, 'count': detected_objects[obj]} for obj in detected_objects],
+            'total_count': sum(detected_objects.values())
+        })
     except Exception as e:
         logging.error("Lỗi nhận dạng vật thể: %s", e)
-
-    return list(detected_objects.keys()), time.sleep(0.2)
+    
+    return list(detected_objects.keys())
 
 def get_frame():
     global cap

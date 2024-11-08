@@ -12,9 +12,10 @@ class DetectedObject(db.Model):
     id = db.Column(db.Integer, primary_key=True)
     name = db.Column(db.String(50), nullable=False)
     count = db.Column(db.Integer, nullable=False)
+    type = db.Column(db.String(50), nullable=False)
 
     def __repr__(self):
-        return f'<DetectedObject {self.name}: {self.count}>'
+        return f'<DetectedObject {self.name}: {self.count}: {self.type}>'
 
 
 if __name__ == '__main__':
