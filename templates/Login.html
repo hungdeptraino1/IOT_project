@@ -3,8 +3,8 @@
 <head>
     <meta charset="UTF-8">
     <title>Title</title>
-    <link rel="stylesheet" href="loginStyle.css">
-   <script src="login.js" defer></script>
+    <link rel="stylesheet" href="{{ url_for('static', filename='loginStyle.css') }}">
+   <script src="{{ url_for('static', filename='loginScripts.js') }}" defer></script>
 </head>
 <body>
     <img src="https://uxwing.com/wp-content/themes/uxwing/download/signs-and-symbols/recycling-icon.png"
@@ -28,7 +28,6 @@
                 </label>
             </div>
        </div>
-
     <script>
 
     </script>
