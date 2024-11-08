@@ -108,20 +108,18 @@ def findObjects(outputs: List[np.ndarray], img: np.ndarray) -> List[str]:
                     object_name = classNames[classIds[i]]
                     current_detected[object_name] = current_detected.get(object_name, 0) + 1
 
-            # Cập nhật số lượng vật thể phát hiện
             for obj, count in current_detected.items():
                 if obj in detected_objects:
                     detected_objects[obj] += count
                 else:
                     detected_objects[obj] = count
 
-            # Gửi dữ liệu qua socket
             socketio.emit('update_objects', {
                 'objects': [{'name': obj, 'count': detected_objects[obj]} for obj in detected_objects],
                 'total_count': sum(detected_objects.values())
             })
 
-            # Lưu vào cơ sở dữ liệu
+            #lưu database
             for obj, count in current_detected.items():
                 detected_object = DetectedObject.query.filter_by(name=obj).first()
                 if detected_object:
