@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='loginStyle.css') }}">
+   <script src="{{ url_for('static', filename='loginScripts.js') }}" defer></script>
+</head>
+<body>
+    <img src="https://uxwing.com/wp-content/themes/uxwing/download/signs-and-symbols/recycling-icon.png"
+    alt="Recycle">
+    <div id="login" class="wrapper">
+            <div class="card-switch">
+                   <div class="flip-card__inner">
+                      <div class="flip-card__front">
+                         <div class="title">Log in</div>
+                         <form class="flip-card__form" action="">
+                            <input id = "username" class="flip-card__input" name="email" placeholder="Email" type="email">
+                            <input id = "password" class="flip-card__input" name="password" placeholder="Password" type="password">
+                            <button type ="submit" class="flip-card__btn">Let's go!</button>
+                            <div id="errorMessage"></div> <!-- Added error message display -->
+                         </form>
+                      </div>
+
+                         </form>
+                      </div>
+                   </div>
+                </label>
+            </div>
+       </div>
+    <script>
+
+    </script>
+</body>
+</html>

@@ -8,8 +8,10 @@
     <script src="https://cdnjs.cloudflare.com/ajax/libs/socket.io/4.0.0/socket.io.min.js"></script>
     <script src="{{ url_for('static', filename='script.js') }}" defer></script>
 </head>
+
 <body>
     <div> <button id="toggle-camera" >Tắt Camera</button> </div>
+
     <div class="video-container">
 
         <img id="video-feed" src="{{ url_for('video_feed') }}" data-src="{{ url_for('video_feed') }}" alt="Video Feed">
@@ -23,16 +25,12 @@
     <div class="squares-container">
         <div class="square" >
             <img src="https://uxwing.com/wp-content/themes/uxwing/download/food-and-drinks/bottled-water-icon.png" alt=" con cho hu`ng ngu">
-            <h4>Inorganic: </h4>
         </div>
         <div class="square">
             <img src="https://uxwing.com/wp-content/themes/uxwing/download/food-and-drinks/food-restaurant-icon.png" alt="">
-            <h4>Organic: </h4>
         </div>
         <div class="square">
             <img src="https://uxwing.com/wp-content/themes/uxwing/download/animals-and-birds/dog-icon.png" alt ='animel'>
-            <h4>Animal: <input type="text"></h4>
-
         </div>
     </div>
 </body>

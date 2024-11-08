@@ -8,6 +8,30 @@ from flask_sqlalchemy import SQLAlchemy
 import time
 from typing import List
 
+object_categories = {
+  'Inorganic': [
+      'bicycle', 'car', 'motorbike', 'aeroplane', 'bus',
+      'train', 'truck', 'boat', 'traffic light', 'fire hydrant',
+      'stop sign', 'parking meter', 'bench', 'backpack', 'umbrella',
+      'handbag', 'tie', 'suitcase', 'frisbee', 'skis', 'snowboard',
+      'sports ball', 'kite', 'baseball bat', 'baseball glove',
+      'skateboard', 'surfboard', 'tennis racket', 'bottle', 'wine glass',
+      'cup', 'fork', 'knife', 'spoon', 'bowl', 'chair', 'sofa',
+      'pottedplant', 'bed', 'diningtable', 'toilet', 'tvmonitor',
+      'laptop', 'mouse', 'remote', 'keyboard', 'cell phone',
+      'microwave', 'oven', 'toaster', 'sink', 'refrigerator', 'book',
+      'clock', 'vase', 'scissors'
+  ],
+  'Organic': [
+      'banana', 'apple', 'sandwich', 'orange', 'broccoli',
+      'carrot', 'hot dog', 'pizza', 'donut', 'cake'
+  ],
+  'Animal': [
+      'person', 'bird', 'cat', 'dog', 'horse', 'sheep',
+      'cow', 'elephant', 'bear', 'zebra', 'giraffe', 'teddy bear'
+  ]
+}
+
 app = Flask(__name__)
 app.config['SQLALCHEMY_DATABASE_URI'] = 'sqlite:///detected_objects.db'
 app.config['SQLALCHEMY_TRACK_MODIFICATIONS'] = False
@@ -159,6 +183,10 @@ def gen_frames():
         frame_count += 1
 
 @app.route('/')
+def login():
+    return render_template('login.html')
+
+@app.route('/index')
 def index():
     return render_template('index.html')
 
