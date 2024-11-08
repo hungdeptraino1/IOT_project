@@ -1,7 +1,7 @@
 <!doctype html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
+    <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Camera Trẻ Đẹp</title>
     <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
@@ -9,17 +9,31 @@
     <script src="{{ url_for('static', filename='script.js') }}" defer></script>
 </head>
 <body>
+    <div> <button id="toggle-camera" >Tắt Camera</button> </div>
     <div class="video-container">
-        <div class="video-title">Camera Trẻ Đẹp</div>
+
         <img id="video-feed" src="{{ url_for('video_feed') }}" data-src="{{ url_for('video_feed') }}" alt="Video Feed">
-        <button id="toggle-camera" style="margin-top: 10px;">Tắt Camera</button>
     </div>
-    <div id="chat" style="margin-top: 20px;">
-        <h2>Danh Sách Vật Thể Nhận Diện:</h2>
+    <div class="video-title">Camera Trẻ Đẹp</div>
+    <div> <h3>Tổng Số Vật Thể Đã Nhận Diện: <span id="object-count">0</span></h3></div>
+
+    <div id="chat"><h2>Danh Sách Vật Thể Nhận Diện:</h2>
         <ul id="object-list"></ul>
     </div>
-    <div >
-        <h3>Tổng Số Vật Thể Đã Nhận Diện: <span id="object-count">0</span></h3>
+    <div class="squares-container">
+        <div class="square" >
+            <img src="https://uxwing.com/wp-content/themes/uxwing/download/food-and-drinks/bottled-water-icon.png" alt=" con cho hu`ng ngu">
+            <h4>Inorganic: </h4>
+        </div>
+        <div class="square">
+            <img src="https://uxwing.com/wp-content/themes/uxwing/download/food-and-drinks/food-restaurant-icon.png" alt="">
+            <h4>Organic: </h4>
+        </div>
+        <div class="square">
+            <img src="https://uxwing.com/wp-content/themes/uxwing/download/animals-and-birds/dog-icon.png" alt ='animel'>
+            <h4>Animal: <input type="text"></h4>
+
+        </div>
     </div>
 </body>
 </html>
