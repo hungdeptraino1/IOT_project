@@ -112,11 +112,6 @@ img{
     box-shadow: 4px 4px var(--main-color);
   }
 
-  .flip-card__back {
-    width: 100%;
-    transform: rotateY(180deg);
-  }
-
   .flip-card__form {
     display: flex;
     flex-direction: column;

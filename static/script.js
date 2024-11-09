@@ -26,10 +26,15 @@ document.getElementById('toggle-camera').addEventListener('click', toggleCamera)
 socket.on('update_objects', function(data) {
     const objectList = document.getElementById('object-list');
     const objectCount = document.getElementById('object-count');
+    const objectInorganic = document.getElementById('inorganic-object');
+    const objectOrganic = document.getElementById('organic-object');
+    const objectAnimal = document.getElementById('animal-object');
 
     objectList.innerHTML = '';
     let totalCount = 0;
-
+    let totalInorganic = 0;
+    let totalOrganic = 0;
+    let totalAnimal = 0;
     // Đặt số lượng cho từng loại
     const counts = {
         'Inorganic': 0,
@@ -42,6 +47,14 @@ socket.on('update_objects', function(data) {
         li.textContent = `${object.name}: ${object.count}`;
         objectList.appendChild(li);
 
+        if (object.type === 'Inorganic') {
+            counts['Inorganic'] += object.count;
+        } else if (object.type === 'Organic') {
+            counts['Organic'] += object.count;
+        } else if (object.type === 'Animal') {
+            counts['Animal'] += object.count;
+        }
+
         // Cộng dồn số lượng cho từng loại
         if (counts.hasOwnProperty(object.name)) {
             counts[object.name] += object.count;
@@ -51,6 +64,9 @@ socket.on('update_objects', function(data) {
 
     // Cập nhật tổng số đối tượng
     objectCount.textContent = totalCount;
+    objectInorganic.textContent = totalInorganic;
+    objectOrganic.textContent = totalOrganic;
+    objectAnimal.textContent = totalAnimal;
 
     // Cập nhật số lượng vào các ô tương ứng
     document.querySelector('.square:nth-child(1) .count').textContent = counts['Inorganic'];
@@ -60,23 +76,3 @@ socket.on('update_objects', function(data) {
     objectList.scrollTop = objectList.scrollHeight;
 });
 
-// Hàm để lấy và hiển thị tổng số loại vật phẩm theo type
-function fetchDetectedObjects() {
-    fetch('/index/data')  // Gọi đến endpoint mới để lấy dữ liệu
-        .then(response => response.json())
-        .then(data => {
-            const typeList = document.getElementById('type-list');
-            typeList.innerHTML = '';
-
-            // Hiển thị tổng số theo từng loại
-            for (const type in data) {
-                const li = document.createElement('li');
-                li.textContent = `${type}: ${data[type]}`;
-                typeList.appendChild(li);
-            }
-        })
-        .catch(error => console.error('Error fetching detected objects:', error));
-}
-
-// Gọi hàm để lấy dữ liệu khi trang được tải
-window.onload = fetchDetectedObjects;

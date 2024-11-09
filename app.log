@@ -1,0 +1,141 @@
+2024-11-09 01:49:07,347 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5003
+ * Running on http://192.168.1.13:5003
+2024-11-09 01:49:07,347 - INFO - [33mPress CTRL+C to quit[0m
+2024-11-09 01:49:07,347 - INFO -  * Restarting with stat
+2024-11-09 01:49:08,345 - WARNING -  * Debugger is active!
+2024-11-09 01:49:08,346 - INFO -  * Debugger PIN: 111-161-771
+2024-11-09 01:49:08,857 - INFO - 192.168.1.13 - - [09/Nov/2024 01:49:08] "GET /socket.io/?EIO=4&transport=polling&t=PCD6zVr HTTP/1.1" 200 -
+2024-11-09 01:49:08,862 - INFO - 192.168.1.13 - - [09/Nov/2024 01:49:08] "POST /socket.io/?EIO=4&transport=polling&t=PCD6zVx&sid=9zVwQ01opYvst15iAAAA HTTP/1.1" 200 -
+2024-11-09 01:49:08,863 - INFO - 192.168.1.13 - - [09/Nov/2024 01:49:08] "GET /socket.io/?EIO=4&transport=polling&t=PCD6zVx.0&sid=9zVwQ01opYvst15iAAAA HTTP/1.1" 200 -
+2024-11-09 01:49:11,741 - INFO - 192.168.1.13 - - [09/Nov/2024 01:49:11] "GET / HTTP/1.1" 200 -
+2024-11-09 01:49:11,803 - INFO - 192.168.1.13 - - [09/Nov/2024 01:49:11] "[36mGET /static/loginStyle.css HTTP/1.1[0m" 304 -
+2024-11-09 01:49:11,804 - INFO - 192.168.1.13 - - [09/Nov/2024 01:49:11] "[36mGET /static/loginScripts.js HTTP/1.1[0m" 304 -
+2024-11-09 01:49:14,648 - INFO - 192.168.1.13 - - [09/Nov/2024 01:49:14] "GET /index HTTP/1.1" 200 -
+2024-11-09 01:49:14,660 - INFO - 192.168.1.13 - - [09/Nov/2024 01:49:14] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2024-11-09 01:49:14,677 - INFO - 192.168.1.13 - - [09/Nov/2024 01:49:14] "[36mGET /static/script.js HTTP/1.1[0m" 304 -
+2024-11-09 01:49:14,686 - INFO - 192.168.1.13 - - [09/Nov/2024 01:49:14] "GET /socket.io/?EIO=4&transport=polling&t=PCD6-wv HTTP/1.1" 200 -
+2024-11-09 01:49:14,693 - INFO - 192.168.1.13 - - [09/Nov/2024 01:49:14] "POST /socket.io/?EIO=4&transport=polling&t=PCD6-x2&sid=BzIJxoF81DE7vuYvAAAC HTTP/1.1" 200 -
+2024-11-09 01:49:14,695 - INFO - 192.168.1.13 - - [09/Nov/2024 01:49:14] "GET /socket.io/?EIO=4&transport=polling&t=PCD6-x4&sid=BzIJxoF81DE7vuYvAAAC HTTP/1.1" 200 -
+2024-11-09 01:49:16,333 - INFO - 192.168.1.13 - - [09/Nov/2024 01:49:16] "GET /socket.io/?EIO=4&transport=polling&t=PCD6-xA&sid=BzIJxoF81DE7vuYvAAAC HTTP/1.1" 200 -
+2024-11-09 01:49:16,989 - INFO - 192.168.1.13 - - [09/Nov/2024 01:49:16] "GET /video_feed HTTP/1.1" 200 -
+2024-11-09 01:49:17,616 - INFO - 192.168.1.13 - - [09/Nov/2024 01:49:17] "[33mGET /index/data HTTP/1.1[0m" 404 -
+2024-11-09 01:49:27,049 - INFO - 192.168.1.13 - - [09/Nov/2024 01:49:27] "GET /video_feed HTTP/1.1" 200 -
+2024-11-09 01:49:43,932 - INFO - 192.168.1.13 - - [09/Nov/2024 01:49:43] "GET /socket.io/?EIO=4&transport=websocket&sid=BzIJxoF81DE7vuYvAAAC HTTP/1.1" 200 -
+2024-11-09 01:49:43,960 - INFO - 192.168.1.13 - - [09/Nov/2024 01:49:43] "GET /index HTTP/1.1" 200 -
+2024-11-09 01:49:43,973 - INFO - 192.168.1.13 - - [09/Nov/2024 01:49:43] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2024-11-09 01:49:44,096 - INFO - 192.168.1.13 - - [09/Nov/2024 01:49:44] "[36mGET /static/script.js HTTP/1.1[0m" 304 -
+2024-11-09 01:49:44,098 - INFO - 192.168.1.13 - - [09/Nov/2024 01:49:44] "[33mGET /sql-wasm.wasm HTTP/1.1[0m" 404 -
+2024-11-09 01:49:44,112 - INFO - 192.168.1.13 - - [09/Nov/2024 01:49:44] "GET /socket.io/?EIO=4&transport=polling&t=PCD766b HTTP/1.1" 200 -
+2024-11-09 01:49:44,112 - INFO - 192.168.1.13 - - [09/Nov/2024 01:49:44] "[33mGET /sql-wasm.wasm HTTP/1.1[0m" 404 -
+2024-11-09 01:49:44,125 - INFO - 192.168.1.13 - - [09/Nov/2024 01:49:44] "POST /socket.io/?EIO=4&transport=polling&t=PCD766s&sid=2Za03lv8QY5aU2r1AAAE HTTP/1.1" 200 -
+2024-11-09 01:49:44,126 - INFO - 192.168.1.13 - - [09/Nov/2024 01:49:44] "GET /socket.io/?EIO=4&transport=polling&t=PCD766t&sid=2Za03lv8QY5aU2r1AAAE HTTP/1.1" 200 -
+2024-11-09 01:49:44,546 - INFO - 192.168.1.13 - - [09/Nov/2024 01:49:44] "GET /video_feed HTTP/1.1" 200 -
+2024-11-09 01:49:45,111 - INFO - 192.168.1.13 - - [09/Nov/2024 01:49:45] "[33mGET /index/data HTTP/1.1[0m" 404 -
+2024-11-09 01:49:47,003 - INFO - 192.168.1.13 - - [09/Nov/2024 01:49:47] "GET /socket.io/?EIO=4&transport=websocket&sid=2Za03lv8QY5aU2r1AAAE HTTP/1.1" 200 -
+2024-11-09 01:49:47,012 - INFO - 192.168.1.13 - - [09/Nov/2024 01:49:47] "GET /index HTTP/1.1" 200 -
+2024-11-09 01:49:47,036 - INFO - 192.168.1.13 - - [09/Nov/2024 01:49:47] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2024-11-09 01:49:47,037 - INFO - 192.168.1.13 - - [09/Nov/2024 01:49:47] "[36mGET /static/script.js HTTP/1.1[0m" 304 -
+2024-11-09 01:49:47,050 - INFO - 192.168.1.13 - - [09/Nov/2024 01:49:47] "[33mGET /sql-wasm.wasm HTTP/1.1[0m" 404 -
+2024-11-09 01:49:47,056 - INFO - 192.168.1.13 - - [09/Nov/2024 01:49:47] "GET /socket.io/?EIO=4&transport=polling&t=PCD76qa HTTP/1.1" 200 -
+2024-11-09 01:49:47,063 - INFO - 192.168.1.13 - - [09/Nov/2024 01:49:47] "[33mGET /sql-wasm.wasm HTTP/1.1[0m" 404 -
+2024-11-09 01:49:47,073 - INFO - 192.168.1.13 - - [09/Nov/2024 01:49:47] "POST /socket.io/?EIO=4&transport=polling&t=PCD76qv&sid=x07YF_PrDNvEVhWWAAAG HTTP/1.1" 200 -
+2024-11-09 01:49:47,075 - INFO - 192.168.1.13 - - [09/Nov/2024 01:49:47] "GET /socket.io/?EIO=4&transport=polling&t=PCD76qw&sid=x07YF_PrDNvEVhWWAAAG HTTP/1.1" 200 -
+2024-11-09 01:49:47,596 - INFO - 192.168.1.13 - - [09/Nov/2024 01:49:47] "GET /video_feed HTTP/1.1" 200 -
+2024-11-09 01:49:48,211 - INFO - 192.168.1.13 - - [09/Nov/2024 01:49:48] "[33mGET /index/data HTTP/1.1[0m" 404 -
+2024-11-09 01:50:38,106 - INFO - 192.168.1.13 - - [09/Nov/2024 01:50:38] "GET /socket.io/?EIO=4&transport=websocket&sid=x07YF_PrDNvEVhWWAAAG HTTP/1.1" 200 -
+2024-11-09 01:50:38,906 - INFO - 192.168.1.13 - - [09/Nov/2024 01:50:38] "GET /socket.io/?EIO=4&transport=websocket&sid=9zVwQ01opYvst15iAAAA HTTP/1.1" 200 -
+2024-11-09 01:52:56,159 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5003
+ * Running on http://192.168.1.13:5003
+2024-11-09 01:52:56,159 - INFO - [33mPress CTRL+C to quit[0m
+2024-11-09 01:52:56,159 - INFO -  * Restarting with stat
+2024-11-09 01:52:57,172 - WARNING -  * Debugger is active!
+2024-11-09 01:52:57,173 - INFO -  * Debugger PIN: 111-161-771
+2024-11-09 01:53:03,806 - INFO - 192.168.1.13 - - [09/Nov/2024 01:53:03] "GET / HTTP/1.1" 200 -
+2024-11-09 01:53:03,877 - INFO - 192.168.1.13 - - [09/Nov/2024 01:53:03] "[36mGET /static/loginStyle.css HTTP/1.1[0m" 304 -
+2024-11-09 01:53:03,877 - INFO - 192.168.1.13 - - [09/Nov/2024 01:53:03] "[36mGET /static/loginScripts.js HTTP/1.1[0m" 304 -
+2024-11-09 01:53:04,755 - INFO - 192.168.1.13 - - [09/Nov/2024 01:53:04] "GET / HTTP/1.1" 200 -
+2024-11-09 01:53:04,777 - INFO - 192.168.1.13 - - [09/Nov/2024 01:53:04] "[36mGET /static/loginStyle.css HTTP/1.1[0m" 304 -
+2024-11-09 01:53:04,779 - INFO - 192.168.1.13 - - [09/Nov/2024 01:53:04] "[36mGET /static/loginScripts.js HTTP/1.1[0m" 304 -
+2024-11-09 01:53:07,306 - INFO - 192.168.1.13 - - [09/Nov/2024 01:53:07] "GET /index HTTP/1.1" 200 -
+2024-11-09 01:53:07,317 - INFO - 192.168.1.13 - - [09/Nov/2024 01:53:07] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2024-11-09 01:53:07,331 - INFO - 192.168.1.13 - - [09/Nov/2024 01:53:07] "[36mGET /static/script.js HTTP/1.1[0m" 304 -
+2024-11-09 01:53:07,336 - INFO - 192.168.1.13 - - [09/Nov/2024 01:53:07] "[33mGET /sql-wasm.wasm HTTP/1.1[0m" 404 -
+2024-11-09 01:53:07,339 - INFO - 192.168.1.13 - - [09/Nov/2024 01:53:07] "GET /socket.io/?EIO=4&transport=polling&t=PCD7tk8 HTTP/1.1" 200 -
+2024-11-09 01:53:07,342 - INFO - 192.168.1.13 - - [09/Nov/2024 01:53:07] "[33mGET /sql-wasm.wasm HTTP/1.1[0m" 404 -
+2024-11-09 01:53:07,346 - INFO - 192.168.1.13 - - [09/Nov/2024 01:53:07] "POST /socket.io/?EIO=4&transport=polling&t=PCD7tkE&sid=33LBZGkAssodwZrrAAAA HTTP/1.1" 200 -
+2024-11-09 01:53:07,348 - INFO - 192.168.1.13 - - [09/Nov/2024 01:53:07] "GET /socket.io/?EIO=4&transport=polling&t=PCD7tkF&sid=33LBZGkAssodwZrrAAAA HTTP/1.1" 200 -
+2024-11-09 01:53:08,807 - INFO - 192.168.1.13 - - [09/Nov/2024 01:53:08] "GET /socket.io/?EIO=4&transport=polling&t=PCD7tkN&sid=33LBZGkAssodwZrrAAAA HTTP/1.1" 200 -
+2024-11-09 01:53:09,333 - INFO - 192.168.1.13 - - [09/Nov/2024 01:53:09] "GET /video_feed HTTP/1.1" 200 -
+2024-11-09 01:53:09,892 - INFO - 192.168.1.13 - - [09/Nov/2024 01:53:09] "[33mGET /index/data HTTP/1.1[0m" 404 -
+2024-11-09 01:53:13,571 - INFO - 192.168.1.13 - - [09/Nov/2024 01:53:13] "GET /socket.io/?EIO=4&transport=websocket&sid=33LBZGkAssodwZrrAAAA HTTP/1.1" 200 -
+2024-11-09 01:53:13,582 - INFO - 192.168.1.13 - - [09/Nov/2024 01:53:13] "GET /index HTTP/1.1" 200 -
+2024-11-09 01:53:13,605 - INFO - 192.168.1.13 - - [09/Nov/2024 01:53:13] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2024-11-09 01:53:13,607 - INFO - 192.168.1.13 - - [09/Nov/2024 01:53:13] "[36mGET /static/script.js HTTP/1.1[0m" 304 -
+2024-11-09 01:53:13,617 - INFO - 192.168.1.13 - - [09/Nov/2024 01:53:13] "[33mGET /sql-wasm.wasm HTTP/1.1[0m" 404 -
+2024-11-09 01:53:13,621 - INFO - 192.168.1.13 - - [09/Nov/2024 01:53:13] "GET /socket.io/?EIO=4&transport=polling&t=PCD7vGD HTTP/1.1" 200 -
+2024-11-09 01:53:13,625 - INFO - 192.168.1.13 - - [09/Nov/2024 01:53:13] "[33mGET /sql-wasm.wasm HTTP/1.1[0m" 404 -
+2024-11-09 01:53:13,633 - INFO - 192.168.1.13 - - [09/Nov/2024 01:53:13] "POST /socket.io/?EIO=4&transport=polling&t=PCD7vGP&sid=Mcf_sjkv14oWrfs-AAAC HTTP/1.1" 200 -
+2024-11-09 01:53:13,637 - INFO - 192.168.1.13 - - [09/Nov/2024 01:53:13] "GET /socket.io/?EIO=4&transport=polling&t=PCD7vGQ&sid=Mcf_sjkv14oWrfs-AAAC HTTP/1.1" 200 -
+2024-11-09 01:53:14,218 - INFO - 192.168.1.13 - - [09/Nov/2024 01:53:14] "GET /video_feed HTTP/1.1" 200 -
+2024-11-09 01:53:14,816 - INFO - 192.168.1.13 - - [09/Nov/2024 01:53:14] "[33mGET /index/data HTTP/1.1[0m" 404 -
+2024-11-09 01:53:26,139 - INFO - 192.168.1.13 - - [09/Nov/2024 01:53:26] "GET /socket.io/?EIO=4&transport=websocket&sid=Mcf_sjkv14oWrfs-AAAC HTTP/1.1" 200 -
+2024-11-09 01:53:26,141 - INFO - 192.168.1.13 - - [09/Nov/2024 01:53:26] "GET /index HTTP/1.1" 200 -
+2024-11-09 01:53:26,167 - INFO - 192.168.1.13 - - [09/Nov/2024 01:53:26] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2024-11-09 01:53:26,168 - INFO - 192.168.1.13 - - [09/Nov/2024 01:53:26] "[36mGET /static/script.js HTTP/1.1[0m" 304 -
+2024-11-09 01:53:26,172 - INFO - 192.168.1.13 - - [09/Nov/2024 01:53:26] "[33mGET /sql-wasm.wasm HTTP/1.1[0m" 404 -
+2024-11-09 01:53:26,176 - INFO - 192.168.1.13 - - [09/Nov/2024 01:53:26] "GET /socket.io/?EIO=4&transport=polling&t=PCD7yKR HTTP/1.1" 200 -
+2024-11-09 01:53:26,177 - INFO - 192.168.1.13 - - [09/Nov/2024 01:53:26] "[33mGET /sql-wasm.wasm HTTP/1.1[0m" 404 -
+2024-11-09 01:53:26,184 - INFO - 192.168.1.13 - - [09/Nov/2024 01:53:26] "POST /socket.io/?EIO=4&transport=polling&t=PCD7yKZ&sid=8EgvUzan_-QVtEFTAAAE HTTP/1.1" 200 -
+2024-11-09 01:53:26,186 - INFO - 192.168.1.13 - - [09/Nov/2024 01:53:26] "GET /socket.io/?EIO=4&transport=polling&t=PCD7yKa&sid=8EgvUzan_-QVtEFTAAAE HTTP/1.1" 200 -
+2024-11-09 01:53:26,766 - INFO - 192.168.1.13 - - [09/Nov/2024 01:53:26] "GET /video_feed HTTP/1.1" 200 -
+2024-11-09 01:53:27,374 - INFO - 192.168.1.13 - - [09/Nov/2024 01:53:27] "[33mGET /index/data HTTP/1.1[0m" 404 -
+2024-11-09 01:53:56,417 - INFO - 192.168.1.13 - - [09/Nov/2024 01:53:56] "GET /socket.io/?EIO=4&transport=websocket&sid=8EgvUzan_-QVtEFTAAAE HTTP/1.1" 200 -
+2024-11-09 21:20:37,294 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5003
+ * Running on http://192.168.1.13:5003
+2024-11-09 21:20:37,295 - INFO - [33mPress CTRL+C to quit[0m
+2024-11-09 21:20:37,295 - INFO -  * Restarting with stat
+2024-11-09 21:20:38,315 - WARNING -  * Debugger is active!
+2024-11-09 21:20:38,316 - INFO -  * Debugger PIN: 117-654-929
+2024-11-09 21:20:43,788 - INFO - 127.0.0.1 - - [09/Nov/2024 21:20:43] "GET / HTTP/1.1" 200 -
+2024-11-09 21:20:43,851 - INFO - 127.0.0.1 - - [09/Nov/2024 21:20:43] "[36mGET /static/loginScripts.js HTTP/1.1[0m" 304 -
+2024-11-09 21:20:43,851 - INFO - 127.0.0.1 - - [09/Nov/2024 21:20:43] "[36mGET /static/loginStyle.css HTTP/1.1[0m" 304 -
+2024-11-09 21:20:44,020 - INFO - 127.0.0.1 - - [09/Nov/2024 21:20:44] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+2024-11-09 21:20:48,713 - INFO - 127.0.0.1 - - [09/Nov/2024 21:20:48] "GET /index HTTP/1.1" 200 -
+2024-11-09 21:20:48,737 - INFO - 127.0.0.1 - - [09/Nov/2024 21:20:48] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2024-11-09 21:20:48,745 - INFO - 127.0.0.1 - - [09/Nov/2024 21:20:48] "GET /static/script.js HTTP/1.1" 200 -
+2024-11-09 21:20:48,779 - INFO - 127.0.0.1 - - [09/Nov/2024 21:20:48] "GET /socket.io/?EIO=4&transport=polling&t=PCHJ8a6 HTTP/1.1" 200 -
+2024-11-09 21:20:48,791 - INFO - 127.0.0.1 - - [09/Nov/2024 21:20:48] "POST /socket.io/?EIO=4&transport=polling&t=PCHJ8aE&sid=MCkpMZH0UGDgX1gDAAAA HTTP/1.1" 200 -
+2024-11-09 21:20:48,792 - INFO - 127.0.0.1 - - [09/Nov/2024 21:20:48] "GET /socket.io/?EIO=4&transport=polling&t=PCHJ8aF&sid=MCkpMZH0UGDgX1gDAAAA HTTP/1.1" 200 -
+2024-11-09 21:20:51,093 - INFO - 127.0.0.1 - - [09/Nov/2024 21:20:51] "GET /video_feed HTTP/1.1" 200 -
+2024-11-09 21:23:42,507 - INFO - 127.0.0.1 - - [09/Nov/2024 21:23:42] "GET /socket.io/?EIO=4&transport=websocket&sid=MCkpMZH0UGDgX1gDAAAA HTTP/1.1" 200 -
+2024-11-09 21:23:42,516 - INFO - 127.0.0.1 - - [09/Nov/2024 21:23:42] "GET /index HTTP/1.1" 200 -
+2024-11-09 21:23:42,546 - INFO - 127.0.0.1 - - [09/Nov/2024 21:23:42] "GET /static/style.css HTTP/1.1" 200 -
+2024-11-09 21:23:42,552 - INFO - 127.0.0.1 - - [09/Nov/2024 21:23:42] "[36mGET /static/script.js HTTP/1.1[0m" 304 -
+2024-11-09 21:23:42,563 - INFO - 127.0.0.1 - - [09/Nov/2024 21:23:42] "GET /socket.io/?EIO=4&transport=polling&t=PCHJo_V HTTP/1.1" 200 -
+2024-11-09 21:23:42,572 - INFO - 127.0.0.1 - - [09/Nov/2024 21:23:42] "POST /socket.io/?EIO=4&transport=polling&t=PCHJo_b&sid=UwJQG5gdWJ8PKlKqAAAC HTTP/1.1" 200 -
+2024-11-09 21:23:42,574 - INFO - 127.0.0.1 - - [09/Nov/2024 21:23:42] "GET /socket.io/?EIO=4&transport=polling&t=PCHJo_c&sid=UwJQG5gdWJ8PKlKqAAAC HTTP/1.1" 200 -
+2024-11-09 21:23:43,116 - INFO - 127.0.0.1 - - [09/Nov/2024 21:23:43] "GET /video_feed HTTP/1.1" 200 -
+2024-11-09 21:25:10,057 - INFO - 127.0.0.1 - - [09/Nov/2024 21:25:10] "GET /socket.io/?EIO=4&transport=websocket&sid=UwJQG5gdWJ8PKlKqAAAC HTTP/1.1" 200 -
+2024-11-09 21:25:10,067 - INFO - 127.0.0.1 - - [09/Nov/2024 21:25:10] "GET /index HTTP/1.1" 200 -
+2024-11-09 21:25:10,085 - INFO - 127.0.0.1 - - [09/Nov/2024 21:25:10] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2024-11-09 21:25:10,091 - INFO - 127.0.0.1 - - [09/Nov/2024 21:25:10] "[36mGET /static/script.js HTTP/1.1[0m" 304 -
+2024-11-09 21:25:10,101 - INFO - 127.0.0.1 - - [09/Nov/2024 21:25:10] "GET /socket.io/?EIO=4&transport=polling&t=PCHK8NE HTTP/1.1" 200 -
+2024-11-09 21:25:10,108 - INFO - 127.0.0.1 - - [09/Nov/2024 21:25:10] "POST /socket.io/?EIO=4&transport=polling&t=PCHK8NN&sid=0WppaPbjd8RMCKysAAAE HTTP/1.1" 200 -
+2024-11-09 21:25:10,109 - INFO - 127.0.0.1 - - [09/Nov/2024 21:25:10] "GET /socket.io/?EIO=4&transport=polling&t=PCHK8NO&sid=0WppaPbjd8RMCKysAAAE HTTP/1.1" 200 -
+2024-11-09 21:25:10,688 - INFO - 127.0.0.1 - - [09/Nov/2024 21:25:10] "GET /video_feed HTTP/1.1" 200 -
+2024-11-09 21:25:14,943 - INFO - 127.0.0.1 - - [09/Nov/2024 21:25:14] "GET /video_feed HTTP/1.1" 200 -
+2024-11-09 21:27:51,273 - INFO - 127.0.0.1 - - [09/Nov/2024 21:27:51] "GET /socket.io/?EIO=4&transport=websocket&sid=0WppaPbjd8RMCKysAAAE HTTP/1.1" 200 -
+2024-11-09 21:27:51,283 - INFO - 127.0.0.1 - - [09/Nov/2024 21:27:51] "GET /index HTTP/1.1" 200 -
+2024-11-09 21:27:51,312 - INFO - 127.0.0.1 - - [09/Nov/2024 21:27:51] "GET /static/style.css HTTP/1.1" 200 -
+2024-11-09 21:27:51,341 - INFO - 127.0.0.1 - - [09/Nov/2024 21:27:51] "GET /static/script.js HTTP/1.1" 200 -
+2024-11-09 21:27:51,350 - INFO - 127.0.0.1 - - [09/Nov/2024 21:27:51] "GET /socket.io/?EIO=4&transport=polling&t=PCHKlko HTTP/1.1" 200 -
+2024-11-09 21:27:51,357 - INFO - 127.0.0.1 - - [09/Nov/2024 21:27:51] "POST /socket.io/?EIO=4&transport=polling&t=PCHKlkv&sid=4d9dwQX-A8l9bEoeAAAG HTTP/1.1" 200 -
+2024-11-09 21:27:51,359 - INFO - 127.0.0.1 - - [09/Nov/2024 21:27:51] "GET /socket.io/?EIO=4&transport=polling&t=PCHKlkw&sid=4d9dwQX-A8l9bEoeAAAG HTTP/1.1" 200 -
+2024-11-09 21:27:51,945 - INFO - 127.0.0.1 - - [09/Nov/2024 21:27:51] "GET /video_feed HTTP/1.1" 200 -
+2024-11-09 21:28:12,448 - INFO - 127.0.0.1 - - [09/Nov/2024 21:28:12] "GET /socket.io/?EIO=4&transport=websocket&sid=4d9dwQX-A8l9bEoeAAAG HTTP/1.1" 200 -
