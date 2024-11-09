@@ -1,80 +1,78 @@
 const socket = io();
-let videoFeedUrl;
+const videoFeedUrl = document.getElementById('video-feed').dataset.src || document.getElementById('video-feed').src;
+let cameraActive = true;
 
-// Hàm cập nhật danh sách vật thể
+function toggleCamera() {
+    const videoFeed = document.getElementById('video-feed');
+    const toggleCameraButton = document.getElementById('toggle-camera');
+
+    if (!toggleCameraButton) {
+        alert("Nút tắt/bật camera không tìm thấy.");
+        return;
+    }
+
+    if (cameraActive) {
+        videoFeed.src = "";
+        toggleCameraButton.textContent = "Bật Camera";
+    } else {
+        videoFeed.src = videoFeedUrl;
+        toggleCameraButton.textContent = "Tắt Camera";
+    }
+    cameraActive = !cameraActive;
+}
+
+document.getElementById('toggle-camera').addEventListener('click', toggleCamera);
+
 socket.on('update_objects', function(data) {
     const objectList = document.getElementById('object-list');
     const objectCount = document.getElementById('object-count');
+    const objectInorganic = document.getElementById('inorganic-object');
+    const objectOrganic = document.getElementById('organic-object');
+    const objectAnimal = document.getElementById('animal-object');
 
-    objectList.innerHTML = ''; // Xóa danh sách hiện tại
+    objectList.innerHTML = '';
+    let totalCount = 0;
+    let totalInorganic = 0;
+    let totalOrganic = 0;
+    let totalAnimal = 0;
+    // Đặt số lượng cho từng loại
+    const counts = {
+        'Inorganic': 0,
+        'Organic': 0,
+        'Animal': 0
+    };
 
     data.objects.forEach(function(object) {
         const li = document.createElement('li');
-        li.textContent = object;
+        li.textContent = `${object.name}: ${object.count}`;
         objectList.appendChild(li);
+
+        if (object.type === 'Inorganic') {
+            counts['Inorganic'] += object.count;
+        } else if (object.type === 'Organic') {
+            counts['Organic'] += object.count;
+        } else if (object.type === 'Animal') {
+            counts['Animal'] += object.count;
+        }
+
+        // Cộng dồn số lượng cho từng loại
+        if (counts.hasOwnProperty(object.name)) {
+            counts[object.name] += object.count;
+        }
+        totalCount += object.count;
     });
 
-    // Cập nhật số lượng vật thể
-    objectCount.textContent = data.count_object;
+    // Cập nhật tổng số đối tượng
+    objectCount.textContent = totalCount;
+    objectInorganic.textContent = totalInorganic;
+    objectOrganic.textContent = totalOrganic;
+    objectAnimal.textContent = totalAnimal;
 
-    // Tự động cuộn xuống dưới
+    // Cập nhật số lượng vào các ô tương ứng
+    document.querySelector('.square:nth-child(1) .count').textContent = counts['Inorganic'];
+    document.querySelector('.square:nth-child(2) .count').textContent = counts['Organic'];
+    document.querySelector('.square:nth-child(3) .count').textContent = counts['Animal'];
+
     objectList.scrollTop = objectList.scrollHeight;
 });
 
-// Đảm bảo rằng mã JavaScript sau sẽ chạy sau khi DOM được tải đầy đủ
-document.addEventListener("DOMContentLoaded", function() {
-    const videoFeed = document.getElementById('video-feed');
-    const toggleCameraButton = document.getElementById('toggle-camera');
-    let cameraActive = true; // Biến theo dõi trạng thái camera
-
-    // Lấy URL video feed từ thuộc tính data của phần tử video-feed
-    videoFeedUrl = videoFeed.dataset.src;
-
-    // Xử lý sự kiện nút "Tắt Camera" và "Bật Camera"
-    toggleCameraButton.addEventListener('click', function() {
-        if (cameraActive) {
-            videoFeed.src = ""; // Dừng video
-            toggleCameraButton.textContent = "Bật Camera"; // Thay đổi văn bản nút
-        } else {
-            videoFeed.src = videoFeedUrl; // Bật lại video
-            toggleCameraButton.textContent = "Tắt Camera"; // Thay đổi văn bản nút
-        }
-        cameraActive = !cameraActive; // Đảo trạng thái
-    });
-});
-
-// Hàm lấy dữ liệu từ API Flask
-function fetchObjectCount() {
-    fetch('/get_object_count')  // Gửi yêu cầu tới Flask API
-        .then(response => response.json())  // Chuyển đổi dữ liệu từ JSON
-        .then(data => {
-            // Cập nhật giá trị của các thẻ <output>
-            document.getElementById('inorganic-output').textContent = data.inorganic;
-            document.getElementById('organic-output').textContent = data.organic;
-            document.getElementById('animal-output').textContent = data.animal;
-
-            // Cập nhật tổng số vật thể đã nhận diện
-            const totalObjects = data.inorganic + data.organic + data.animal;
-            document.getElementById('object-count').textContent = totalObjects;
-        })
-        .catch(error => console.error('Error fetching data:', error));
-}
-
-// Cập nhật mỗi giây (thay vì thay đổi dữ liệu ngẫu nhiên, chúng ta gọi API)
-setInterval(fetchObjectCount, 1000);  // Gọi API mỗi giây
-
-$(document).ready(function() {
-            $.getJSON('/get_data', function(data) {
-                const tableBody = $('#data-table tbody');
-                tableBody.empty(); // Xóa dữ liệu cũ
-
-                data.forEach(function(item) {
-                    const row = `<tr>
-                        <td>${item.id} </td>
-                        <td>${item.name} </td>
-                        <td>${item.count} </td>
-                    </tr>`;
-                    tableBody.append(row);
-                });
-            });
-        });
