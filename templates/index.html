@@ -10,31 +10,32 @@
 </head>
 
 <body>
-    <div> <button id="toggle-camera" >Tắt Camera</button> </div>
+    <div> <button id="toggle-camera">Tắt Camera</button> </div>
 
     <div class="video-container">
-
         <img id="video-feed" src="{{ url_for('video_feed') }}" data-src="{{ url_for('video_feed') }}" alt="Video Feed">
     </div>
     <div class="video-title">Camera Trẻ Đẹp</div>
     <div> <h3>Tổng Số Vật Thể Đã Nhận Diện: <span id="object-count">0</span></h3></div>
 
-    <div id="chat"><h2>Danh Sách Vật Thể Nhận Diện:</h2>
+    <div id="chat">
+        <h2>Danh Sách Vật Thể Nhận Diện:</h2>
         <ul id="object-list"></ul>
     </div>
     <div class="squares-container">
-        <div class="square" >
-            <img src="https://uxwing.com/wp-content/themes/uxwing/download/food-and-drinks/bottled-water-icon.png" alt=" con cho hu`ng ngu">
-            <h4>Inorganic: <output> 3 </output></h4>
-        </div>
         <div class="square">
-            <img src="https://uxwing.com/wp-content/themes/uxwing/download/food-and-drinks/food-restaurant-icon.png" alt="">
-            <h4>Organic: <output> 2 </output></h4>
+            <img src="https://uxwing.com/wp-content/themes/uxwing/download/food-and-drinks/plastic-soft-drink-bottle-icon.png" alt="Inorganic">
+            <h4> Inorganic: <span class="count" id="inorganic-object" data-type="Inorganic"></span> </h4>
         </div>
-        <div class="square">
-            <img src="https://uxwing.com/wp-content/themes/uxwing/download/animals-and-birds/dog-icon.png" alt ='animel'>
-            <h4>Animal: <output> 1 </output> </h4>
 
+        <div class="square">
+            <img src="https://uxwing.com/wp-content/themes/uxwing/download/food-and-drinks/food-restaurant-icon.png" alt="Organic">
+            <h4>Organic: <span class="count" id="organic-object" data-type="Organic">Organic: </span></h4>
+        </div>
+
+        <div class="square">
+            <img src="https://uxwing.com/wp-content/themes/uxwing/download/animals-and-birds/paw-icon.png" alt="Animal">
+            <h4>Animal: <span class="count" id="animal-object" data-type="Animal">Animal: </span></h4>
         </div>
     </div>
 </body>
